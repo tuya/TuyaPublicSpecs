@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": []
+    },
+    "description": "TYRCTSlider",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTSlider",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTSlider-1.0.9-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTSlider",
+    "vendored_libraries": "TYRCTSlider-1.0.9-rc.2/libTYRCTSlider.a",
+    "version": "1.0.9"
+}

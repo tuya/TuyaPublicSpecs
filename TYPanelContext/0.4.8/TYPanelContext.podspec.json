@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "React": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYPanelContext",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYPanelContext.xcframework/ios-arm64_armv7/TYPanelContext.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPanelContext-0.4.8.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦面板上下文信息模块",
+    "vendored_frameworks": [
+        "Build/TYPanelContext.xcframework"
+    ],
+    "version": "0.4.8"
+}

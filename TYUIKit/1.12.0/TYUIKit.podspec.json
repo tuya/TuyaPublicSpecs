@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "CoreGraphics",
+        "QuartzCore",
+        "ImageIO",
+        "MobileCoreServices",
+        "Accelerate"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYUIKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYUIKit-1.12.0-rc.3.zip",
+        "type": "zip"
+    },
+    "source_files": "TYUIKit-1.12.0-rc.3/Headers/Public/**/*",
+    "summary": "TYUIKit",
+    "vendored_libraries": "TYUIKit-1.12.0-rc.3/libTYUIKit.a",
+    "version": "1.12.0",
+    "description": "TYUIKit"
+}

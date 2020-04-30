@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYPanelContext": [],
+        "TYUIKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTPublicBLELockManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTPublicBLELockManager-1.0.1-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTPublicBLELockManager.",
+    "vendored_libraries": "TYRCTPublicBLELockManager-1.0.1-rc.3/libTYRCTPublicBLELockManager.a",
+    "version": "1.0.1"
+}

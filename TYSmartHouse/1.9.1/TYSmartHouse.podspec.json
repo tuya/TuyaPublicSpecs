@@ -1,0 +1,72 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "DACircularProgress": [],
+        "MJRefresh": [],
+        "SDWebImage": [],
+        "TYBleGatewayService": [],
+        "TYBlockKit": [],
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYHomeDataManager": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartHouseBizKit": [],
+        "TYSmartHouseUISkeleton": [],
+        "TYSmartSecurityModuleService": [],
+        "TYTabPagingView": [],
+        "TYTemplateSkeleton": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartFeedbackKit": [],
+        "TuyaSmartMessageKit": [],
+        "TuyaSmartSceneKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TYSmartHouse",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AddressBook",
+        "AddressBookUI",
+        "CoreTelephony",
+        "Contacts",
+        "ContactsUI",
+        "Foundation",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "iconv",
+        "z",
+        "c++",
+        "sqlite3"
+    ],
+    "license": "none",
+    "name": "TYSmartHouse",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>\n#import <TuyaSmartDeviceKit/TuyaSmartDeviceKit.h>\n#import <TuyaSmartSceneKit/TuyaSmartSceneKit.h>\n#import <TYUIKit/TYUIKit.h>\n#import <TYSmartBusinessLibrary/TPProgressUtils.h>\n#import \"UIImageView+WebCache.h\"\n#import \"TYNotificationUtils.h\"\n#import \"TYTheme.h\"\n#import \"TYTPHomeDataMappingService.h\"\n#import \"TYSmartTheme.h\"\n#import \"EXTScope.h\"\n#import \"TYSmartHouse.h\"\n#import \"TYTPSmartHouseEnum.h\"\n#define kDefaultSpeedGuide @\"kDefaultSpeedGuide\"\n\n  #import <TYLogMacro/TYLogMacro.h>\n\n  #undef TYLogDebug\n  #define TYLogDebug(...) TYLogger(0, @\"TYSmartHouse\", ##__VA_ARGS__)\n\n  #undef TYLogInfo\n  #define TYLogInfo(...)  TYLogger(1,  @\"TYSmartHouse\", ##__VA_ARGS__)\n\n  #undef TYLogWarn\n  #define TYLogWarn(...)  TYLogger(2,  @\"TYSmartHouse\", ##__VA_ARGS__)\n\n  #undef TYLogError\n  #define TYLogError(...) TYLogger(3, @\"TYSmartHouse\", ##__VA_ARGS__)",
+    "resources": [
+        "TYSmartHouse-1.9.1-rc.15/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartHouse-1.9.1-rc.15.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartHouse",
+    "user_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+    },
+    "vendored_libraries": "TYSmartHouse-1.9.1-rc.15/libTYSmartHouse.a",
+    "version": "1.9.1"
+}

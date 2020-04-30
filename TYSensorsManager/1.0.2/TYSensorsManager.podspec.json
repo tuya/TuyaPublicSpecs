@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSensorsManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSensorsManager-1.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSensorsManager.",
+    "vendored_frameworks": [
+        "Build/TYSensorsManager.xcframework"
+    ],
+    "version": "1.0.2"
+}

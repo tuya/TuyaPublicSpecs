@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "SDWebImage/Core": [
+            "~>4.4.3"
+        ],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYRealClass": [],
+        "TuyaSmartBaseKit": [],
+        "YYModel": []
+    },
+    "description": "TYAutoTracker",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAutoTracker",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resource_bundles": {
+        "TYAutoTracker": "TYAutoTracker-1.20.0-rc.2/Assets/bundles/TYAutoTracker.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAutoTracker-1.20.0-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYAutoTracker",
+    "vendored_libraries": "TYAutoTracker-1.20.0-rc.2/libTYAutoTracker.a",
+    "version": "1.20.0"
+}

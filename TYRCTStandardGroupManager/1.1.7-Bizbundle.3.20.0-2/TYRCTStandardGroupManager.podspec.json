@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TYRCTStandardGroupManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTStandardGroupManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTStandardGroupManager-1.1.7-Bizbundle.3.20.0-2-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTStandardGroupManager",
+    "vendored_libraries": "TYRCTStandardGroupManager-1.1.7-Bizbundle.3.20.0-2-rc.1/libTYRCTStandardGroupManager.a",
+    "version": "1.1.7-Bizbundle.3.20.0-2"
+}

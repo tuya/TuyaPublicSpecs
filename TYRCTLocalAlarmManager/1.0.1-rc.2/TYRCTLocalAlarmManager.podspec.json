@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYModuleServices": [],
+        "TYPanelContext": [],
+        "TuyaSmartUtil": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTLocalAlarmManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTLocalAlarmManager-1.0.1-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTLocalAlarmManager.",
+    "vendored_libraries": "TYRCTLocalAlarmManager-1.0.1-rc.2/libTYRCTLocalAlarmManager.a",
+    "version": "1.0.1-rc.2"
+}

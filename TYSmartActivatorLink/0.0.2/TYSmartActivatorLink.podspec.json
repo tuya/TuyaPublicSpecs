@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaBusinessService": [],
+        "TuyaSmartActivatorKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartActivatorLink",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartActivatorLink-0.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartActivatorLink.",
+    "vendored_frameworks": [
+        "Build/TYSmartActivatorLink.xcframework"
+    ],
+    "version": "0.0.2"
+}

@@ -1,0 +1,42 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartRoomBizKit": [],
+        "TYSmartUIConfigServices": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYUrlPredefinedExternal": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartRoomDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYSmartRoomDefaultUISkin.xcframework/ios-arm64_armv7/TYSmartRoomDefaultUISkin.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartRoomDefaultUISkin-2.2.6-tybizbundle-3.32.5.1.zip",
+        "type": "zip"
+    },
+    "summary": "房间模块默认皮肤",
+    "vendored_frameworks": [
+        "Build/TYSmartRoomDefaultUISkin.xcframework"
+    ],
+    "version": "2.2.6-tybizbundle-3.32.5.1"
+}

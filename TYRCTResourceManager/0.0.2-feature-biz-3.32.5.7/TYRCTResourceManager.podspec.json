@@ -1,0 +1,27 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "ios": {},
+    "license": "none",
+    "name": "TYRCTResourceManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYRCTResourceManager.xcframework/ios-arm64_armv7/TYRCTResourceManager.framework/CustomResources/Assets/*",
+        "Build/TYRCTResourceManager.xcframework/ios-arm64_armv7/TYRCTResourceManager.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTResourceManager-0.0.2-feature-biz-3.32.5.7.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTResourceManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTResourceManager.xcframework"
+    ],
+    "version": "0.0.2-feature-biz-3.32.5.7"
+}

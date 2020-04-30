@@ -1,0 +1,23 @@
+{
+    "name": "TYTarKit",
+    "version": "0.1.5",
+    "summary": "TYTarKit",
+    "license": "none",
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "homepage": "https://github.com/tuya",
+    "libraries": "z",
+    "requires_arc": true,
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYTarKit-0.1.5.zip",
+        "type": "zip"
+    },
+    "platforms": {
+        "ios": "6.0"
+    },
+    "ios": {
+        "vendored_libraries": "ios/*.a"
+    },
+    "description": "TYTarKit"
+}

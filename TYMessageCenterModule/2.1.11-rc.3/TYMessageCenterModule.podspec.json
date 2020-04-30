@@ -1,0 +1,49 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYPageMenuView": [],
+        "TYPageView": [],
+        "TYPhotoBrowser": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYSmartUIConfigServices": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYVideoPlayer": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartMessageKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYMessageCenterModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYMessageCenterModule.xcframework/ios-arm64_armv7/TYMessageCenterModule.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYMessageCenterModule-2.1.11-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "消息中心模块",
+    "vendored_frameworks": [
+        "Build/TYMessageCenterModule.xcframework"
+    ],
+    "version": "2.1.11-rc.3"
+}

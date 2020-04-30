@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": []
+    },
+    "description": "TYRCTSliderManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTSliderManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTSliderManager-1.0.8.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTSliderManager",
+    "vendored_libraries": "TYRCTSliderManager-1.0.8/libTYRCTSliderManager.a",
+    "version": "1.0.8"
+}

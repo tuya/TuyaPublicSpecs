@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TuyaSmartSceneKit": [],
+        "YYModel": []
+    },
+    "description": "TYRCTScenePanelManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTScenePanelManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTScenePanelManager-1.4.3.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTScenePanelManager",
+    "vendored_libraries": "TYRCTScenePanelManager-1.4.3/libTYRCTScenePanelManager.a",
+    "version": "1.4.3"
+}

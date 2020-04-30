@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TuyaSmartP2pChannelKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYP2PAlbumBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYP2PAlbumBizKit-2.0.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYP2PAlbumBizKit.",
+    "vendored_frameworks": [
+        "Build/TYP2PAlbumBizKit.xcframework"
+    ],
+    "version": "2.0.0"
+}

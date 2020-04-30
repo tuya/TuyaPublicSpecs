@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYPanelContext": [],
+        "TYReactNative": []
+    },
+    "description": "TYRCTBluetoothUtilManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTBluetoothUtilManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTBluetoothUtilManager-1.1.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTBluetoothUtilManager",
+    "vendored_libraries": "TYRCTBluetoothUtilManager-1.1.1/libTYRCTBluetoothUtilManager.a",
+    "version": "1.1.1"
+}

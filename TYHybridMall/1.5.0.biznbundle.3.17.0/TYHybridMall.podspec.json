@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYHybridContainer": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TYHybridMall",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYHybridMall",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYHybridMall-1.5.0.biznbundle.3.17.0.zip",
+        "type": "zip"
+    },
+    "summary": "TYHybridMall",
+    "vendored_libraries": "TYHybridMall-1.5.0.biznbundle.3.17.0/libTYHybridMall.a",
+    "version": "1.5.0.biznbundle.3.17.0"
+}

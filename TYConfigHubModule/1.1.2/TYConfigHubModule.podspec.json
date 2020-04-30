@@ -1,0 +1,23 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYConfigHub": [],
+        "TYModuleServices": []
+    },
+    "description": "TYConfigHubModule",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYConfigHubModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYConfigHubModule-1.1.2-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYConfigHubModule",
+    "vendored_libraries": "TYConfigHubModule-1.1.2-rc.2/libTYConfigHubModule.a",
+    "version": "1.1.2"
+}

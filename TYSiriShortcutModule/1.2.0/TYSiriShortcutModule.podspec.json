@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaIntentKit": [],
+        "TuyaSmartSceneKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSiriShortcutModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYSiriShortcutModule-1.2.0/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYSiriShortcutModule": "TYSiriShortcutModule-1.2.0/Assets/bundles/TYSiriShortcutModule.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSiriShortcutModule-1.2.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSiriShortcutModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYSiriShortcutModule-1.2.0/libTYSiriShortcutModule.a",
+    "version": "1.2.0"
+}

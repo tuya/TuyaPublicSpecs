@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "DACircularProgress": [],
+        "TYAlertPickerComponent": [],
+        "TYBleGatewayService": [],
+        "TYBluetoothInterface": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYPanelBundleManager": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYTarKit": [],
+        "TuyaRNApi/Core": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartSceneKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYPanelModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>\n#import <TuyaSmartDeviceKit/TuyaSmartDeviceKit.h>\n#import <YYModel/YYModel.h>\n#import <TYFoundationKit/TYFoundationKit.h>\n#import <TYUIKit/TYUIKit.h>\n#import <TYNavigationController/TYNavigationController.h>\n#import <TYNavigationController/TYNavigationNaviBarProtocol.h>\n#import <TYNavigationController/UIViewController+TYNavigation.h>\n#import \"TYBluetoothInterface.h\"\n#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYPanelModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYPanelModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYPanelModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYPanelModule\", ##__VA_ARGS__)",
+    "resources": [
+        "TYPanelModule-2.6.0-Bizbundle.3.20.0-2-rc.1/Assets/resources/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPanelModule-2.6.0-Bizbundle.3.20.0-2-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYPanelModule",
+    "vendored_libraries": "TYPanelModule-2.6.0-Bizbundle.3.20.0-2-rc.1/libTYPanelModule.a",
+    "version": "2.6.0-Bizbundle.3.20.0-2",
+    "description": "TYPanelModule"
+}

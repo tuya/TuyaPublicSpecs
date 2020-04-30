@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYPanelContext": [],
+        "TuyaSmartCameraKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTDoorBellManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTDoorBellManager-1.0.0-rc.4.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTDoorBellManager.",
+    "vendored_libraries": "TYRCTDoorBellManager-1.0.0-rc.4/libTYRCTDoorBellManager.a",
+    "version": "1.0.0"
+}

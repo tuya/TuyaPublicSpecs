@@ -1,0 +1,44 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "SDWebImage": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYPageMenuView": [],
+        "TYPageView": [],
+        "TYPhotoBrowser": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartUIConfigServices": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYVideoPlayer": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartMessageKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYMessageCenterModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYMessageCenterModule-2.0.3.2-tybizbundle.3.25.0-1/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYMessageCenterModule": "TYMessageCenterModule-2.0.3.2-tybizbundle.3.25.0-1/Assets/bundles/TYMessageCenterModule.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYMessageCenterModule-2.0.3.2-tybizbundle.3.25.0-1.zip",
+        "type": "zip"
+    },
+    "summary": "\u6d88\u606f\u4e2d\u5fc3\u6a21\u5757",
+    "vendored_libraries": "TYMessageCenterModule-2.0.3.2-tybizbundle.3.25.0-1/libTYMessageCenterModule.a",
+    "version": "2.0.3.2-tybizbundle.3.25.0-1"
+}

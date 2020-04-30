@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYOEMConfig": [],
+        "TYUIKit": []
+    },
+    "description": "TYBaseDebugger",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYBaseDebugger",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYBaseDebugger-1.1.0-rc.6/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBaseDebugger-1.1.0-rc.6.zip",
+        "type": "zip"
+    },
+    "summary": "TYBaseDebugger",
+    "vendored_libraries": "TYBaseDebugger-1.1.0-rc.6/libTYBaseDebugger.a",
+    "version": "1.1.0"
+}

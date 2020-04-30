@@ -1,0 +1,39 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYBlockKit": [],
+        "TYBluetoothInterface": [],
+        "TYKVStorageLibrary": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartSceneBizKit": [],
+        "libextobjc": []
+    },
+    "description": "TYSmartHouseBizKit",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AddressBook",
+        "AddressBookUI",
+        "CoreTelephony",
+        "Contacts",
+        "ContactsUI",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartHouseBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>\n#import <TuyaSmartDeviceKit/TuyaSmartDeviceKit.h>\n#import <TuyaSmartSceneKit/TuyaSmartSceneKit.h>\n#import \"EXTScope.h\"",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartHouseBizKit-1.6.4-rc.6.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartHouseBizKit",
+    "vendored_libraries": "TYSmartHouseBizKit-1.6.4-rc.6/libTYSmartHouseBizKit.a",
+    "version": "1.6.4"
+}

@@ -1,0 +1,61 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "MJRefresh": [],
+        "Masonry": [],
+        "Reachability": [],
+        "TYAlertView": [],
+        "TYAvatarEditKit": [],
+        "TYBlockKit": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYPopupViewController": [],
+        "TYProgressHUD": [],
+        "TYSmartActionDialog": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "lottie-ios": [
+            "~> 2.0"
+        ]
+    },
+    "frameworks": [
+        "Photos",
+        "AVFoundation",
+        "WebKit",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartBusinessLibrary",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYSmartBusinessLibrary-3.23.5.4-tybizbundle/PrefixHeader.pch",
+    "resource_bundles": {
+        "TPViews": "TYSmartBusinessLibrary-3.23.5.4-tybizbundle/Assets/bundles/TPViews.bundle/**",
+        "TYSmartBusinessLibraryRes": "TYSmartBusinessLibrary-3.23.5.4-tybizbundle/Assets/bundles/TYSmartBusinessLibraryRes.bundle/**"
+    },
+    "resources": [
+        "TYSmartBusinessLibrary-3.23.5.4-tybizbundle/Assets/resources/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartBusinessLibrary-3.23.5.4-tybizbundle.zip",
+        "type": "zip"
+    },
+    "summary": "TuyaSmart Business Base library",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYSmartBusinessLibrary-3.23.5.4-tybizbundle/libTYSmartBusinessLibrary.a",
+    "version": "3.23.5.4-tybizbundle"
+}

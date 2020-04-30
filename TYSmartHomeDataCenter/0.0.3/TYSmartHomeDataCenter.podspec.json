@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TYSmartHomeDataCenter",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartHomeDataCenter",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartHomeDataCenter-0.0.3.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartHomeDataCenter",
+    "vendored_libraries": "TYSmartHomeDataCenter-0.0.3/libTYSmartHomeDataCenter.a",
+    "version": "0.0.3"
+}

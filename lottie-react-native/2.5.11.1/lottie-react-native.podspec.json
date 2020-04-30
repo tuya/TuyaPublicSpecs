@@ -1,0 +1,27 @@
+{
+  "name": "lottie-react-native",
+  "version": "2.5.11.1",
+  "summary": "Lottie component for React Native (iOS and Android)",
+  "authors": {
+    "intelligibabble": "leland.m.richardson@gmail.com"
+  },
+  "homepage": "https://github.com/airbnb/lottie-react-native#readme",
+  "license": "Apache-2.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/ci/ios/release/lottie-react-native-2.5.11.1-rc.1.zip",
+    "type": "zip"
+  },
+  "source_files": "lottie-react-native-2.5.11.1-rc.1/Headers/Public/**/*",
+  "dependencies": {
+    "React": [
+
+    ],
+    "lottie-ios": [
+
+    ]
+  },
+  "vendored_libraries": "lottie-react-native-2.5.11.1-rc.1/liblottie-react-native.a"
+}

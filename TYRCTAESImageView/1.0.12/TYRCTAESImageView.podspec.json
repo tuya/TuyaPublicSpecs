@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYPanelContext": [],
+        "TYReactNative": []
+    },
+    "description": "TYRCTAESImageView",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTAESImageView",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTAESImageView-1.0.12-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTAESImageView",
+    "vendored_libraries": "TYRCTAESImageView-1.0.12-rc.3/libTYRCTAESImageView.a",
+    "version": "1.0.12"
+}

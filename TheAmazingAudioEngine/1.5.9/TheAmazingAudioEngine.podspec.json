@@ -1,0 +1,26 @@
+{
+  "name": "TheAmazingAudioEngine",
+  "version": "1.5.9",
+  "summary": "Core Audio, Cordially: A sophisticated framework for iOS audio applications, built so you don't have to.",
+  "license": "zlib",
+  "authors": {
+    "Michael Tyson": "michael@atastypixel.com"
+  },
+  "homepage": "http://theamazingaudioengine.com",
+  "frameworks": [
+    "AudioToolbox",
+    "Accelerate"
+  ],
+  "requires_arc": true,
+  "source": {
+    "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/sdk/ios/TheAmazingAudioEngine-1.5.9.zip",
+    "type": "zip"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "ios": {
+    "vendored_frameworks": "ios/TheAmazingAudioEngine.framework"
+  }
+}

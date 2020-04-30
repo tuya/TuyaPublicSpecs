@@ -1,0 +1,182 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "default_subspecs": "Core",
+    "description": "TuyaRNApi",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaRNApi",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSMicrophoneUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaRNApi-5.26.13.bizbundle.4.zip",
+        "type": "zip"
+    },
+    "subspecs": [
+        {
+            "name": "Core",
+            "source_files": "TuyaRNApi-5.26.13.bizbundle.4/Headers/Public/**/*",
+            "vendored_libraries": "TuyaRNApi-5.26.13.bizbundle.4/libTuyaRNApi.a"
+        },
+        {
+            "dependencies": {
+                "TYRCTAESImageViewManager": [
+                    "1.0.10"
+                ],
+                "TYRCTAPMEventManager": [
+                    "1.0.7"
+                ],
+                "TYRCTAPMTrackManager": [
+                    "1.0.9"
+                ],
+                "TYRCTBLEManager": [
+                    "0.2.3"
+                ],
+                "TYRCTBluetoothUtilManager": [
+                    "1.1.1"
+                ],
+                "TYRCTConicGradientViewManager": [
+                    "1.0.2"
+                ],
+                "TYRCTCountrySelectManager": [
+                    "1.0.6"
+                ],
+                "TYRCTCurveChartViewManager": [
+                    "1.0.7"
+                ],
+                "TYRCTEncryptImageDownloadManager": [
+                    "1.0.7"
+                ],
+                "TYRCTGestureLockViewManager": [
+                    "1.0.10"
+                ],
+                "TYRCTHomeDevManager": [
+                    "1.1.5"
+                ],
+                "TYRCTHomeManager": [
+                    "1.2.3"
+                ],
+                "TYRCTHueCircleViewManager": [
+                    "1.0.5"
+                ],
+                "TYRCTImageEncryptUploadManager": [
+                    "1.0.6"
+                ],
+                "TYRCTLineChartViewManager": [
+                    "1.0.3"
+                ],
+                "TYRCTMeshPanelManager": [
+                    "1.1.6"
+                ],
+                "TYRCTMqttManager": [
+                    "1.0.8"
+                ],
+                "TYRCTMultiImagePickerManager": [
+                    "1.0.2"
+                ],
+                "TYRCTMultiLineChartViewManager": [
+                    "1.0.6"
+                ],
+                "TYRCTMusicManager": [
+                    "1.1.13"
+                ],
+                "TYRCTNavManager": [
+                    "1.0.10"
+                ],
+                "TYRCTNewTopBarManager": [
+                    "1.0.6"
+                ],
+                "TYRCTPanelManager": [
+                    "1.1.17"
+                ],
+                "TYRCTPickerManager": [
+                    "1.0.5"
+                ],
+                "TYRCTPublicManager": [
+                    "1.0.23"
+                ],
+                "TYRCTSliderManager": [
+                    "1.0.6"
+                ],
+                "TYRCTStandardGroupManager": [
+                    "1.1.6"
+                ],
+                "TYRCTSwitchManager": [
+                    "1.0.7"
+                ],
+                "TYRCTTopBarManager": [
+                    "1.0.12"
+                ],
+                "TYRCTZigbeeEventManager": [
+                    "1.0.9"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "Basic"
+        },
+        {
+            "dependencies": {
+                "TYRCTCameraManager": [
+                    "1.2.12"
+                ],
+                "TYRCTCameraPlayer": [
+                    "1.1.8"
+                ],
+                "TYRCTCameraTimeLineViewManager": [
+                    "1.1.1"
+                ],
+                "TYRCTTuyaCameraPlayer": [
+                    "1.1.1"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "IPC"
+        },
+        {
+            "dependencies": {
+                "TYRCTLaserManager": [
+                    "1.0.20"
+                ],
+                "TYRCTLaserMapManager": [
+                    "1.3.11"
+                ],
+                "TYRCTPointMapManager": [
+                    "1.0.31"
+                ],
+                "TYRCTTransferManager": [
+                    "1.0.9"
+                ],
+                "TYRCTTypeMapManager": [
+                    "1.2.2"
+                ],
+                "TYRCTVisionManager": [
+                    "1.0.11"
+                ],
+                "TYRCTVisionMapManager": [
+                    "1.0.20"
+                ],
+                "TYPanelSweeperUtil": [
+                    "~> 0.4.0"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "Sweeper"
+        },
+        {
+            "dependencies": {
+                "TYRCTScenePanelManager": [
+                    "1.4.3"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "Scene"
+        }
+    ],
+    "summary": "TuyaRNApi",
+    "version": "5.26.13.bizbundle.4"
+}

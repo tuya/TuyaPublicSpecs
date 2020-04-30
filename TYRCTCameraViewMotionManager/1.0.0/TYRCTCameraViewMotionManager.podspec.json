@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYCamCaptureKit": [],
+        "TYPanelContext": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTCameraViewMotionManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTCameraViewMotionManager-1.0.0-rc.10.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTCameraViewMotionManager.",
+    "vendored_libraries": "TYRCTCameraViewMotionManager-1.0.0-rc.10/libTYRCTCameraViewMotionManager.a",
+    "version": "1.0.0"
+}

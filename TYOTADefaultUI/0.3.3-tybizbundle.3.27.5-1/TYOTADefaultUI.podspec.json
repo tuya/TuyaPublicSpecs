@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYBlockKit": [],
+        "TYFoundationKit": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYOTADefaultUI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYOTADefaultUI-0.3.3-tybizbundle.3.27.5-1/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYOTADefaultUI": "TYOTADefaultUI-0.3.3-tybizbundle.3.27.5-1/Assets/bundles/TYOTADefaultUI.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYOTADefaultUI-0.3.3-tybizbundle.3.27.5-1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYOTADefaultUI.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYOTADefaultUI-0.3.3-tybizbundle.3.27.5-1/libTYOTADefaultUI.a",
+    "version": "0.3.3-tybizbundle.3.27.5-1"
+}

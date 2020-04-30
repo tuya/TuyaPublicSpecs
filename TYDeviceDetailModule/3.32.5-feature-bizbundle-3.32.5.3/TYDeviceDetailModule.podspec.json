@@ -1,0 +1,54 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYAutoTracker": [],
+        "TYAvatarEditKit": [],
+        "TYBluetoothInterface": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYSmartUIConfigServices": [],
+        "TYSocketPing": [],
+        "TYStorageLibrary": [],
+        "TYTemplateSkeleton": [],
+        "TYUrlPredefined": [],
+        "TuyaBusinessService": [],
+        "TuyaNormalUI": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYDeviceDetailModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSHomeKitUsageDescription"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYDeviceDetailModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYDeviceDetailModule\", ##__VA_ARGS__)",
+    "resources": [
+        "Build/TYDeviceDetailModule.xcframework/ios-arm64_armv7/TYDeviceDetailModule.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceDetailModule-3.32.5-feature-bizbundle-3.32.5.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYDeviceDetailModule.",
+    "vendored_frameworks": [
+        "Build/TYDeviceDetailModule.xcframework"
+    ],
+    "version": "3.32.5-feature-bizbundle-3.32.5.3"
+}

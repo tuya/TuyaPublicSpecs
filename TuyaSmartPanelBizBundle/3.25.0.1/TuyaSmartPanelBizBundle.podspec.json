@@ -1,0 +1,305 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "ATGestureLockView": [
+            "0.2.1"
+        ],
+        "DACircularProgress": [],
+        "DoubleConversion": [],
+        "EZAudio": [],
+        "EZAudio/Core": [],
+        "EZAudio/Full": [],
+        "FLAnimatedImage": [],
+        "Folly": [],
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "RNCMaskedView": [
+            "0.1.10.1"
+        ],
+        "RNGestureHandler": [
+            "1.3.0.1"
+        ],
+        "RNReanimated": [
+            "1.19.0.1"
+        ],
+        "RNSVG": [
+            "5.5.1.2"
+        ],
+        "RNScreens": [
+            "2.9.0.1"
+        ],
+        "RNViewShot": [
+            "2.3.0.3"
+        ],
+        "Reachability": [],
+        "React": [
+            "0.59.10.1"
+        ],
+        "SDWebImage": [],
+        "SDWebImage/Core": [],
+        "SDWebImage/GIF": [],
+        "TPCircularBuffer": [],
+        "TYAlertPickerComponent": [
+            "0.3.1"
+        ],
+        "TYAlertView": [
+            "1.0.5"
+        ],
+        "TYAnimationKit": [
+            "1.1.3"
+        ],
+        "TYAvatarEditKit": [
+            "0.1.5"
+        ],
+        "TYBleGatewayService": [
+            "0.0.3"
+        ],
+        "TYBlockKit": [
+            "0.0.4"
+        ],
+        "TYBluetoothInterface": [
+            "0.9.0"
+        ],
+        "TYCamCaptureKit": [
+            "1.0.4"
+        ],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [
+            "0.5.1"
+        ],
+        "TYLogMacro": [
+            "0.1.0"
+        ],
+        "TYModuleManager": [
+            "2.10.3"
+        ],
+        "TYModuleServices": [
+            "2.17.2.2-tybizbundle.3.25.0-2.1"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            "1.23.2-tybizbundle.3.25.0-1"
+        ],
+        "TYPanelBundleManager": [
+            "1.4.1"
+        ],
+        "TYPanelContext": [
+            "0.4.7"
+        ],
+        "TYPanelModule": [
+            "2.9.0.2"
+        ],
+        "TYPopupViewController": [
+            "0.2.1"
+        ],
+        "TYProgressHUD": [
+            "0.1.4"
+        ],
+        "TYRCTAESImageView": [
+            "1.0.12"
+        ],
+        "TYRCTAPMEventManager": [
+            "1.0.7"
+        ],
+        "TYRCTAPMTrackManager": [
+            "1.0.9"
+        ],
+        "TYRCTAnimatedImageManager": [
+            "1.0.3"
+        ],
+        "TYRCTBLEManager": [
+            "1.1.0"
+        ],
+        "TYRCTBluetoothUtilManager": [
+            "1.1.4"
+        ],
+        "TYRCTCameraViewManager": [
+            "1.0.1"
+        ],
+        "TYRCTCameraViewMotionManager": [
+            "1.0.0"
+        ],
+        "TYRCTConicGradientViewManager": [
+            "1.0.3"
+        ],
+        "TYRCTCountrySelectManager": [
+            "1.0.7"
+        ],
+        "TYRCTCurveChartView": [
+            "1.0.10"
+        ],
+        "TYRCTDeviceMultiManager": [
+            "1.1.0"
+        ],
+        "TYRCTEncryptImageDownloadManager": [
+            "1.0.13"
+        ],
+        "TYRCTGestureLockViewManager": [
+            "1.0.14"
+        ],
+        "TYRCTHomeDevManager": [
+            "1.2.0"
+        ],
+        "TYRCTHomeManager": [
+            "1.2.4"
+        ],
+        "TYRCTHueCircleView": [
+            "1.0.7"
+        ],
+        "TYRCTImageEncryptUploadManager": [
+            "1.4.3"
+        ],
+        "TYRCTLineChartView": [
+            "1.0.7"
+        ],
+        "TYRCTMeshPanelManager": [
+            "1.1.8"
+        ],
+        "TYRCTMqttManager": [
+            "1.0.13"
+        ],
+        "TYRCTMultiImagePickerManager": [
+            "1.0.8"
+        ],
+        "TYRCTMultiLineChartView": [
+            "1.0.8"
+        ],
+        "TYRCTMusicManager": [
+            "1.1.31"
+        ],
+        "TYRCTNavManager": [
+            "1.2.0"
+        ],
+        "TYRCTNewTopBar": [
+            "1.0.8"
+        ],
+        "TYRCTOfficialGeofenceManager": [
+            "1.0.0"
+        ],
+        "TYRCTOrientationManager": [
+            "1.0.11"
+        ],
+        "TYRCTPanelDeviceManager": [
+            "1.2.0"
+        ],
+        "TYRCTPanelManager": [
+            "1.4.1"
+        ],
+        "TYRCTPicker": [
+            "1.0.7"
+        ],
+        "TYRCTPublicManager": [
+            "1.0.33"
+        ],
+        "TYRCTRouteGatewayManager": [
+            "1.0.41"
+        ],
+        "TYRCTShareManager": [
+            "1.0.0"
+        ],
+        "TYRCTSlider": [
+            "1.0.9"
+        ],
+        "TYRCTStandardGroupManager": [
+            "1.1.8"
+        ],
+        "TYRCTSwitch": [
+            "1.0.9"
+        ],
+        "TYRCTTopBar": [
+            "1.0.17"
+        ],
+        "TYRCTUserManager": [
+            "1.0.3"
+        ],
+        "TYRCTZigbeeEventManager": [
+            "1.0.9"
+        ],
+        "TYReactNative": [
+            "0.3.1"
+        ],
+        "TYSmartActionDialog": [
+            "0.3.8.2"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.23.5.2-tybizbundle-1"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.79"
+        ],
+        "TYTarKit": [
+            "0.1.5"
+        ],
+        "TYTimerModule": [
+            "2.4.3-Xcode12-1"
+        ],
+        "TYUIKit": [],
+        "TYVideoCipper": [
+            "1.0.1-tybizbundle.3.22.0-1"
+        ],
+        "TZImagePickerController": [],
+        "TheAmazingAudioEngine": [],
+        "TuyaRNApi/Basic": [
+            "5.36.0"
+        ],
+        "TuyaRNApi/Core": [
+            "5.36.0"
+        ],
+        "TuyaSmartActivatorKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartSceneKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": [],
+        "boost-for-react-native": [],
+        "glog": [],
+        "lottie-ios": [],
+        "lottie-react-native": [
+            "2.5.11.1"
+        ],
+        "react-native-blur": [
+            "3.6.0"
+        ],
+        "react-native-image-picker": [
+            "0.26.7.3"
+        ],
+        "react-native-maps": [
+            "0.14.0.1"
+        ],
+        "react-native-safe-area-context": [
+            "3.0.7.1"
+        ],
+        "react-native-video": [
+            "3.2.1.3"
+        ],
+        "rn-fetch-blob": [
+            "0.10.15.3"
+        ],
+        "yoga": [
+            "0.59.10"
+        ]
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartPanelBizBundle",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resource_bundles": {
+        "TuyaSmartPanelBizBundle": "TuyaSmartPanelBizBundle-3.25.0/Assets/bundles/TuyaSmartPanelBizBundle.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartPanelBizBundle-3.25.0.zip",
+        "type": "zip"
+    },
+    "source_files": "TuyaSmartPanelBizBundle-3.25.0/Headers/Public/**/*",
+    "summary": "A short description of TuyaSmartPanelBizBundle.",
+    "vendored_libraries": "TuyaSmartPanelBizBundle-3.25.0/libTuyaSmartPanelBizBundle.a",
+    "version": "3.25.0.1"
+}

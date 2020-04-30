@@ -1,0 +1,48 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "SDWebImage": [
+            "4.4.3"
+        ],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartUIConfigServices": [],
+        "TYSmartUserCenterDefaultUISkin": [],
+        "TYTemplateSkeleton": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "StoreKit"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSettingsModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYSettingsModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYSettingsModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYSettingsModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYSettingsModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "TYSettingsModule-1.8.0-rc.3/PrefixHeader.pch",
+    "resources": [
+        "TYSettingsModule-1.8.0-rc.3/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSettingsModule-1.8.0-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "TYSettingsModule",
+    "vendored_libraries": "TYSettingsModule-1.8.0-rc.3/libTYSettingsModule.a",
+    "version": "1.8.0",
+    "description": "TYSettingsModule"
+}

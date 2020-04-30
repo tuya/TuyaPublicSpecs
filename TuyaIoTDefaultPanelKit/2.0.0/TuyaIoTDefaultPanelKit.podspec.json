@@ -1,0 +1,46 @@
+{
+  "name": "TuyaIoTDefaultPanelKit",
+  "version": "2.0.0",
+  "summary": "A short description of TuyaIoTDefaultPanelKit.",
+  "homepage": "https://github.com/tuya",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ange": "ange.zhang@tuya.com"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1623340336-TuyaIoTDefaultPanelKit-2.0.0.zip",
+    "type": "zip"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "TuyaIoTDefaultPanelKit.xcframework",
+    "frameworks": [
+      "Foundation",
+      "UIKit"
+    ],
+    "pod_target_xcconfig": {
+      "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    },
+    "user_target_xcconfig": {
+      "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    }
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "TuyaIoTAppSDK": [
+      "1.0.1"
+    ],
+    "TuyaDefaultPanelUIKit": [
+
+    ]
+  }
+}

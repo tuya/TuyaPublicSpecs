@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "TYModuleServices",
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYModuleServices",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYModuleServices-2.8.12.bizbundle.3.17.0.8.2.zip",
+        "type": "zip"
+    },
+    "source_files": "TYModuleServices-2.8.12.bizbundle.3.17.0.8.2/Headers/Public/**/*",
+    "summary": "TYModuleServices",
+    "vendored_libraries": "TYModuleServices-2.8.12.bizbundle.3.17.0.8.2/libTYModuleServices.a",
+    "version": "2.8.12.bizbundle.3.17.0.8.2"
+}

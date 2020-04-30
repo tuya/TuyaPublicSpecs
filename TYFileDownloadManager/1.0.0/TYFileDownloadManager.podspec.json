@@ -1,0 +1,21 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYFileDownloadManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYFileDownloadManager-1.0.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYFileDownloadManager.",
+    "vendored_frameworks": [
+        "Build/TYFileDownloadManager.xcframework"
+    ],
+    "version": "1.0.0"
+}

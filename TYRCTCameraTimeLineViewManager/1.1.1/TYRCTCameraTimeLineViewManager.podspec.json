@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYCameraRNPanelContext": [],
+        "TYCameraUIKit": [],
+        "TYPanelContext": [],
+        "TYReactNative": []
+    },
+    "description": "TYRCTCameraTimeLineViewManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTCameraTimeLineViewManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTCameraTimeLineViewManager-1.1.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTCameraTimeLineViewManager",
+    "vendored_libraries": "TYRCTCameraTimeLineViewManager-1.1.1/libTYRCTCameraTimeLineViewManager.a",
+    "version": "1.1.1"
+}

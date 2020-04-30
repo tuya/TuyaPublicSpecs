@@ -1,0 +1,42 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartUserCenterBizKit": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYValueAddedServiceModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYValueAddedServiceModule-4.4.0-rc.6/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYValueAddedServiceModule": "TYValueAddedServiceModule-4.4.0-rc.6/Assets/bundles/TYValueAddedServiceModule.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYValueAddedServiceModule-4.4.0-rc.6.zip",
+        "type": "zip"
+    },
+    "summary": "TYValueAddedServiceModule",
+    "vendored_libraries": "TYValueAddedServiceModule-4.4.0-rc.6/libTYValueAddedServiceModule.a",
+    "version": "4.4.0",
+    "description": "TYValueAddedServiceModule"
+}

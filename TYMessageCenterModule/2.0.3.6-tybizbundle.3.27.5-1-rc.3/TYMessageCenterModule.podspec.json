@@ -1,0 +1,54 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYPageMenuView": [],
+        "TYPageView": [],
+        "TYPhotoBrowser": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartUIConfigServices": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYVideoPlayer": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartMessageKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYMessageCenterModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYMessageCenterModule-2.0.3.6-tybizbundle.3.27.5-1-rc.3/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYMessageCenterModule": "TYMessageCenterModule-2.0.3.6-tybizbundle.3.27.5-1-rc.3/Assets/bundles/TYMessageCenterModule.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYMessageCenterModule-2.0.3.6-tybizbundle.3.27.5-1-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "\u6d88\u606f\u4e2d\u5fc3\u6a21\u5757",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYMessageCenterModule-2.0.3.6-tybizbundle.3.27.5-1-rc.3/libTYMessageCenterModule.a",
+    "version": "2.0.3.6-tybizbundle.3.27.5-1-rc.3"
+}

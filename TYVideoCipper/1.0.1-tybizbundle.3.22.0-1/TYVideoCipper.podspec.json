@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYOEMConfig": [],
+        "TYProgressHUD": [],
+        "TYUIKit": []
+    },
+    "description": "TYVideoCipper",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "CoreMedia",
+        "Photos"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYVideoCipper",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resource_bundles": {
+        "TYVideoCipper": "TYVideoCipper-1.0.1-tybizbundle.3.22.0-1-rc.1/Assets/bundles/TYVideoCipper.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYVideoCipper-1.0.1-tybizbundle.3.22.0-1-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYVideoCipper",
+    "vendored_libraries": "TYVideoCipper-1.0.1-tybizbundle.3.22.0-1-rc.1/libTYVideoCipper.a",
+    "version": "1.0.1-tybizbundle.3.22.0-1"
+}

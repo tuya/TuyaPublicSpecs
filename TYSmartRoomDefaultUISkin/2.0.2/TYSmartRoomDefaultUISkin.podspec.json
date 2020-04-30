@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "SDWebImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartRoomBizKit": [],
+        "TYSmartUIConfigServices": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYUrlPredefinedExternal": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartRoomDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYSmartRoomDefaultUISkin-2.0.2-rc.4/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYSmartRoomDefaultUISkin": "TYSmartRoomDefaultUISkin-2.0.2-rc.4/Assets/bundles/TYSmartRoomDefaultUISkin.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartRoomDefaultUISkin-2.0.2-rc.4.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartRoomDefaultUISkin",
+    "vendored_libraries": "TYSmartRoomDefaultUISkin-2.0.2-rc.4/libTYSmartRoomDefaultUISkin.a",
+    "version": "2.0.2",
+    "description": "TYSmartRoomDefaultUISkin"
+}

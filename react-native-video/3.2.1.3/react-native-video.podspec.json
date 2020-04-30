@@ -1,0 +1,27 @@
+{
+    "authors": "Brent Vatne <brentvatne@gmail.com> (https://github.com/brentvatne)",
+    "dependencies": {
+        "React": []
+    },
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AVKit",
+        "MediaAccessibility",
+        "CoreMedia"
+    ],
+    "homepage": "https://github.com/brentvatne/react-native-video",
+    "license": "MIT",
+    "name": "react-native-video",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/react-native-video-3.2.1.3.zip",
+        "type": "zip"
+    },
+    "source_files": "react-native-video-3.2.1.3/Headers/Public/**/*",
+    "summary": "A <Video /> element for react-native",
+    "vendored_libraries": "react-native-video-3.2.1.3/libreact-native-video.a",
+    "version": "3.2.1.3"
+}

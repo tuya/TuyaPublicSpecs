@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYModuleServices": [],
+        "TYPanelContext": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTMeshPanelManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTMeshPanelManager-1.2.0-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTMeshPanelManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTMeshPanelManager.xcframework"
+    ],
+    "version": "1.2.0-rc.2"
+}

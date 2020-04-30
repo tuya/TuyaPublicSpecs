@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaBusinessService": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartDeviceDetailLink",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartDeviceDetailLink-1.0.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartDeviceDetailLink.",
+    "vendored_frameworks": [
+        "Build/TYSmartDeviceDetailLink.xcframework"
+    ],
+    "version": "1.0.0"
+}

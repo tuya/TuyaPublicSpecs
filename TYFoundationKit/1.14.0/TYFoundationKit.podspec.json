@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "dependencies": {
+            "Reachability": []
+        },
+        "frameworks": [
+            "UIKit",
+            "Foundation",
+            "CoreGraphics",
+            "CoreLocation",
+            "CoreTelephony"
+        ],
+        "source_files": [
+            "TYFoundationKit/Classes/common/**/*",
+            "TYFoundationKit/Classes/ios/**/*"
+        ],
+        "vendored_libraries": "TYFoundationKit-1.14.0-rc.5/libTYFoundationKit.a"
+    },
+    "license": "none",
+    "name": "TYFoundationKit",
+    "platforms": {
+        "ios": "9.0",
+        "watchos": "2.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYFoundationKit-1.14.0-rc.5.zip",
+        "type": "zip"
+    },
+    "source_files": "TYFoundationKit-1.14.0-rc.5/Headers/Public/**/*",
+    "summary": "TYFoundationKit",
+    "version": "1.14.0",
+    "watchos": {
+        "frameworks": [
+            "UIKit",
+            "Foundation",
+            "CoreGraphics",
+            "CoreLocation"
+        ],
+        "source_files": [
+            "TYFoundationKit/Classes/common/**/*",
+            "TYFoundationKit/Classes/watchos/**/*"
+        ],
+        "vendored_libraries": "TYFoundationKit-1.14.0-rc.5/watchos/libTYFoundationKit.a"
+    },
+    "description": "TYFoundationKit"
+}

@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartEventPredefined": [],
+        "TuyaSmartCameraKit": []
+    },
+    "description": "TuyaSmartCameraBizKit",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartCameraBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartCameraBizKit-3.19.2.bizBundle.3.17.6.zip",
+        "type": "zip"
+    },
+    "summary": "TuyaSmartCameraBizKit",
+    "vendored_libraries": "TuyaSmartCameraBizKit-3.19.2.bizBundle.3.17.6/libTuyaSmartCameraBizKit.a",
+    "version": "3.19.2.bizBundle.3.17.6"
+}

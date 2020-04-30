@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYSecurityBaseKit": [],
+        "TYSecurityVASModuleService": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecuritySkillModule",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYSecuritySkillModule-3.3.5-secbizbundle-rc.2/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYSecuritySkillModule": "TYSecuritySkillModule-3.3.5-secbizbundle-rc.2/Assets/bundles/TYSecuritySkillModule.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecuritySkillModule-3.3.5-secbizbundle-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSecuritySkillModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYSecuritySkillModule-3.3.5-secbizbundle-rc.2/libTYSecuritySkillModule.a",
+    "version": "3.3.5-secbizbundle-rc.2"
+}

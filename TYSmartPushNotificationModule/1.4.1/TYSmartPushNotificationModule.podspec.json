@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYPanelContext": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartPushNotificationModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_CODE_SIGN_ENTITLEMENTS": "aps-environment"
+    },
+    "resource_bundles": {
+        "TYSmartPushNotificationModuleRes": "TYSmartPushNotificationModule-1.4.1/Assets/bundles/TYSmartPushNotificationModuleRes.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartPushNotificationModule-1.4.1.zip",
+        "type": "zip"
+    },
+    "summary": "\u516c\u7248\u7684\u63a8\u9001\u4e1a\u52a1\u6a21\u5757",
+    "vendored_libraries": "TYSmartPushNotificationModule-1.4.1/libTYSmartPushNotificationModule.a",
+    "version": "1.4.1"
+}

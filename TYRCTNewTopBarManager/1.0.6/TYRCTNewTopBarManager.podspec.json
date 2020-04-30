@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYUIKit": []
+    },
+    "description": "TYRCTNewTopBarManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTNewTopBarManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTNewTopBarManager-1.0.6.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTNewTopBarManager",
+    "vendored_libraries": "TYRCTNewTopBarManager-1.0.6/libTYRCTNewTopBarManager.a",
+    "version": "1.0.6"
+}

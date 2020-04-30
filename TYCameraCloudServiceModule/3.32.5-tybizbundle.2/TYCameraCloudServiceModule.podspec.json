@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraCloudServiceModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraCloudServiceModule-3.32.5-tybizbundle.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYCameraCloudServiceModule.",
+    "vendored_frameworks": [
+        "Build/TYCameraCloudServiceModule.xcframework"
+    ],
+    "version": "3.32.5-tybizbundle.2"
+}

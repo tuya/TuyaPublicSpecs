@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "resources": [
+            "Build/TYRealClass.xcframework/ios-arm64_armv7/TYRealClass.framework/CustomResources/Bundles/*"
+        ]
+    },
+    "license": "none",
+    "name": "TYRealClass",
+    "platforms": {
+        "ios": "8.0",
+        "watchos": "2.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRealClass-0.1.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRealClass.",
+    "vendored_frameworks": [
+        "Build/TYRealClass.xcframework"
+    ],
+    "version": "0.1.0",
+    "watchos": {
+        "resources": [
+            "Build/TYRealClass.xcframework/watchos-arm64_32_armv7k/TYRealClass.framework/CustomResources/Bundles/*"
+        ]
+    }
+}
