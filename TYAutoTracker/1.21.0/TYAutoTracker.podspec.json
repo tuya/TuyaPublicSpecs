@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "SDWebImage/Core": [
+            "~>4.4.3"
+        ],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYRealClass": [],
+        "TuyaSmartBaseKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAutoTracker",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resource_bundles": {
+        "TYAutoTracker": "TYAutoTracker-1.21.0/Assets/bundles/TYAutoTracker.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAutoTracker-1.21.0.zip",
+        "type": "zip"
+    },
+    "summary": "auto traker for user Action",
+    "vendored_libraries": "TYAutoTracker-1.21.0/libTYAutoTracker.a",
+    "version": "1.21.0"
+}

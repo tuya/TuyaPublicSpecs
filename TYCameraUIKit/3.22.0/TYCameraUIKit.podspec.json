@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "DACircularProgress": [],
+        "Masonry": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaCameraUIKit": [],
+        "TuyaSmartDeviceKit": [],
+        "lottie-ios": [
+            "~> 2.5.0"
+        ]
+    },
+    "description": "TYCameraUIKit",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraUIKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resource_bundles": {
+        "TYCameraUIKit": "TYCameraUIKit-3.22.0-rc.4/Assets/bundles/TYCameraUIKit.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraUIKit-3.22.0-rc.4.zip",
+        "type": "zip"
+    },
+    "summary": "TYCameraUIKit",
+    "vendored_libraries": "TYCameraUIKit-3.22.0-rc.4/libTYCameraUIKit.a",
+    "version": "3.22.0"
+}

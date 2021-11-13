@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYUrlPredefinedExternal": []
+    },
+    "description": "TYUrlPredefined",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYUrlPredefined",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "resources": [
+        "TYUrlPredefined-0.2.49/Assets/*.json"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYUrlPredefined-0.2.49.zip",
+        "type": "zip"
+    },
+    "summary": "TYUrlPredefined",
+    "vendored_libraries": "TYUrlPredefined-0.2.49/libTYUrlPredefined.a",
+    "version": "0.2.49"
+}

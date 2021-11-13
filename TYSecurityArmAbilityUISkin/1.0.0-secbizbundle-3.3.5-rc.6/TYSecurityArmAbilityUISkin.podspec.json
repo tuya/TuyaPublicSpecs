@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYOEMConfig": [],
+        "TYProgressHUD": [],
+        "TYSecurityArmAbilityBizKit": [],
+        "TYSecurityArmAbilityModuleServices": [],
+        "TYSecurityPublicResource": [],
+        "TYSecurityStatisticsModule": [],
+        "TYSecurityUIComponents": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSecurityBaseKit": [],
+        "TuyaSecurityBusinessServices": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityArmAbilityUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TYSecurityArmAbilityUISkin": "TYSecurityArmAbilityUISkin-1.0.0-secbizbundle-3.3.5-rc.6/Assets/bundles/TYSecurityArmAbilityUISkin.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityArmAbilityUISkin-1.0.0-secbizbundle-3.3.5-rc.6.zip",
+        "type": "zip"
+    },
+    "source_files": "TYSecurityArmAbilityUISkin-1.0.0-secbizbundle-3.3.5-rc.6/Headers/Public/**/*",
+    "summary": "A short description of TYSecurityArmAbilityUISkin.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYSecurityArmAbilityUISkin-1.0.0-secbizbundle-3.3.5-rc.6/libTYSecurityArmAbilityUISkin.a",
+    "version": "1.0.0-secbizbundle-3.3.5-rc.6"
+}

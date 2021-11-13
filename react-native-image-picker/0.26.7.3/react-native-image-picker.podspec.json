@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "Marc Shilling": "marcshilling@gmail.com"
+    },
+    "dependencies": {
+        "React": []
+    },
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AssetsLibrary",
+        "Photos",
+        "MobileCoreServices"
+    ],
+    "homepage": "https://github.com/marcshilling/react-native-image-picker",
+    "license": "MIT",
+    "name": "react-native-image-picker",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/react-native-image-picker-0.26.7.3.zip",
+        "type": "zip"
+    },
+    "source_files": "react-native-image-picker-0.26.7.3/Headers/Public/**/*",
+    "summary": "A React Native module that allows you to use the native UIImagePickerController UI to select a photo from the device library or directly from the camera",
+    "vendored_libraries": "react-native-image-picker-0.26.7.3/libreact-native-image-picker.a",
+    "version": "0.26.7.3"
+}

@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYUIKit": []
+    },
+    "description": "TYAlertView",
+    "frameworks": "UIKit",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAlertView",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "TYAlertView-1.0.0-rc.1/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAlertView-1.0.0-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYAlertView",
+    "vendored_libraries": "TYAlertView-1.0.0-rc.1/libTYAlertView.a",
+    "version": "1.0.0"
+}

@@ -1,0 +1,257 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "default_subspecs": "Core",
+    "description": "\u6d82\u9e26\u9762\u677f React-Native API",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaRNApi",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaRNApi-5.40.0-rc.11.zip",
+        "type": "zip"
+    },
+    "subspecs": [
+        {
+            "name": "Core",
+            "source_files": "TuyaRNApi-5.40.0-rc.11/**/*.{h}",
+            "vendored_libraries": "TuyaRNApi-5.40.0-rc.11/**/*.a"
+        },
+        {
+            "dependencies": {
+                "TYRCTAESImageView": [
+                    "1.1.0"
+                ],
+                "TYRCTAPMEventManager": [
+                    "1.0.7"
+                ],
+                "TYRCTAPMTrackManager": [
+                    "1.0.9"
+                ],
+                "TYRCTAnimatedImageManager": [
+                    "1.0.4"
+                ],
+                "TYRCTBLEManager": [
+                    "1.3.1-rc.2"
+                ],
+                "TYRCTBluetoothUtilManager": [
+                    "1.1.4"
+                ],
+                "TYRCTCameraViewManager": [
+                    "1.0.2"
+                ],
+                "TYRCTCameraViewMotionManager": [
+                    "1.0.0"
+                ],
+                "TYRCTConicGradientViewManager": [
+                    "1.0.3"
+                ],
+                "TYRCTCountrySelectManager": [
+                    "1.0.7"
+                ],
+                "TYRCTCurveChartView": [
+                    "1.0.10"
+                ],
+                "TYRCTDeviceMultiManager": [
+                    "1.1.1"
+                ],
+                "TYRCTEncryptImageDownloadManager": [
+                    "1.0.13"
+                ],
+                "TYRCTGestureLockViewManager": [
+                    "1.0.14"
+                ],
+                "TYRCTHapticsManager": [
+                    "1.0.0"
+                ],
+                "TYRCTHomeDevManager": [
+                    "1.2.0"
+                ],
+                "TYRCTHomeManager": [
+                    "1.2.4"
+                ],
+                "TYRCTHueCircleView": [
+                    "1.0.7"
+                ],
+                "TYRCTLifecycleManager": [
+                    "1.0.0-rc.1"
+                ],
+                "TYRCTLineChartView": [
+                    "1.0.7"
+                ],
+                "TYRCTLocalAlarmManager": [
+                    "1.0.1-rc.2"
+                ],
+                "TYRCTMeshPanelManager": [
+                    "1.1.8"
+                ],
+                "TYRCTMqttManager": [
+                    "1.0.13"
+                ],
+                "TYRCTMultiImagePickerManager": [
+                    "1.1.0"
+                ],
+                "TYRCTMultiLineChartView": [
+                    "1.0.8"
+                ],
+                "TYRCTMusicManager": [
+                    "1.1.33-rc.1"
+                ],
+                "TYRCTNavManager": [
+                    "1.2.1"
+                ],
+                "TYRCTNewTopBar": [
+                    "1.0.8"
+                ],
+                "TYRCTOfficialGeofenceManager": [
+                    "1.0.0"
+                ],
+                "TYRCTOrientationManager": [
+                    "1.0.11"
+                ],
+                "TYRCTPanelDeviceManager": [
+                    "1.2.0"
+                ],
+                "TYRCTPanelManager": [
+                    "1.5.2"
+                ],
+                "TYRCTPicker": [
+                    "1.0.7"
+                ],
+                "TYRCTPublicBLEBeaconManager": [
+                    "1.0.0-rc.15"
+                ],
+                "TYRCTPublicBLELockManager": [
+                    "1.0.1"
+                ],
+                "TYRCTPublicManager": [
+                    "1.0.34"
+                ],
+                "TYRCTRouteGatewayManager": [
+                    "1.0.42-rc.1"
+                ],
+                "TYRCTShareManager": [
+                    "1.1.0-rc.10"
+                ],
+                "TYRCTSlider": [
+                    "1.0.9"
+                ],
+                "TYRCTStandardGroupManager": [
+                    "1.1.9"
+                ],
+                "TYRCTSwitch": [
+                    "1.0.9"
+                ],
+                "TYRCTTopBar": [
+                    "1.0.18"
+                ],
+                "TYRCTUserManager": [
+                    "1.0.3"
+                ],
+                "TYRCTZigbeeEventManager": [
+                    "1.0.9"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "Basic"
+        },
+        {
+            "dependencies": {
+                "TYRCTCameraManager": [
+                    "1.8.0-rc.3"
+                ],
+                "TYRCTCameraMessageManager": [
+                    "1.1.0"
+                ],
+                "TYRCTCameraMessageMediaPlayerManager": [
+                    "1.0.0"
+                ],
+                "TYRCTCameraPlayer": [
+                    "1.3.0"
+                ],
+                "TYRCTCameraTimeLineViewManager": [
+                    "1.3.1"
+                ],
+                "TYRCTDoorBellManager": [
+                    "1.0.0"
+                ],
+                "TYRCTImageEncryptUploadManager": [
+                    "1.5.1"
+                ],
+                "TYRCTTuyaCameraPlayer": [
+                    "1.1.2"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "IPC"
+        },
+        {
+            "dependencies": {
+                "TYRCTLaserManager": [
+                    "1.1.0"
+                ],
+                "TYRCTLaserMap": [
+                    "1.7.1-rc.4"
+                ],
+                "TYRCTPointMap": [
+                    "1.0.47"
+                ],
+                "TYRCTTransferManager": [
+                    "1.0.14-rc.5"
+                ],
+                "TYRCTTypeMapManager": [
+                    "1.3.6"
+                ],
+                "TYRCTVisionManager": [
+                    "1.0.13"
+                ],
+                "TYRCTVisionMap": [
+                    "1.0.37"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "Sweeper"
+        },
+        {
+            "dependencies": {
+                "TYRCTScenePanelManager": [
+                    "1.5.7"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "Scene"
+        },
+        {
+            "dependencies": {
+                "TYRCTSpeakerManager": [
+                    "1.1.12"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "Speak"
+        },
+        {
+            "dependencies": {
+                "TYRCTAVSManager": [
+                    "1.0.15"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "AVS"
+        },
+        {
+            "dependencies": {
+                "TYRCTHealthManager": [
+                    "1.3.0"
+                ],
+                "TuyaRNApi/Core": []
+            },
+            "name": "Health"
+        }
+    ],
+    "summary": "\u6d82\u9e26\u9762\u677f React-Native API",
+    "version": "5.40.0-rc.11"
+}

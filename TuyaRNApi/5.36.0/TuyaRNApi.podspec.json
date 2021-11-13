@@ -1,0 +1,206 @@
+{
+    "name": "TuyaRNApi",
+    "version": "5.36.0",
+    "summary": "\u6d82\u9e26\u9762\u677f React-Native API",
+    "description": "\u6d82\u9e26\u9762\u677f React-Native API",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaRNApi-5.36.0.zip",
+        "type": "zip"
+    },
+    "default_subspecs": "Core",
+    "subspecs": [
+        {
+            "name": "Core",
+            "source_files": "TuyaRNApi-5.36.0/**/*.{h}",
+            "vendored_libraries": "TuyaRNApi-5.36.0/**/*.a"
+        },
+        {
+            "name": "Basic",
+            "dependencies": {
+                "TuyaRNApi/Core": [],
+                "TYRCTAESImageView": [
+                    "1.0.12"
+                ],
+                "TYRCTAnimatedImageManager": [
+                    "1.0.3"
+                ],
+                "TYRCTAPMEventManager": [
+                    "1.0.7"
+                ],
+                "TYRCTAPMTrackManager": [
+                    "1.0.9"
+                ],
+                "TYRCTBLEManager": [
+                    "1.1.0"
+                ],
+                "TYRCTBluetoothUtilManager": [
+                    "1.1.4"
+                ],
+                "TYRCTCameraViewManager": [
+                    "1.0.1"
+                ],
+                "TYRCTCameraViewMotionManager": [
+                    "1.0.0"
+                ],
+                "TYRCTConicGradientViewManager": [
+                    "1.0.3"
+                ],
+                "TYRCTCountrySelectManager": [
+                    "1.0.7"
+                ],
+                "TYRCTCurveChartView": [
+                    "1.0.10"
+                ],
+                "TYRCTDeviceMultiManager": [
+                    "1.1.0"
+                ],
+                "TYRCTEncryptImageDownloadManager": [
+                    "1.0.13"
+                ],
+                "TYRCTGestureLockViewManager": [
+                    "1.0.14"
+                ],
+                "TYRCTHomeDevManager": [
+                    "1.2.0"
+                ],
+                "TYRCTHomeManager": [
+                    "1.2.4"
+                ],
+                "TYRCTHueCircleView": [
+                    "1.0.7"
+                ],
+                "TYRCTImageEncryptUploadManager": [
+                    "1.4.3"
+                ],
+                "TYRCTLineChartView": [
+                    "1.0.7"
+                ],
+                "TYRCTMeshPanelManager": [
+                    "1.1.8"
+                ],
+                "TYRCTMqttManager": [
+                    "1.0.13"
+                ],
+                "TYRCTMultiImagePickerManager": [
+                    "1.0.8"
+                ],
+                "TYRCTMultiLineChartView": [
+                    "1.0.8"
+                ],
+                "TYRCTMusicManager": [
+                    "1.1.31"
+                ],
+                "TYRCTNavManager": [
+                    "1.2.0"
+                ],
+                "TYRCTNewTopBar": [
+                    "1.0.8"
+                ],
+                "TYRCTOfficialGeofenceManager": [
+                    "1.0.0"
+                ],
+                "TYRCTOrientationManager": [
+                    "1.0.11"
+                ],
+                "TYRCTPanelDeviceManager": [
+                    "1.2.0"
+                ],
+                "TYRCTPanelManager": [
+                    "1.4.1"
+                ],
+                "TYRCTPicker": [
+                    "1.0.7"
+                ],
+                "TYRCTPublicManager": [
+                    "1.0.33"
+                ],
+                "TYRCTRouteGatewayManager": [
+                    "1.0.41"
+                ],
+                "TYRCTShareManager": [
+                    "1.0.0"
+                ],
+                "TYRCTSlider": [
+                    "1.0.9"
+                ],
+                "TYRCTStandardGroupManager": [
+                    "1.1.8"
+                ],
+                "TYRCTSwitch": [
+                    "1.0.9"
+                ],
+                "TYRCTTopBar": [
+                    "1.0.17"
+                ],
+                "TYRCTUserManager": [
+                    "1.0.3"
+                ],
+                "TYRCTZigbeeEventManager": [
+                    "1.0.9"
+                ]
+            }
+        },
+        {
+            "name": "IPC",
+            "dependencies": {
+                "TuyaRNApi/Core": [],
+                "TYRCTCameraManager": [
+                    "1.6.0"
+                ],
+                "TYRCTCameraPlayer": [
+                    "1.2.5"
+                ],
+                "TYRCTCameraTimeLineViewManager": [
+                    "1.3.1"
+                ],
+                "TYRCTTuyaCameraPlayer": [
+                    "1.1.2"
+                ]
+            }
+        },
+        {
+            "name": "Sweeper",
+            "dependencies": {
+                "TuyaRNApi/Core": [],
+                "TYRCTLaserManager": [
+                    "1.1.0"
+                ],
+                "TYRCTLaserMap": [
+                    "1.6.1"
+                ],
+                "TYRCTPointMap": [
+                    "1.0.46"
+                ],
+                "TYRCTTransferManager": [
+                    "1.0.13"
+                ],
+                "TYRCTTypeMapManager": [
+                    "1.3.6"
+                ],
+                "TYRCTVisionManager": [
+                    "1.0.13"
+                ],
+                "TYRCTVisionMap": [
+                    "1.0.36"
+                ]
+            }
+        },
+        {
+            "name": "Scene",
+            "dependencies": {
+                "TuyaRNApi/Core": [],
+                "TYRCTScenePanelManager": [
+                    "1.5.7"
+                ]
+            }
+        }
+    ]
+}

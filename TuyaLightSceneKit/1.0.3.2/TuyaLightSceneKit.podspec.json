@@ -1,0 +1,31 @@
+{
+  "name": "TuyaLightSceneKit",
+  "version": "1.0.3.2",
+  "summary": "A short description of TuyaLightSceneKit.",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "maoht": "maoht@tuya.com"
+  },
+  "homepage": "https://tuya.com",
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1623915204-TuyaLightSceneKit-1.0.3.2.zip",
+    "type": "zip"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "8.0"
+  },
+  "ios": {
+    "vendored_frameworks": "ios/*.framework"
+  },
+  "dependencies": {
+    "TuyaSmartBaseKit": [
+
+    ],
+    "TuyaSmartDeviceKit": [
+
+    ]
+  }
+}

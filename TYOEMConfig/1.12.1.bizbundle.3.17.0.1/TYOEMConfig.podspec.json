@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "YYModel": []
+    },
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "dependencies": {
+            "TYUIKit": []
+        },
+        "frameworks": "WebKit"
+    },
+    "license": "none",
+    "name": "TYOEMConfig",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "TYOEMConfig-1.12.1.bizbundle.3.17.0.1/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYOEMConfig-1.12.1.bizbundle.3.17.0.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYOEMConfig",
+    "vendored_libraries": "TYOEMConfig-1.12.1.bizbundle.3.17.0.1/libTYOEMConfig.a",
+    "version": "1.12.1.bizbundle.3.17.0.1",
+    "description": "TYOEMConfig"
+}

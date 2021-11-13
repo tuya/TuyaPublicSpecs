@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "author": "author@domain.cn"
+    },
+    "dependencies": {
+        "React": []
+    },
+    "description": "RNReanimated",
+    "homepage": "https://github.com/software-mansion/react-native-reanimated",
+    "license": "MIT",
+    "name": "RNReanimated",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "requires_arc": true,
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/RNReanimated-1.19.0.1-rc.1.zip",
+        "type": "zip"
+    },
+    "source_files": "RNReanimated-1.19.0.1-rc.1/Headers/Public/**/*",
+    "summary": "More powerful alternative to Animated library for React Native.",
+    "vendored_libraries": "RNReanimated-1.19.0.1-rc.1/libRNReanimated.a",
+    "version": "1.19.0.1"
+}

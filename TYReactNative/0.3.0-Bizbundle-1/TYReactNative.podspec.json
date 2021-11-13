@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "RNSVG": [],
+        "RNViewShot": [],
+        "React": [],
+        "lottie-react-native": [],
+        "react-native-image-picker": [],
+        "react-native-maps": [],
+        "react-native-video": [],
+        "rn-fetch-blob": []
+    },
+    "description": "TYReactNative",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYReactNative",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYReactNative-0.3.0-Bizbundle-1-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYReactNative",
+    "vendored_libraries": "TYReactNative-0.3.0-Bizbundle-1-rc.2/libTYReactNative.a",
+    "version": "0.3.0-Bizbundle-1"
+}

@@ -1,0 +1,51 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "MBProgressHUD": [
+            "~> 0.9"
+        ],
+        "MJRefresh": [],
+        "Masonry": [],
+        "Reachability": [],
+        "TYBlockKit": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "lottie-ios": [
+            "~> 2.0"
+        ]
+    },
+    "frameworks": [
+        "Photos",
+        "AVFoundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartBusinessLibrary",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYSmartBusinessLibrary-3.17.5/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYCropViewControllerBundle": [
+            "TYSmartBusinessLibrary-3.17.5/Assets/TYCropViewController/Resources/**/*.lproj"
+        ]
+    },
+    "resources": [
+        "TYSmartBusinessLibrary-3.17.5/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartBusinessLibrary-3.17.5.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartBusinessLibrary",
+    "vendored_libraries": "TYSmartBusinessLibrary-3.17.5/libTYSmartBusinessLibrary.a",
+    "version": "3.17.5",
+    "description": "TYSmartBusinessLibrary"
+}

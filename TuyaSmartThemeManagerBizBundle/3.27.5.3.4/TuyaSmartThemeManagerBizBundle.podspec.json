@@ -1,0 +1,85 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "TYAlertView": [
+            "1.0.5.4-activatorUIBugfix-1-rc.2"
+        ],
+        "TYAvatarEditKit": [
+            "0.1.5-rc.1"
+        ],
+        "TYBlockKit": [
+            "0.0.4"
+        ],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [
+            "0.5.1"
+        ],
+        "TYLogMacro": [
+            "0.1.0"
+        ],
+        "TYModuleManager": [
+            "2.10.3"
+        ],
+        "TYModuleServices": [
+            "2.22.0-tybizbundle.3.27.5-rc.6.1"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            "1.23.3-tybizbundle.3.27.5-1-rc.1"
+        ],
+        "TYPopupViewController": [
+            "0.2.1-rc.6"
+        ],
+        "TYProgressHUD": [
+            "0.1.4-patch.2"
+        ],
+        "TYSmartActionDialog": [
+            "0.3.9.2-patch.1"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.23.5.4-tybizbundle"
+        ],
+        "TYThemeModule": [
+            "0.6.0"
+        ],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.27.5.3-rc.1"
+        ],
+        "YYModel": [],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartThemeManagerBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TuyaSmartThemeManagerBizBundle": "TuyaSmartThemeManagerBizBundle-3.27.5.3/Assets/bundles/TuyaSmartThemeManagerBizBundle.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartThemeManagerBizBundle-3.27.5.3.zip",
+        "type": "zip"
+    },
+    "source_files": "TuyaSmartThemeManagerBizBundle-3.27.5.3/Headers/Public/**/*",
+    "summary": "A short description of TuyaSmartThemeManagerBizBundle.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TuyaSmartThemeManagerBizBundle-3.27.5.3/libTuyaSmartThemeManagerBizBundle.a",
+    "version": "3.27.5.3.4"
+}

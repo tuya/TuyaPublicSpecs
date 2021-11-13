@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "vendored_libraries": "TYSmartEventPredefined-1.2.79/libTYSmartEventPredefined.a"
+    },
+    "license": "none",
+    "name": "TYSmartEventPredefined",
+    "platforms": {
+        "ios": "9.0",
+        "watchos": "2.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartEventPredefined-1.2.79.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartEventPredefined.",
+    "version": "1.2.79",
+    "watchos": {
+        "vendored_libraries": "TYSmartEventPredefined-1.2.79/watchos/libTYSmartEventPredefined.a"
+    }
+}

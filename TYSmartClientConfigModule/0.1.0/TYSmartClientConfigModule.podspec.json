@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartClientConfigModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartClientConfigModule-0.1.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartClientConfigModule.",
+    "vendored_libraries": "TYSmartClientConfigModule-0.1.0/libTYSmartClientConfigModule.a",
+    "version": "0.1.0"
+}

@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": []
+    },
+    "description": "TYRCTEncryptImageDownloadManager",
+    "frameworks": "Photos",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTEncryptImageDownloadManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTEncryptImageDownloadManager-1.0.12.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTEncryptImageDownloadManager",
+    "vendored_libraries": "TYRCTEncryptImageDownloadManager-1.0.12/libTYRCTEncryptImageDownloadManager.a",
+    "version": "1.0.12"
+}

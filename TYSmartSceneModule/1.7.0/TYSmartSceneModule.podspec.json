@@ -1,0 +1,51 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "IQKeyboardManager": [],
+        "MJRefresh": [],
+        "Masonry": [],
+        "SDWebImage": [],
+        "TYAnimationKit": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartSceneBizKit": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartSceneKit": [],
+        "YYModel": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartSceneModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYSmartSceneModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYSmartSceneModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYSmartSceneModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYSmartSceneModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "TYSmartSceneModule-1.7.0/PrefixHeader.pch",
+    "resources": [
+        "TYSmartSceneModule-1.7.0/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartSceneModule-1.7.0.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartSceneModule",
+    "vendored_libraries": "TYSmartSceneModule-1.7.0/libTYSmartSceneModule.a",
+    "version": "1.7.0",
+    "description": "TYSmartSceneModule"
+}

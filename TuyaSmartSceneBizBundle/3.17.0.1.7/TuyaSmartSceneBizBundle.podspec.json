@@ -1,0 +1,184 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "DACircularProgress": [],
+        "HMSegmentedControl": [
+            "1.5.7.tuya"
+        ],
+        "IQKeyboardManager": [],
+        "MBProgressHUD": [],
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "SDWebImage": [],
+        "SDWebImage/Core": [],
+        "TYAnimationKit": [
+            "1.1.2"
+        ],
+        "TYBaseDebugger": [
+            "0.2.0"
+        ],
+        "TYBlockKit": [
+            "0.0.4"
+        ],
+        "TYBluetoothInterface": [
+            "0.0.8"
+        ],
+        "TYConfigHub": [
+            "1.0.5"
+        ],
+        "TYDomainQueryModule": [],
+        "TYEncryptImage": [
+            "1.2.3.bizBundle.3.17.6"
+        ],
+        "TYFoundationKit": [],
+        "TYHomeDataManager": [
+            "1.1.0"
+        ],
+        "TYHybridContainer": [
+            "1.2.9.bizbundle.3.17.0"
+        ],
+        "TYKVStorageLibrary": [
+            "0.5.0"
+        ],
+        "TYLogMacro": [
+            "0.0.2"
+        ],
+        "TYModuleManager": [
+            "2.10.0.bizbundle.3.17.6.1"
+        ],
+        "TYModuleServices": [
+            "2.8.12.bizbundle.3.17.0.12.1"
+        ],
+        "TYNavigationController": [
+            "1.10.1"
+        ],
+        "TYOEMConfig": [
+            "1.13.0.bizbundle.3.17.6.1"
+        ],
+        "TYPhotoBrowser": [
+            "1.1.1"
+        ],
+        "TYSettingsModule": [
+            "1.5.7.bizbundle.3.17.0"
+        ],
+        "TYSiriShortcutModule": [
+            "1.1.0"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.17.5.bizbundle.3.17.0.4"
+        ],
+        "TYSmartBusinessMaskModule": [
+            "1.0.3"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.34"
+        ],
+        "TYSmartFamilyBizKit": [
+            "1.2.0"
+        ],
+        "TYSmartFamilyDefaultUISkin": [
+            "1.2.0"
+        ],
+        "TYSmartHomeDataCenter": [
+            "0.0.3"
+        ],
+        "TYSmartHouse": [
+            "1.6.5.bizbundle.3.17.0"
+        ],
+        "TYSmartHouseBizKit": [
+            "1.4.9"
+        ],
+        "TYSmartHouseUISkeleton": [
+            "1.2.6"
+        ],
+        "TYSmartSceneBizKit": [
+            "1.8.3"
+        ],
+        "TYSmartSceneDefaultUISkin": [
+            "1.6.0"
+        ],
+        "TYSmartSceneModule": [
+            "1.7.5"
+        ],
+        "TYSmartUIConfigServices": [
+            "0.1.1.bizbundle.3.17.6.1"
+        ],
+        "TYSmartUserCenterBizKit": [
+            "2.0.1"
+        ],
+        "TYTabPagingView": [
+            "1.0.4"
+        ],
+        "TYTemplateSkeleton": [
+            "0.2.0"
+        ],
+        "TYUIKit": [],
+        "TYUrlPredefined": [
+            "0.2.49"
+        ],
+        "TYUrlPredefinedExternal": [
+            "0.2.41"
+        ],
+        "TYValueAddedServiceModule": [
+            "4.2.6"
+        ],
+        "TYVideoPlayer": [
+            "2.0.1"
+        ],
+        "TYVoiceModule": [
+            "2.0.0"
+        ],
+        "TYVoiceOverseasModule": [
+            "1.2.4"
+        ],
+        "TuyaIntentKit": [
+            "1.0.0"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.17.6.3"
+        ],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartFeedbackKit": [],
+        "TuyaSmartMQTTChannelKit": [],
+        "TuyaSmartMessageKit": [],
+        "TuyaSmartSceneKit": [],
+        "TuyaSmartUtil": [],
+        "UICKeyChainStore": [],
+        "YYModel": [],
+        "dsBridge": [],
+        "libextobjc": [],
+        "libextobjc/EXTADT": [],
+        "libextobjc/EXTConcreteProtocol": [],
+        "libextobjc/EXTKeyPathCoding": [],
+        "libextobjc/EXTNil": [],
+        "libextobjc/EXTSafeCategory": [],
+        "libextobjc/EXTScope": [],
+        "libextobjc/EXTSelectorChecking": [],
+        "libextobjc/EXTSynthesize": [],
+        "libextobjc/NSInvocation+EXT": [],
+        "libextobjc/NSMethodSignature+EXT": [],
+        "libextobjc/RuntimeExtensions": [],
+        "libextobjc/UmbrellaHeader": [],
+        "lottie-ios": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartSceneBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartSceneBizBundle-3.17.0.1.zip",
+        "type": "zip"
+    },
+    "source_files": "TuyaSmartSceneBizBundle-3.17.0.1/Headers/Public/**/*",
+    "summary": "TuyaSmartSceneBizBundle",
+    "vendored_libraries": "TuyaSmartSceneBizBundle-3.17.0.1/libTuyaSmartSceneBizBundle.a",
+    "version": "3.17.0.1.7",
+    "description": "TuyaSmartSceneBizBundle"
+}

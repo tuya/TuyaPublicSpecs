@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYOEMConfig": [],
+        "TYSocialModule": [],
+        "TuyaSmartBaseKit": [],
+        "WechatOpenSDK": [
+            "1.8.6.1.NoPay.tuya"
+        ]
+    },
+    "description": "TYSocialWeChat",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSocialWeChat",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYSocialWeChat\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYSocialWeChat\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYSocialWeChat\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYSocialWeChat\", ##__VA_ARGS__)",
+    "resource_bundles": {
+        "TYSocialWeChat": [
+            "TYSocialWeChat-0.2.0/Assets/*.png"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSocialWeChat-0.2.0.zip",
+        "type": "zip"
+    },
+    "summary": "TYSocialWeChat",
+    "vendored_libraries": "TYSocialWeChat-0.2.0/libTYSocialWeChat.a",
+    "version": "0.2.0"
+}

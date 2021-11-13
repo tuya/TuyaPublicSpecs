@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://www.tuya.com"
+    },
+    "dependencies": {
+        "EZAudio": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/TuyaInc",
+    "license": "none",
+    "name": "TYPandoraPlayer",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "TYPandoraPlayer-1.0.0-rc.11/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPandoraPlayer-1.0.0-rc.11.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYPandoraPlayer.",
+    "vendored_libraries": "TYPandoraPlayer-1.0.0-rc.11/libTYPandoraPlayer.a",
+    "version": "1.0.0-rc.11"
+}

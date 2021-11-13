@@ -1,0 +1,124 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "DACircularProgress": [],
+        "FLAnimatedImage": [],
+        "HMSegmentedControl": [
+            "1.5.7.tuya"
+        ],
+        "IQKeyboardManager": [],
+        "MBProgressHUD": [],
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "SDWebImage": [],
+        "SDWebImage/Core": [],
+        "SDWebImage/GIF": [],
+        "TYActivatorModule": [
+            "2.3.2bizbundle.3.17.6.3"
+        ],
+        "TYBaseDebugger": [
+            "0.2.0"
+        ],
+        "TYBlockKit": [
+            "0.0.4"
+        ],
+        "TYBluetoothInterface": [
+            "0.0.8"
+        ],
+        "TYConfigHub": [
+            "1.0.5"
+        ],
+        "TYDomainQueryModule": [
+            "0.1.4"
+        ],
+        "TYEncryptImage": [
+            "1.2.3.bizBundle.3.17.6"
+        ],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [
+            "1.2.9.bizbundle.3.17.0"
+        ],
+        "TYKVStorageLibrary": [
+            "0.5.0"
+        ],
+        "TYLogMacro": [
+            "0.0.2"
+        ],
+        "TYModuleManager": [
+            "2.10.0.bizbundle.3.17.6"
+        ],
+        "TYModuleServices": [
+            "2.8.12.bizbundle.3.17.0.9.1"
+        ],
+        "TYNavigationController": [
+            "1.10.1"
+        ],
+        "TYOEMConfig": [
+            "1.12.1.bizbundle.3.17.0.1"
+        ],
+        "TYPhotoBrowser": [
+            "1.1.1"
+        ],
+        "TYQRCodeModule": [
+            "1.6.0.bizbundle.3.17.6"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.17.5.bizbundle.3.17.0.3"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.34"
+        ],
+        "TYSocketPing": [
+            "1.0.0"
+        ],
+        "TYTabPagingView": [
+            "1.0.4"
+        ],
+        "TYUIKit": [],
+        "TYUrlPredefined": [
+            "0.2.49"
+        ],
+        "TYUrlPredefinedExternal": [
+            "0.2.41"
+        ],
+        "TYVideoPlayer": [
+            "2.0.1"
+        ],
+        "TuyaSmartActivatorKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.17.6"
+        ],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": [],
+        "UICKeyChainStore": [],
+        "YYModel": [],
+        "dsBridge": [
+            "3.0.203"
+        ],
+        "lottie-ios": []
+    },
+    "description": "TuyaSmartActivatorBizBundle",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartActivatorBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PROVIDE_SERVICE": "TYActivatorProtocol,TYQRCodeProtocol",
+        "TUYA_REQUIRE_SERVICE": "TYActivatorProtocol,TYDomainQueryProtocol,TYFeedBackProtocol,TYHomeKitProtocol,TYHybridContainerProtocol,TYPanelProtocol,TYSmartHomeDataProtocol,TYSmartHouseIndexProtocol,TuyaSmartAPMEventProtocol,TuyaSmartAPMTrackProtocol"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartActivatorBizBundle-3.17.0.2.zip",
+        "type": "zip"
+    },
+    "source_files": "TuyaSmartActivatorBizBundle-3.17.0.2/Headers/Public/**/*",
+    "summary": "TuyaSmartActivatorBizBundle",
+    "vendored_libraries": "TuyaSmartActivatorBizBundle-3.17.0.2/libTuyaSmartActivatorBizBundle.a",
+    "version": "3.17.0.2.9"
+}

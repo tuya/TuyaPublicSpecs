@@ -1,0 +1,21 @@
+{
+    "name": "TYSweeperLZ4",
+    "version": "0.1.2",
+    "summary": "TYSweeperLZ4",
+    "license": "none",
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "homepage": "https://github.com/tuya",
+    "description": "TYSweeperLZ4",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSweeperLZ4-0.1.2.zip",
+        "type": "zip"
+    },
+    "platforms": {
+        "ios": "8.0"
+    },
+    "ios": {
+        "vendored_libraries": "ios/*.a"
+    }
+}

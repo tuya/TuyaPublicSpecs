@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYAlertView": [],
+        "TYEncryptImage": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": []
+    },
+    "description": "TYLightCommonUI",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYLightCommonUI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYLightCommonUI-1.0.8/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYLightCommonUIRes": "TYLightCommonUI-1.0.8/Assets/bundles/TYLightCommonUIRes.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYLightCommonUI-1.0.8.zip",
+        "type": "zip"
+    },
+    "summary": "ui only for light project.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYLightCommonUI-1.0.8/libTYLightCommonUI.a",
+    "version": "1.0.8"
+}

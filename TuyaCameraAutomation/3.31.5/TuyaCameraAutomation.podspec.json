@@ -1,0 +1,63 @@
+{
+  "name": "TuyaCameraAutomation",
+  "version": "3.31.5",
+  "summary": "A short description of TuyaCameraAutomation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://tuya.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fulang@tuya.com": "fulang@tuya.com"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/developer/sdk/1632747324-TuyaCameraAutomation-3.31.5.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "TYEncryptImage": [
+
+    ],
+    "TuyaSmartCameraKit": [
+
+    ],
+    "TuyaSmartDeviceKit": [
+
+    ],
+    "TYUIKit": [
+
+    ],
+    "TYAlertView": [
+
+    ],
+    "TYProgressHUD": [
+
+    ],
+    "TYFoundationKit": [
+
+    ],
+    "TYKVStorageLibrary": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "cocoapods_version": ">= 1.10",
+  "vendored_frameworks": [
+    "Build/TuyaCameraAutomation.xcframework"
+  ],
+  "source_files": [
+    "Build/TuyaCameraAutomation.xcframework/ios-arm64_armv7/TuyaCameraAutomation.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/TuyaCameraAutomation.xcframework/ios-arm64_armv7/TuyaCameraAutomation.framework/CustomResources/Assets/*"
+  ]
+}

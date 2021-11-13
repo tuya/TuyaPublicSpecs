@@ -1,0 +1,37 @@
+{
+  "name": "TuyaSmartAppleDeviceKit",
+  "version": "0.1.0",
+  "summary": "Pairing with Apple HomeKit devices",
+  "description": "The SDK pairing with Apple HomeKit devices which support Tuya Inc.",
+  "homepage": "https://www.tuya.com",
+  "license": "none",
+  "authors": {
+    "Tuya": "Tuya"
+  },
+  "source": {
+    "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/sdk/ios/TuyaSmartAppleDeviceKit-0.1.0.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "ios": {
+    "frameworks": "HomeKit"
+  },
+  "static_framework": true,
+  "vendored_frameworks": "ios/*.framework",
+  "dependencies": {
+    "TuyaSmartActivatorKit": [
+
+    ],
+    "TuyaSmartDeviceCoreKit": [
+
+    ],
+    "TYFoundationKit": [
+
+    ],
+    "YYModel": [
+
+    ]
+  }
+}

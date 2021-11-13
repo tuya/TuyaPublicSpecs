@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "SDWebImage": [
+            "~> 4.4.3"
+        ],
+        "TYBluetoothInterface": [],
+        "TYConfigHub": [],
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartPrivateKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYGroupHandleModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYGroupHandleModule-1.2.7-rc.4/PrefixHeader.pch",
+    "resources": [
+        "TYGroupHandleModule-1.2.7-rc.4/Assets/resources/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYGroupHandleModule-1.2.7-rc.4.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYGroupHandleModule.",
+    "vendored_libraries": "TYGroupHandleModule-1.2.7-rc.4/libTYGroupHandleModule.a",
+    "version": "1.2.7"
+}

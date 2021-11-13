@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYCameraRNPanelContext": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TuyaSmartCameraBizKit": [],
+        "TuyaSmartCameraKit": []
+    },
+    "description": "TYRCTTuyaCameraPlayer",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTTuyaCameraPlayer",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTTuyaCameraPlayer-1.1.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTTuyaCameraPlayer",
+    "vendored_libraries": "TYRCTTuyaCameraPlayer-1.1.1/libTYRCTTuyaCameraPlayer.a",
+    "version": "1.1.1"
+}

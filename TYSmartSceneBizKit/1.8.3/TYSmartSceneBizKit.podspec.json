@@ -1,0 +1,46 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartMQTTChannelKit": [],
+        "TuyaSmartSceneKit": [],
+        "YYModel": []
+    },
+    "description": "TYSmartSceneBizKit",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AddressBook",
+        "AddressBookUI",
+        "CoreTelephony",
+        "Contacts",
+        "ContactsUI",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartSceneBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYSmartSceneBizKit-1.8.3/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartSceneBizKit-1.8.3.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartSceneBizKit",
+    "vendored_libraries": "TYSmartSceneBizKit-1.8.3/libTYSmartSceneBizKit.a",
+    "version": "1.8.3"
+}

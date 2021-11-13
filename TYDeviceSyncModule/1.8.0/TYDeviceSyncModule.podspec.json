@@ -1,0 +1,37 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "SDWebImage/Core": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TYDeviceSyncModule",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYDeviceSyncModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYDeviceSyncModule-1.8.0-rc.1/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYDeviceSyncModule": "TYDeviceSyncModule-1.8.0-rc.1/Assets/bundles/TYDeviceSyncModule.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceSyncModule-1.8.0-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYDeviceSyncModule",
+    "vendored_libraries": "TYDeviceSyncModule-1.8.0-rc.1/libTYDeviceSyncModule.a",
+    "version": "1.8.0"
+}

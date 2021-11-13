@@ -1,0 +1,52 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "DACircularProgress": [],
+        "IQKeyboardManager": [],
+        "Masonry": [],
+        "SDWebImage": [],
+        "SDWebImage/GIF": [],
+        "TYBluetoothInterface": [],
+        "TYConfigHub": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSocketPing": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYVideoPlayer": [],
+        "TuyaSmartActivatorKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "YYModel": [],
+        "lottie-ios": [
+            "2.5.0"
+        ]
+    },
+    "frameworks": "CoreImage",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYActivatorModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYActivatorModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYActivatorModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYActivatorModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYActivatorModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "TYActivatorModule-2.3.2bizbundle.3.17.6.3/PrefixHeader.pch",
+    "resources": [
+        "TYActivatorModule-2.3.2bizbundle.3.17.6.3/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYActivatorModule-2.3.2bizbundle.3.17.6.3.zip",
+        "type": "zip"
+    },
+    "summary": "TYActivatorModule",
+    "vendored_libraries": "TYActivatorModule-2.3.2bizbundle.3.17.6.3/libTYActivatorModule.a",
+    "version": "2.3.2bizbundle.3.17.6.3",
+    "description": "TYActivatorModule"
+}

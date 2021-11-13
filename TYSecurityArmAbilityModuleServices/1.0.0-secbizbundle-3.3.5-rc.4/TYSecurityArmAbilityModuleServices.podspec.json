@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityArmAbilityModuleServices",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityArmAbilityModuleServices-1.0.0-secbizbundle-3.3.5-rc.4.zip",
+        "type": "zip"
+    },
+    "source_files": "TYSecurityArmAbilityModuleServices-1.0.0-secbizbundle-3.3.5-rc.4/Headers/Public/**/*",
+    "summary": "security arm ability protocols",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYSecurityArmAbilityModuleServices-1.0.0-secbizbundle-3.3.5-rc.4/libTYSecurityArmAbilityModuleServices.a",
+    "version": "1.0.0-secbizbundle-3.3.5-rc.4"
+}

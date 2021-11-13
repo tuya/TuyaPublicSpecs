@@ -1,0 +1,27 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "CoreMedia"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCamCaptureKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCamCaptureKit-1.0.6.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYCamCaptureKit.",
+    "vendored_libraries": "TYCamCaptureKit-1.0.6/libTYCamCaptureKit.a",
+    "version": "1.0.6"
+}

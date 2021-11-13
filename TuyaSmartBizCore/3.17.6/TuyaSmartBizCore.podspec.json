@@ -1,0 +1,30 @@
+{
+    "name": "TuyaSmartBizCore",
+    "version": "3.17.6",
+    "summary": "TuyaSmartBizCore",
+    "description": "TuyaSmartBizCore",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartBizCore-3.17.6.zip",
+        "type": "zip"
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source_files": "TuyaSmartBizCore-3.17.6/Headers/Public/**/*",
+    "resources": [
+        "TuyaSmartBizCore-3.17.6/Assets/**/*.json",
+        "TuyaSmartBizCore-3.17.6/Assets/TuyaSmartBizCore.bundle"
+    ],
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": []
+    },
+    "vendored_libraries": "TuyaSmartBizCore-3.17.6/libTuyaSmartBizCore.a"
+}

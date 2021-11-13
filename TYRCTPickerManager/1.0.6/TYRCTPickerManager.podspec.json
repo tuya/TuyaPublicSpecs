@@ -1,0 +1,23 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYPanelContext": [],
+        "TYReactNative": []
+    },
+    "description": "TYRCTPickerManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTPickerManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTPickerManager-1.0.6.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTPickerManager",
+    "vendored_libraries": "TYRCTPickerManager-1.0.6/libTYRCTPickerManager.a",
+    "version": "1.0.6"
+}

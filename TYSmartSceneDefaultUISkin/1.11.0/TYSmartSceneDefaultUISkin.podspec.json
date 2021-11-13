@@ -1,0 +1,39 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "SDWebImage/Core": [],
+        "TYAnimationKit": [],
+        "TYFoundationKit": [],
+        "TYHomeDataManager": [],
+        "TYNavigationController": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartHouseBizKit": [],
+        "TYSmartSceneBizKit": [],
+        "TYSmartSecurityModuleService": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": []
+    },
+    "description": "TYSmartSceneDefaultUISkin",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartSceneDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYSmartSceneDefaultUISkin-1.11.0-rc.10/PrefixHeader.pch",
+    "resources": [
+        "TYSmartSceneDefaultUISkin-1.11.0-rc.10/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartSceneDefaultUISkin-1.11.0-rc.10.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartSceneDefaultUISkin",
+    "vendored_libraries": "TYSmartSceneDefaultUISkin-1.11.0-rc.10/libTYSmartSceneDefaultUISkin.a",
+    "version": "1.11.0"
+}

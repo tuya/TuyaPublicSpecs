@@ -1,0 +1,95 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "TYAlertView": [
+            "1.0.5.4-activatorUIBugfix-1-rc.2"
+        ],
+        "TYAvatarEditKit": [
+            "0.1.5-rc.1"
+        ],
+        "TYBlockKit": [
+            "0.0.4"
+        ],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [
+            "0.5.1"
+        ],
+        "TYLogMacro": [
+            "0.1.0"
+        ],
+        "TYModuleManager": [
+            "2.10.3"
+        ],
+        "TYModuleServices": [
+            "2.22.0-tybizbundle.3.27.5-rc.4.4"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            "1.23.3-tybizbundle.3.27.5-1-rc.1"
+        ],
+        "TYOTADefaultUI": [
+            "0.3.3-tybizbundle.3.27.5-1"
+        ],
+        "TYOTAGeneralModule": [
+            "0.1.5-tybizbundle.3.27.5-1"
+        ],
+        "TYPopupViewController": [
+            "0.2.1-rc.6"
+        ],
+        "TYProgressHUD": [
+            "0.1.4-patch.2"
+        ],
+        "TYSmartActionDialog": [
+            "0.3.9.2-patch.1"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.23.5.4-tybizbundle"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.84"
+        ],
+        "TYThemeModule": [
+            "0.6.0"
+        ],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [],
+        "TuyaSmartDeviceKit": [],
+        "YYModel": [],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartOTABizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PROVIDE_SERVICE": "TYOTAGeneralProtocol",
+        "TUYA_REQUIRE_SERVICE": "TuyaSmartAPMEventProtocol"
+    },
+    "resource_bundles": {
+        "TuyaSmartOTABizBundle": "TuyaSmartOTABizBundle-3.27.5/Assets/bundles/TuyaSmartOTABizBundle.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartOTABizBundle-3.27.5.zip",
+        "type": "zip"
+    },
+    "source_files": "TuyaSmartOTABizBundle-3.27.5/Headers/Public/**/*",
+    "summary": "A short description of TuyaSmartOTABizBundle.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TuyaSmartOTABizBundle-3.27.5/libTuyaSmartOTABizBundle.a",
+    "version": "3.27.5.6"
+}

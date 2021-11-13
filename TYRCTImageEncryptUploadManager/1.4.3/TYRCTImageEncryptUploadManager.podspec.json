@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYPanelContext": [],
+        "TuyaSmartBaseKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTImageEncryptUploadManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTImageEncryptUploadManager-1.4.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTImageEncryptUploadManager.",
+    "vendored_libraries": "TYRCTImageEncryptUploadManager-1.4.3/libTYRCTImageEncryptUploadManager.a",
+    "version": "1.4.3"
+}
