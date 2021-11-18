@@ -31,7 +31,7 @@
         "FRAMEWORK_SEARCH_PATHS": "$(inherited)"
     },
     "source": {
-        "git": "https://registry.code.tuya-inc.top/tuyaIOS/TYTencentOpenApi.git",
+        "git": "https://github.com/tuya/TYTencentOpenApi.git",
         "tag": "3.3.7"
     },
     "static_framework": true,
