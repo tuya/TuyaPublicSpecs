@@ -1,0 +1,77 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "MJRefresh": [],
+        "Masonry": [],
+        "SDWebImage": [],
+        "TYAnimationKit": [],
+        "TYCameraSettingModule": [],
+        "TYCameraUIKit": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYPanelModule": [],
+        "TYPhotoBrowser": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TZImagePickerController": [],
+        "TuyaSmartCameraBizKit": [],
+        "TuyaSmartDeviceKit": [],
+        "YYModel": []
+    },
+    "description": "TYCameraPanelModule",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "JavaScriptCore",
+        "MapKit",
+        "CoreGraphics",
+        "CoreLocation",
+        "AVFoundation",
+        "QuartzCore",
+        "CFNetwork",
+        "Security",
+        "AddressBook",
+        "CoreTelephony",
+        "ImageIO",
+        "MobileCoreServices",
+        "Accelerate",
+        "AudioToolbox",
+        "UserNotifications",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "Photos",
+        "AssetsLibrary",
+        "MediaPlayer",
+        "CoreMedia"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraPanelModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSPhotoLibraryAddUsageDescription"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYCameraPanelModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYCameraPanelModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYCameraPanelModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYCameraPanelModule\", ##__VA_ARGS__)",
+    "resource_bundles": {
+        "TYCameraPanelModule": "TYCameraPanelModule-1.9.0.bizBundle.3.17.6.2/Assets/bundles/TYCameraPanelModule.bundle/*.xcassets"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraPanelModule-1.9.0.bizBundle.3.17.6.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYCameraPanelModule",
+    "vendored_libraries": [
+        "TYCameraPanelModule-1.9.0.bizBundle.3.17.6.2/libTYCameraPanelModule.a",
+        "TYCameraPanelModule-1.9.0.bizBundle.3.17.6.2/VendorsLibrary/**/*.a"
+    ],
+    "version": "1.9.0.bizBundle.3.17.6.2"
+}

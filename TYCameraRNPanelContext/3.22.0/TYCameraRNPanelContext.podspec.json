@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYCameraUIKit": [],
+        "TYFoundationKit": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSmartCameraBizKit": [],
+        "TuyaSmartCameraKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TYCameraRNPanelContext",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraRNPanelContext",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resource_bundles": {
+        "TYCameraRNPanelContext": "TYCameraRNPanelContext-3.22.0-rc.9/Assets/bundles/TYCameraRNPanelContext.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraRNPanelContext-3.22.0-rc.9.zip",
+        "type": "zip"
+    },
+    "summary": "TYCameraRNPanelContext",
+    "vendored_libraries": "TYCameraRNPanelContext-3.22.0-rc.9/libTYCameraRNPanelContext.a",
+    "version": "3.22.0"
+}

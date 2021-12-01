@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartUIConfigServices": [],
+        "TYTemplateSkeleton": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartMessageKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartUserCenterBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYSmartUserCenterBizKit\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYSmartUserCenterBizKit\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYSmartUserCenterBizKit\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYSmartUserCenterBizKit\", ##__VA_ARGS__)",
+    "prefix_header_file": "TYSmartUserCenterBizKit-2.3.0-rc.11/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartUserCenterBizKit-2.3.0-rc.11.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartUserCenterBizKit",
+    "vendored_libraries": "TYSmartUserCenterBizKit-2.3.0-rc.11/libTYSmartUserCenterBizKit.a",
+    "version": "2.3.0",
+    "description": "TYSmartUserCenterBizKit"
+}

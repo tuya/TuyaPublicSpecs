@@ -1,0 +1,31 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYKVStorageLibrary": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": [],
+        "TYTimerModule": [],
+        "TuyaSmartActivatorKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TYRCTPanelManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTPanelManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTPanelManager-1.2.8.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTPanelManager",
+    "vendored_libraries": "TYRCTPanelManager-1.2.8/libTYRCTPanelManager.a",
+    "version": "1.2.8"
+}

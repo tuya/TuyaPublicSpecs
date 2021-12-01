@@ -1,0 +1,37 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYAlertView": [],
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYOTAGeneralModule": [],
+        "TYSmartBusinessLibrary": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYBLEOTAModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": [
+        "#ifdef __OBJC__",
+        "#import <TuyaSmartDeviceCoreKit/TuyaSmartDeviceCoreKit.h>",
+        "#import <TYSmartBusinessLibrary/TYSmartBusinessLibrary.h>",
+        "#import <TYAlertView/TYAlertView.h>",
+        "#import \"TYBluetoothInterface.h\"",
+        "#endif"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBLEOTAModule-3.4.1-tybizbundle.3.32.5-1-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYBLEOTAModule.",
+    "vendored_frameworks": [
+        "Build/TYBLEOTAModule.xcframework"
+    ],
+    "version": "3.4.1-tybizbundle.3.32.5-1-rc.1"
+}

@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TYVoiceOverseasModule": [],
+        "TuyaSmartBaseKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYVoiceModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYVoiceModule-2.0.0/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYVoiceModule-2.0.0.zip",
+        "type": "zip"
+    },
+    "summary": "TYVoiceModule",
+    "vendored_libraries": "TYVoiceModule-2.0.0/libTYVoiceModule.a",
+    "version": "2.0.0",
+    "description": "TYVoiceModule"
+}

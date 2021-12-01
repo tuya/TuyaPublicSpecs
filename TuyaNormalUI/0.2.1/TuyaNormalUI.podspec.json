@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYOEMConfig": [],
+        "TYUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "UIKit",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaNormalUI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import \"TuyaNormalUI.h\"",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaNormalUI-0.2.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaNormalUI.",
+    "vendored_frameworks": [
+        "Build/TuyaNormalUI.xcframework"
+    ],
+    "version": "0.2.1"
+}

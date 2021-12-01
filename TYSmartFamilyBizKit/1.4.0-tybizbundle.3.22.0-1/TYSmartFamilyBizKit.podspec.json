@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartFamilyBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYSmartFamilyBizKit-1.4.0-tybizbundle.3.22.0-1-rc.1/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYSmartFamilyBizKit": "TYSmartFamilyBizKit-1.4.0-tybizbundle.3.22.0-1-rc.1/Assets/bundles/TYSmartFamilyBizKit.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartFamilyBizKit-1.4.0-tybizbundle.3.22.0-1-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartFamilyBizKit",
+    "vendored_libraries": "TYSmartFamilyBizKit-1.4.0-tybizbundle.3.22.0-1-rc.1/libTYSmartFamilyBizKit.a",
+    "version": "1.4.0-tybizbundle.3.22.0-1",
+    "description": "TYSmartFamilyBizKit"
+}

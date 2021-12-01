@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "UIKit",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYPhotoBrowser",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPhotoBrowser-1.1.2.zip",
+        "type": "zip"
+    },
+    "summary": "A simple photo browser by tuya.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYPhotoBrowser-1.1.2/libTYPhotoBrowser.a",
+    "version": "1.1.2"
+}

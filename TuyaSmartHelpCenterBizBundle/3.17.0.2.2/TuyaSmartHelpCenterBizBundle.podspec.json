@@ -1,0 +1,105 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "CocoaAsyncSocket": [],
+        "MBProgressHUD": [],
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "SDWebImage": [],
+        "SDWebImage/Core": [],
+        "TYBaseDebugger": [
+            "0.2.0"
+        ],
+        "TYBlockKit": [
+            "0.0.4"
+        ],
+        "TYCommonDebugger": [
+            "0.2.2"
+        ],
+        "TYConfigHub": [
+            "1.0.5"
+        ],
+        "TYDomainQueryModule": [
+            "0.1.4"
+        ],
+        "TYEncryptImage": [
+            "1.2.3.bizBundle.3.17.6"
+        ],
+        "TYFoundationKit": [],
+        "TYHelpCenterModule": [
+            "0.0.2"
+        ],
+        "TYHybridContainer": [
+            "1.2.9.bizbundle.3.17.0"
+        ],
+        "TYKVStorageLibrary": [
+            "0.5.0"
+        ],
+        "TYLogMacro": [
+            "0.0.2"
+        ],
+        "TYModuleManager": [
+            "2.10.0.bizbundle.3.17.6.1"
+        ],
+        "TYModuleServices": [
+            "2.8.12.bizbundle.3.17.0.12.1"
+        ],
+        "TYNavigationController": [
+            "1.10.1"
+        ],
+        "TYOEMConfig": [
+            "1.12.1.bizbundle.3.17.0.1"
+        ],
+        "TYPhotoBrowser": [
+            "1.1.1"
+        ],
+        "TYReleaseDebugger": [
+            "0.5.0"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.17.5.bizbundle.3.17.0.3"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.34"
+        ],
+        "TYSocketPing": [
+            "1.0.0"
+        ],
+        "TYUIKit": [],
+        "TYVideoPlayer": [
+            "2.0.1"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.17.6.1"
+        ],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": [],
+        "UICKeyChainStore": [],
+        "YYModel": [],
+        "dsBridge": [],
+        "lottie-ios": []
+    },
+    "description": "TuyaSmartHelpCenterBizBundle",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartHelpCenterBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "TuyaSmartHelpCenterBizBundle-3.17.0.2/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartHelpCenterBizBundle-3.17.0.2.zip",
+        "type": "zip"
+    },
+    "source_files": "TuyaSmartHelpCenterBizBundle-3.17.0.2/Headers/Public/**/*",
+    "summary": "TuyaSmartHelpCenterBizBundle",
+    "vendored_libraries": "TuyaSmartHelpCenterBizBundle-3.17.0.2/libTuyaSmartHelpCenterBizBundle.a",
+    "version": "3.17.0.2.2"
+}

@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYNavigationController": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": []
+    },
+    "description": "TYRCTTopBarManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTTopBarManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTTopBarManager-1.0.12.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTTopBarManager",
+    "vendored_libraries": "TYRCTTopBarManager-1.0.12/libTYRCTTopBarManager.a",
+    "version": "1.0.12"
+}

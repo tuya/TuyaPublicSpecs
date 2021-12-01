@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYLogMacro": [],
+        "TYUIKit": []
+    },
+    "description": "TYSmartActionDialog",
+    "frameworks": [
+        "UIKit",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartActionDialog",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYSmartActionDialog\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYSmartActionDialog\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYSmartActionDialog\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYSmartActionDialog\", ##__VA_ARGS__)",
+    "resource_bundles": {
+        "TYSmartActionDialog": "TYSmartActionDialog-0.3.5-rc.11/Assets/bundles/TYSmartActionDialog.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartActionDialog-0.3.5-rc.11.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartActionDialog",
+    "vendored_libraries": "TYSmartActionDialog-0.3.5-rc.11/libTYSmartActionDialog.a",
+    "version": "0.3.5"
+}

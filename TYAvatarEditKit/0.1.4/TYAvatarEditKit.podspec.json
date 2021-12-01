@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYUIKit": []
+    },
+    "description": "TYAvatarEditKit",
+    "frameworks": [
+        "Photos",
+        "UIKit",
+        "AVFoundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAvatarEditKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "TYAvatarEditKit-0.1.4-rc.1/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAvatarEditKit-0.1.4-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYAvatarEditKit",
+    "vendored_libraries": "TYAvatarEditKit-0.1.4-rc.1/libTYAvatarEditKit.a",
+    "version": "0.1.4"
+}

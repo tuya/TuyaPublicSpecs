@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYLoginWithAmzSDK": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": []
+    },
+    "description": "TYRCTAVSManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTAVSManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTAVSManager-1.0.15-rc.4.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTAVSManager",
+    "vendored_libraries": "TYRCTAVSManager-1.0.15-rc.4/libTYRCTAVSManager.a",
+    "version": "1.0.15"
+}

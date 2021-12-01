@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "TYRealClass",
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "vendored_libraries": "TYRealClass-0.0.3-rc.1/libTYRealClass.a"
+    },
+    "license": "none",
+    "name": "TYRealClass",
+    "platforms": {
+        "ios": "8.0",
+        "watchos": "2.0"
+    },
+    "resources": [
+        "TYRealClass-0.0.3-rc.1/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRealClass-0.0.3-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYRealClass",
+    "version": "0.0.3",
+    "watchos": {
+        "vendored_libraries": "TYRealClass-0.0.3-rc.1/watchos/libTYRealClass.a"
+    }
+}

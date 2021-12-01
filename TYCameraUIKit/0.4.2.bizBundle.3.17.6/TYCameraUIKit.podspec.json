@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "DACircularProgress": [],
+        "Masonry": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "lottie-ios": [
+            "~> 2.5.0"
+        ]
+    },
+    "description": "TYCameraUIKit",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraUIKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "TYCameraUIKit-0.4.2.bizBundle.3.17.6/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraUIKit-0.4.2.bizBundle.3.17.6.zip",
+        "type": "zip"
+    },
+    "summary": "TYCameraUIKit",
+    "vendored_libraries": "TYCameraUIKit-0.4.2.bizBundle.3.17.6/libTYCameraUIKit.a",
+    "version": "0.4.2.bizBundle.3.17.6"
+}

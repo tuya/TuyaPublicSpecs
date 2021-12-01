@@ -1,0 +1,23 @@
+{
+    "authors": {
+        "author": "author@domain.cn"
+    },
+    "dependencies": {
+        "React": []
+    },
+    "description": "RNScreens - first incomplete navigation solution for your React Native app",
+    "homepage": "https://github.com/kmagiera/react-native-screens",
+    "license": "MIT",
+    "name": "RNScreens",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/RNScreens-2.9.0.1-rc.2.zip",
+        "type": "zip"
+    },
+    "source_files": "RNScreens-2.9.0.1-rc.2/Headers/Public/**/*",
+    "summary": "summary",
+    "vendored_libraries": "RNScreens-2.9.0.1-rc.2/libRNScreens.a",
+    "version": "2.9.0.1"
+}

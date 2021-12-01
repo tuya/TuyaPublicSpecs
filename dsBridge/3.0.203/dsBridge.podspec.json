@@ -1,0 +1,21 @@
+{
+    "authors": {
+        "lazydu": "824783146@qq.com"
+    },
+    "description": "An javascript bridge for calling functions synchronously and asynchronously",
+    "frameworks": "UIKit",
+    "homepage": "https://github.com/wendux/DSBridge-IOS.git",
+    "license": "MIT",
+    "name": "dsBridge",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/dsBridge-3.0.203.zip",
+        "type": "zip"
+    },
+    "source_files": "dsBridge-3.0.203/Headers/Public/**/*",
+    "summary": "An ios bridge for calling functions synchronously and asynchronously between JavaScript and Object-C in WKWebView/UIWebView",
+    "vendored_libraries": "dsBridge-3.0.203/libdsBridge.a",
+    "version": "3.0.203"
+}

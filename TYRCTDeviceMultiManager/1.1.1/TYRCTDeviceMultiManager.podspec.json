@@ -1,0 +1,23 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYPanelContext": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTDeviceMultiManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTDeviceMultiManager-1.1.1-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTDeviceMultiManager.",
+    "vendored_libraries": "TYRCTDeviceMultiManager-1.1.1-rc.1/libTYRCTDeviceMultiManager.a",
+    "version": "1.1.1"
+}

@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "DACircularProgress": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYOEMConfig": [],
+        "TYSmartEventPredefined": [],
+        "TYTarKit": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYPanelBundleManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPanelBundleManager-1.0.4.zip",
+        "type": "zip"
+    },
+    "summary": "TYPanelBundleManager",
+    "vendored_libraries": "TYPanelBundleManager-1.0.4/libTYPanelBundleManager.a",
+    "version": "1.0.4",
+    "description": "TYPanelBundleManager"
+}

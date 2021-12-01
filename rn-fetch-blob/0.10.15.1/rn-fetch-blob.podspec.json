@@ -1,0 +1,21 @@
+{
+    "authors": "Joltup",
+    "dependencies": {
+        "React": []
+    },
+    "homepage": "n/a",
+    "license": "MIT",
+    "name": "rn-fetch-blob",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "requires_arc": true,
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/rn-fetch-blob-0.10.15.1.zip",
+        "type": "zip"
+    },
+    "source_files": "rn-fetch-blob-0.10.15.1/Headers/Public/**/*",
+    "summary": "A project committed to make file acess and data transfer easier, effiecient for React Native developers.",
+    "vendored_libraries": "rn-fetch-blob-0.10.15.1/librn-fetch-blob.a",
+    "version": "0.10.15.1"
+}

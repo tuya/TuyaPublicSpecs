@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "Smart security biz bundle module services, provides biz bundle basic protocols.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityBizBundleModuleServices",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityBizBundleModuleServices-1.0.0-secbizbundle-3.3.5-rc.6.zip",
+        "type": "zip"
+    },
+    "source_files": "TYSecurityBizBundleModuleServices-1.0.0-secbizbundle-3.3.5-rc.6/Headers/Public/**/*",
+    "summary": "Smart security biz bundle module services.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYSecurityBizBundleModuleServices-1.0.0-secbizbundle-3.3.5-rc.6/libTYSecurityBizBundleModuleServices.a",
+    "version": "1.0.0-secbizbundle-3.3.5-rc.6"
+}

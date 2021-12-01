@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYCameraRNPanelContext": [],
+        "TYPanelContext": [],
+        "TuyaSmartCameraBizKit": [],
+        "TuyaSmartCameraKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTTuyaCameraPlayer",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTTuyaCameraPlayer-1.2.0-tybizbundle.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTTuyaCameraPlayer.",
+    "vendored_frameworks": [
+        "Build/TYRCTTuyaCameraPlayer.xcframework"
+    ],
+    "version": "1.2.0-tybizbundle.1"
+}

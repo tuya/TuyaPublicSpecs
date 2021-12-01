@@ -1,0 +1,45 @@
+{
+    "name": "TencentOpenApi",
+    "version": "3.3.7",
+    "summary": "The Official iOS SDK of Tencent Open API.",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "http://wiki.open.qq.com",
+    "license": {
+        "type": "Copyright",
+        "text": "  Copyright © 1998 - 2018 Tencent. All Rights Reserved.\n"
+    },
+    "authors": {
+        "OpenQQ": "opensupport@qq.com"
+    },
+    "source": {
+        "http": "https://images.tuyacn.com/app/thirdspec/TencentOpenApi.zip",
+        "type": "zip"
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "static_framework": true,
+    "vendored_frameworks": "TencentOpenApi.framework",
+    "pod_target_xcconfig": {
+        "FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "libraries": [
+        "iconv",
+        "z",
+        "c++",
+        "sqlite3"
+    ],
+    "frameworks": [
+        "Security",
+        "SystemConfiguration",
+        "CoreGraphics",
+        "CoreTelephony",
+        "WebKit"
+    ],
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    }
+}

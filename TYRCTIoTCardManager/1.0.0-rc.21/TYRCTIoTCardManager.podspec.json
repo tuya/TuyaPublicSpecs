@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYAlertView": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYPanelContext": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTIoTCardManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTIoTCardManager-1.0.0-rc.21.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTIoTCardManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTIoTCardManager.xcframework"
+    ],
+    "version": "1.0.0-rc.21"
+}

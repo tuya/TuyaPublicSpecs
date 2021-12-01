@@ -1,0 +1,25 @@
+{
+    "name": "TYAnimationKit",
+    "version": "1.1.2",
+    "summary": "TYAnimationKit",
+    "license": "none",
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "homepage": "https://github.com/tuya",
+    "description": "TYAnimationKit",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAnimationKit-1.1.2.zip",
+        "type": "zip"
+    },
+    "platforms": {
+        "ios": "8.0"
+    },
+    "ios": {
+        "vendored_libraries": "ios/*.a"
+    },
+    "dependencies": {
+        "TYModuleManager": [],
+        "TYNavigationController": []
+    }
+}

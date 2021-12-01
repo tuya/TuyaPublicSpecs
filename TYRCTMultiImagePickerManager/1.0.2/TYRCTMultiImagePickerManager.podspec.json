@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TZImagePickerController": []
+    },
+    "description": "TYRCTMultiImagePickerManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTMultiImagePickerManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTMultiImagePickerManager-1.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTMultiImagePickerManager",
+    "vendored_libraries": "TYRCTMultiImagePickerManager-1.0.2/libTYRCTMultiImagePickerManager.a",
+    "version": "1.0.2"
+}

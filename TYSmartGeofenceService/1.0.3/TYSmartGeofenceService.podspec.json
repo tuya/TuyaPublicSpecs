@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartGeofenceService",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartGeofenceService-1.0.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartGeofenceService.",
+    "vendored_frameworks": [
+        "Build/TYSmartGeofenceService.xcframework"
+    ],
+    "version": "1.0.3"
+}

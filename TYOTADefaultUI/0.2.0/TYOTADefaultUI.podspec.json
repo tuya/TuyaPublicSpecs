@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYBlockKit": [],
+        "TYFoundationKit": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": []
+    },
+    "description": "TYOTADefaultUI",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYOTADefaultUI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYOTADefaultUI-0.2.0-rc.9/PrefixHeader.pch",
+    "resources": [
+        "TYOTADefaultUI-0.2.0-rc.9/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYOTADefaultUI-0.2.0-rc.9.zip",
+        "type": "zip"
+    },
+    "summary": "TYOTADefaultUI",
+    "vendored_libraries": "TYOTADefaultUI-0.2.0-rc.9/libTYOTADefaultUI.a",
+    "version": "0.2.0"
+}

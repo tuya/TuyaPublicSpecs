@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYModuleManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYModuleManager-2.7.0.Bizbundle.3.17.0.zip",
+        "type": "zip"
+    },
+    "source_files": "TYModuleManager-2.7.0.Bizbundle.3.17.0/Headers/Public/**/*",
+    "summary": "TYModuleManager",
+    "vendored_libraries": "TYModuleManager-2.7.0.Bizbundle.3.17.0/libTYModuleManager.a",
+    "version": "2.7.0.Bizbundle.3.17.0",
+    "description": "TYModuleManager"
+}

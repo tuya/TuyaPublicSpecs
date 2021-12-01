@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYLogMacro": [],
+        "TYPanelContext": [],
+        "TYPanelSweeperUtil": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTVisionMap",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYRCTVisionMap\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYRCTVisionMap\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYRCTVisionMap\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYRCTVisionMap\", ##__VA_ARGS__)",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTVisionMap-1.0.37-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTVisionMap.",
+    "vendored_libraries": "TYRCTVisionMap-1.0.37-rc.2/libTYRCTVisionMap.a",
+    "version": "1.0.37"
+}

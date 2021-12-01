@@ -1,0 +1,23 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYModuleManager": [],
+        "TYNavigationController": []
+    },
+    "description": "TYAnimationKit",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAnimationKit",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAnimationKit-1.1.2-Bizbundle.3.20.0-1-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYAnimationKit",
+    "vendored_libraries": "TYAnimationKit-1.1.2-Bizbundle.3.20.0-1-rc.2/libTYAnimationKit.a",
+    "version": "1.1.2-Bizbundle.3.20.0-1"
+}

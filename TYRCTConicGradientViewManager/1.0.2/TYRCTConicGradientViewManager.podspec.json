@@ -1,0 +1,23 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYPanelContext": [],
+        "TYReactNative": []
+    },
+    "description": "TYRCTConicGradientViewManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTConicGradientViewManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTConicGradientViewManager-1.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTConicGradientViewManager",
+    "vendored_libraries": "TYRCTConicGradientViewManager-1.0.2/libTYRCTConicGradientViewManager.a",
+    "version": "1.0.2"
+}

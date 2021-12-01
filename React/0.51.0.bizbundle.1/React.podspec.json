@@ -1,0 +1,54 @@
+{
+    "authors": "Facebook",
+    "dependencies": {
+        "yoga": [
+            "0.51.0.React.1"
+        ]
+    },
+    "description": "React Native apps are built using the React JS\nframework, and render directly to native UIKit\nelements using a fully asynchronous architecture.\nThere is no browser and no HTML. We have picked what\nwe think is the best set of features from these and\nother technologies to build what we hope to become\nthe best product development framework available,\nwith an emphasis on iteration speed, developer\ndelight, continuity of technology, and absolutely\nbeautiful and fast products with no compromises in\nquality or capability.",
+    "frameworks": [
+        "UIKit",
+        "JavaScriptCore",
+        "AVFoundation",
+        "CoreLocation",
+        "CoreText",
+        "MapKit",
+        "AssetsLibrary",
+        "Photos",
+        "MobileCoreServices",
+        "ImageIO",
+        "Accelerate",
+        "CoreTelephony",
+        "SystemConfiguration",
+        "UserNotifications",
+        "AudioToolbox",
+        "Security",
+        "CFNetwork",
+        "WebKit"
+    ],
+    "homepage": "http://facebook.github.io/react-native/",
+    "libraries": [
+        "stdc++",
+        "c++",
+        "z"
+    ],
+    "license": {
+        "type": "none"
+    },
+    "name": "React",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "pod_target_xcconfig": {
+        "HEADER_SEARCH_PATHS": "\"$(PODS_TARGET_SRCROOT)/ReactCommon\""
+    },
+    "requires_arc": true,
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/React-0.51.0.bizbundle.1.zip",
+        "type": "zip"
+    },
+    "source_files": "React-0.51.0.bizbundle.1/Headers/Public/**/*",
+    "summary": "A framework for building native apps using React",
+    "vendored_libraries": "React-0.51.0.bizbundle.1/libReact.a",
+    "version": "0.51.0.bizbundle.1"
+}

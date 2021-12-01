@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "intelligibabble": "leland.m.richardson@gmail.com"
+    },
+    "dependencies": {
+        "React": []
+    },
+    "frameworks": [
+        "UIKit",
+        "MapKit"
+    ],
+    "homepage": "https://github.com/airbnb/react-native-maps#readme",
+    "license": "MIT",
+    "name": "react-native-maps",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/react-native-maps-0.14.0.1.zip",
+        "type": "zip"
+    },
+    "source_files": "react-native-maps-0.14.0.1/Headers/Public/**/*",
+    "summary": "React Native Mapview component for iOS + Android",
+    "vendored_libraries": "react-native-maps-0.14.0.1/libreact-native-maps.a",
+    "version": "0.14.0.1"
+}

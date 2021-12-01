@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "SDWebImage": [],
+        "TYAnimationKit": [],
+        "TYCameraUIKit": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYPanelContext": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartActivatorKit": [],
+        "TuyaSmartCameraBizKit": [],
+        "TuyaSmartDeviceKit": [],
+        "YYModel": []
+    },
+    "description": "TYCameraSettingModule",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraSettingModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "TYCameraSettingModule-1.1.2.bizBundle.3.17.6/Assets/bundles/*.{bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraSettingModule-1.1.2.bizBundle.3.17.6.zip",
+        "type": "zip"
+    },
+    "summary": "TYCameraSettingModule",
+    "vendored_libraries": "TYCameraSettingModule-1.1.2.bizBundle.3.17.6/libTYCameraSettingModule.a",
+    "version": "1.1.2.bizBundle.3.17.6"
+}

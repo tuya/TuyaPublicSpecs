@@ -1,0 +1,44 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "DACircularProgress": [],
+        "Masonry": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaCameraUIKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "lottie-ios": [
+            "~> 2.5.0"
+        ]
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraUIKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYCameraUIKit.xcframework/ios-arm64_armv7/TYCameraUIKit.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraUIKit-3.30.5-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYCameraUIKit.",
+    "vendored_frameworks": [
+        "Build/TYCameraUIKit.xcframework"
+    ],
+    "version": "3.30.5-rc.1"
+}

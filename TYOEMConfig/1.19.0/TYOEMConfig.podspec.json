@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "YYModel": []
+    },
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "dependencies": {
+            "TYUIKit": []
+        },
+        "resources": [
+            "TYOEMConfig-1.19.0-rc.4/Assets/resources/*"
+        ],
+        "vendored_libraries": "TYOEMConfig-1.19.0-rc.4/libTYOEMConfig.a"
+    },
+    "license": "none",
+    "name": "TYOEMConfig",
+    "platforms": {
+        "ios": "9.0",
+        "watchos": "2.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYOEMConfig-1.19.0-rc.4.zip",
+        "type": "zip"
+    },
+    "summary": "TYOEMConfig",
+    "version": "1.19.0",
+    "watchos": {
+        "vendored_libraries": "TYOEMConfig-1.19.0-rc.4/watchos/libTYOEMConfig.a"
+    },
+    "description": "TYOEMConfig"
+}

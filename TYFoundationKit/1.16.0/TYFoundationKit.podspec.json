@@ -1,0 +1,48 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "dependencies": {
+            "Reachability": []
+        },
+        "frameworks": [
+            "UIKit",
+            "Foundation",
+            "CoreGraphics",
+            "CoreLocation",
+            "CoreTelephony"
+        ],
+        "source_files": [
+            "Build/TYFoundationKit.xcframework/ios-arm64_armv7/TYFoundationKit.framework/Headers/*"
+        ]
+    },
+    "license": "none",
+    "name": "TYFoundationKit",
+    "platforms": {
+        "ios": "9.0",
+        "watchos": "2.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYFoundationKit-1.16.0.zip",
+        "type": "zip"
+    },
+    "summary": "A FoundationKit Powered By TuyaInc",
+    "vendored_frameworks": [
+        "Build/TYFoundationKit.xcframework"
+    ],
+    "version": "1.16.0",
+    "watchos": {
+        "frameworks": [
+            "UIKit",
+            "Foundation",
+            "CoreGraphics",
+            "CoreLocation"
+        ],
+        "source_files": [
+            "Build/TYFoundationKit.xcframework/watchos-arm64_32_armv7k/TYFoundationKit.framework/Headers/*"
+        ]
+    }
+}

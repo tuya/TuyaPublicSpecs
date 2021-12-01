@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "Ga\u00ebtan Renaudeau": "renaudeau.gaetan@gmail.com"
+    },
+    "dependencies": {
+        "React": []
+    },
+    "frameworks": [
+        "UIKit",
+        "AVFoundation"
+    ],
+    "homepage": "https://github.com/gre/react-native-view-shot",
+    "license": "MIT",
+    "name": "RNViewShot",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/RNViewShot-2.3.0.3.zip",
+        "type": "zip"
+    },
+    "source_files": "RNViewShot-2.3.0.3/Headers/Public/**/*",
+    "summary": "Capture a React Native view to an image",
+    "vendored_libraries": "RNViewShot-2.3.0.3/libRNViewShot.a",
+    "version": "2.3.0.3"
+}

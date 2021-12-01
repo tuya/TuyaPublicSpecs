@@ -1,0 +1,27 @@
+{
+    "authors": {
+        "TuyaInc": "https://www.tuya.com"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYTarKit": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/TuyaInc",
+    "license": "none",
+    "name": "TYLanguageDynamicBiz",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYLanguageDynamicBiz-0.1.0-rc.4.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYLanguageDynamicBiz.",
+    "vendored_libraries": "TYLanguageDynamicBiz-0.1.0-rc.4/libTYLanguageDynamicBiz.a",
+    "version": "0.1.0-rc.4"
+}

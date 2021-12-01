@@ -1,0 +1,48 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "SDWebImage": [
+            "4.4.3"
+        ],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartUIConfigServices": [],
+        "TYSmartUserCenterDefaultUISkin": [],
+        "TYTemplateSkeleton": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "StoreKit"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSettingsModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYSettingsModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYSettingsModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYSettingsModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYSettingsModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "TYSettingsModule-1.9.0.2-tybizbundle.3.25.0-1/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYSettingsModule": "TYSettingsModule-1.9.0.2-tybizbundle.3.25.0-1/Assets/bundles/TYSettingsModule.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSettingsModule-1.9.0.2-tybizbundle.3.25.0-1.zip",
+        "type": "zip"
+    },
+    "summary": "\u6d82\u9e26\u7ec4\u4ef6\u6a21\u677f",
+    "vendored_libraries": "TYSettingsModule-1.9.0.2-tybizbundle.3.25.0-1/libTYSettingsModule.a",
+    "version": "1.9.0.2-tybizbundle.3.25.0-1"
+}

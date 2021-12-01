@@ -1,0 +1,20 @@
+{
+    "authors": "anic Duplessis <janicduplessis@gmail.com>",
+    "dependencies": {
+        "React": []
+    },
+    "homepage": "https://github.com/th3rdwave/react-native-safe-area-context#readme",
+    "license": "MIT",
+    "name": "react-native-safe-area-context",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/react-native-safe-area-context-3.0.7.1-rc.1.zip",
+        "type": "zip"
+    },
+    "source_files": "react-native-safe-area-context-3.0.7.1-rc.1/Headers/Public/**/*",
+    "summary": "package['description']",
+    "vendored_libraries": "react-native-safe-area-context-3.0.7.1-rc.1/libreact-native-safe-area-context.a",
+    "version": "3.0.7.1"
+}

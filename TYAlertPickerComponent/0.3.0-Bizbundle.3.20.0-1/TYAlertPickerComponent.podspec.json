@@ -1,0 +1,47 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYAnimationKit": [],
+        "TYSmartBusinessLibrary": []
+    },
+    "description": "TYAlertPickerComponent",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "JavaScriptCore",
+        "MapKit",
+        "CoreGraphics",
+        "CoreLocation",
+        "AVFoundation",
+        "QuartzCore",
+        "CFNetwork",
+        "Security",
+        "AddressBook",
+        "CoreTelephony",
+        "ImageIO",
+        "MobileCoreServices",
+        "Accelerate",
+        "AudioToolbox",
+        "UserNotifications",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "Photos",
+        "AssetsLibrary",
+        "MediaPlayer"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAlertPickerComponent",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAlertPickerComponent-0.3.0-Bizbundle.3.20.0-1-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "TYAlertPickerComponent",
+    "vendored_libraries": "TYAlertPickerComponent-0.3.0-Bizbundle.3.20.0-1-rc.3/libTYAlertPickerComponent.a",
+    "version": "0.3.0-Bizbundle.3.20.0-1"
+}

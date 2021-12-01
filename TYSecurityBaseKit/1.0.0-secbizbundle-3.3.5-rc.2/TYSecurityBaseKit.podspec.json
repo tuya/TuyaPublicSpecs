@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "MJRefresh": [],
+        "Masonry": [],
+        "TYAlertPickerComponent": [],
+        "TYAlertView": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYProgressHUD": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYUrlPredefinedExternal": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityBaseKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TYSecurityBaseKit": "TYSecurityBaseKit-1.0.0-secbizbundle-3.3.5-rc.2/Assets/bundles/TYSecurityBaseKit.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityBaseKit-1.0.0-secbizbundle-3.3.5-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSecurityBaseKit.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYSecurityBaseKit-1.0.0-secbizbundle-3.3.5-rc.2/libTYSecurityBaseKit.a",
+    "version": "1.0.0-secbizbundle-3.3.5-rc.2"
+}

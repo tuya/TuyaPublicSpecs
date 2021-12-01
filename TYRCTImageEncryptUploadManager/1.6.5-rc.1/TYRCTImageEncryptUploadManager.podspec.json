@@ -1,0 +1,31 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYP2PAlbumBizKit": [],
+        "TYPanelContext": [],
+        "TuyaSmartBaseKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTImageEncryptUploadManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTImageEncryptUploadManager-1.6.5-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTImageEncryptUploadManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTImageEncryptUploadManager.xcframework"
+    ],
+    "version": "1.6.5-rc.1"
+}

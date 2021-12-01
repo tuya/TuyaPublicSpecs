@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYUIKit": []
+    },
+    "frameworks": "UIKit",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYNavigationController",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resource_bundles": {
+        "TYNavigationRes": "TYNavigationController-1.13.4/Assets/bundles/TYNavigationRes.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYNavigationController-1.13.4.zip",
+        "type": "zip"
+    },
+    "source_files": "TYNavigationController-1.13.4/Headers/Public/**/*",
+    "summary": "A NavigationController component from TuyaInc",
+    "vendored_libraries": "TYNavigationController-1.13.4/libTYNavigationController.a",
+    "version": "1.13.4"
+}

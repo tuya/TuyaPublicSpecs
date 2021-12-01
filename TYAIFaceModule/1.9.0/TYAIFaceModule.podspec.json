@@ -1,0 +1,44 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "SDWebImage": [
+            "~> 4.4.3"
+        ],
+        "TYBlockKit": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "YYModel": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAIFaceModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "TYAIFaceModule-1.9.0/Assets/resources/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAIFaceModule-1.9.0.zip",
+        "type": "zip"
+    },
+    "summary": "TYAIFaceModule",
+    "vendored_libraries": "TYAIFaceModule-1.9.0/libTYAIFaceModule.a",
+    "version": "1.9.0",
+    "description": "TYAIFaceModule"
+}

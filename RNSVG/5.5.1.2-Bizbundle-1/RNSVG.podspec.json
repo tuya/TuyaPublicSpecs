@@ -1,0 +1,25 @@
+{
+    "authors": "Horcrux Chen",
+    "dependencies": {
+        "React": []
+    },
+    "frameworks": [
+        "UIKit",
+        "CoreText"
+    ],
+    "homepage": "https://github.com/magicismight/react-native-svg",
+    "license": "MIT",
+    "name": "RNSVG",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "requires_arc": true,
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/RNSVG-5.5.1.2-Bizbundle-1-rc.1.zip",
+        "type": "zip"
+    },
+    "source_files": "RNSVG-5.5.1.2-Bizbundle-1-rc.1/Headers/Public/**/*",
+    "summary": "SVG library for react-native",
+    "vendored_libraries": "RNSVG-5.5.1.2-Bizbundle-1-rc.1/libRNSVG.a",
+    "version": "5.5.1.2-Bizbundle-1"
+}

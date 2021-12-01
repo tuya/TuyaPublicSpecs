@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYPanelContext": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTThirdMusicControl",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTThirdMusicControl-1.0.0-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTThirdMusicControl.",
+    "vendored_frameworks": [
+        "Build/TYRCTThirdMusicControl.xcframework"
+    ],
+    "version": "1.0.0-rc.1"
+}

@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYCameraUIKit": [],
+        "TYFoundationKit": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSmartCameraBizKit": [],
+        "TuyaSmartCameraKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraRNPanelContext",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TYCameraRNPanelContext": "TYCameraRNPanelContext-3.26.5.1/Assets/bundles/TYCameraRNPanelContext.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraRNPanelContext-3.26.5.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYCameraRNPanelContext.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYCameraRNPanelContext-3.26.5.1/libTYCameraRNPanelContext.a",
+    "version": "3.26.5.1"
+}

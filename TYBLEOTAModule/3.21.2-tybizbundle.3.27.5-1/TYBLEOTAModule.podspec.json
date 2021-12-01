@@ -1,0 +1,42 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYAlertView": [],
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYOTAGeneralModule": [],
+        "TYSmartBusinessLibrary": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYBLEOTAModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": [
+        "#ifdef __OBJC__",
+        "#import <TuyaSmartDeviceKit/TuyaSmartDeviceKit.h>",
+        "#import <TYSmartBusinessLibrary/TYSmartBusinessLibrary.h>",
+        "#import <TYAlertView/TYAlertView.h>",
+        "#import \"TYBluetoothInterface.h\"",
+        "#endif"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBLEOTAModule-3.21.2-tybizbundle.3.27.5-1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYBLEOTAModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYBLEOTAModule-3.21.2-tybizbundle.3.27.5-1/libTYBLEOTAModule.a",
+    "version": "3.21.2-tybizbundle.3.27.5-1"
+}

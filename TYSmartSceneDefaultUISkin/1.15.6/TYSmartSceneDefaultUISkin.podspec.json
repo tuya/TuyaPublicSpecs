@@ -1,0 +1,48 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYAnimationKit": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYHomeDataManager": [],
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYSmartHouseBizKit": [],
+        "TYSmartSceneBizKit": [],
+        "TYSmartSecurityModuleService": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartSceneKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartSceneDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYSmartSceneDefaultUISkin.xcframework/ios-arm64_armv7/TYSmartSceneDefaultUISkin.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartSceneDefaultUISkin-1.15.6.zip",
+        "type": "zip"
+    },
+    "summary": "Smart scene default Skin",
+    "vendored_frameworks": [
+        "Build/TYSmartSceneDefaultUISkin.xcframework"
+    ],
+    "version": "1.15.6"
+}

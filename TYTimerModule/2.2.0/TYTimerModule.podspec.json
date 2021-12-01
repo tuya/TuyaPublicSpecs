@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYAlertPickerComponent": [],
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYUIKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartTimerKit": []
+    },
+    "description": "TYTimerModule",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYTimerModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYTimerModule-2.2.0/PrefixHeader.pch",
+    "resources": [
+        "TYTimerModule-2.2.0/Assets/**/*.{png,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYTimerModule-2.2.0.zip",
+        "type": "zip"
+    },
+    "summary": "TYTimerModule",
+    "vendored_libraries": "TYTimerModule-2.2.0/libTYTimerModule.a",
+    "version": "2.2.0"
+}

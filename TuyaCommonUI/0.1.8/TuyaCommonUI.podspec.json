@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYAlertView": [
+            ">= 1.1.4"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            ">= 1.25.7"
+        ],
+        "TYProgressHUD": [
+            ">= 0.2.2"
+        ],
+        "TuyaNormalUI": [
+            ">= 0.2.1"
+        ]
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaCommonUI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TuyaCommonUI.xcframework/ios-arm64_armv7/TuyaCommonUI.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaCommonUI-0.1.8.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaCommonUI.",
+    "vendored_frameworks": [
+        "Build/TuyaCommonUI.xcframework"
+    ],
+    "version": "0.1.8"
+}

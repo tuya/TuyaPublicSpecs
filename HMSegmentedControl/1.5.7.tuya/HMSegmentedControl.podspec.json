@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "Hesham Abd-Elmegid": "hesham.abdelmegid@gmail.com"
+    },
+    "frameworks": "QuartzCore",
+    "homepage": "https://github.com/HeshamMegid/HMSegmentedControl",
+    "license": {
+        "file": "LICENSE.md",
+        "type": "MIT"
+    },
+    "name": "HMSegmentedControl",
+    "platforms": {
+        "ios": "7.0"
+    },
+    "requires_arc": true,
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/HMSegmentedControl-1.5.7.tuya.zip",
+        "type": "zip"
+    },
+    "source_files": "HMSegmentedControl-1.5.7.tuya/Headers/Public/**/*",
+    "summary": "A drop-in replacement for UISegmentedControl mimicking the style of the one in Google Currents and various other Google products.",
+    "vendored_libraries": "HMSegmentedControl-1.5.7.tuya/libHMSegmentedControl.a",
+    "version": "1.5.7.tuya"
+}

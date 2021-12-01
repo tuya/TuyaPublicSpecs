@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TuyaSmartBaseKit": [],
+        "YYModel": []
+    },
+    "homepage": "https://github.com/tuya",
+    "ios": {},
+    "license": "none",
+    "name": "TYOEMConfig",
+    "platforms": {
+        "ios": "9.0",
+        "watchos": "2.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYOEMConfig-1.25.16-tybizbundle.3.32.5-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "OEM打包配置项",
+    "vendored_frameworks": [
+        "Build/TYOEMConfig.xcframework"
+    ],
+    "version": "1.25.16-tybizbundle.3.32.5-rc.1",
+    "watchos": {}
+}

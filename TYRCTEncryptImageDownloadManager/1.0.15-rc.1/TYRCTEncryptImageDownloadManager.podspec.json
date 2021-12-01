@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYPanelContext": [],
+        "TYSmartBusinessLibrary": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "Photos",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTEncryptImageDownloadManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTEncryptImageDownloadManager-1.0.15-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTEncryptImageDownloadManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTEncryptImageDownloadManager.xcframework"
+    ],
+    "version": "1.0.15-rc.1"
+}

@@ -1,0 +1,100 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "MBProgressHUD": [],
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "SDWebImage": [],
+        "SDWebImage/Core": [],
+        "TYBaseDebugger": [
+            "0.2.0"
+        ],
+        "TYBlockKit": [
+            "0.0.4"
+        ],
+        "TYConfigHub": [
+            "1.0.5"
+        ],
+        "TYConfigHubModule": [
+            "1.1.1"
+        ],
+        "TYDomainQueryModule": [
+            "0.1.4"
+        ],
+        "TYEncryptImage": [
+            "1.2.2.bizbundle.3.17.0.1"
+        ],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [
+            "1.2.9"
+        ],
+        "TYHybridMall": [
+            "1.5.0.biznbundle.3.17.0"
+        ],
+        "TYKVStorageLibrary": [
+            "0.5.0"
+        ],
+        "TYLogMacro": [
+            "0.0.2"
+        ],
+        "TYModuleManager": [
+            "2.7.0.Bizbundle.3.17.0"
+        ],
+        "TYModuleServices": [
+            "2.8.12.bizbundle.3.17.0.6.1"
+        ],
+        "TYNavigationController": [
+            "1.10.1"
+        ],
+        "TYOEMConfig": [
+            "1.12.1.bizbundle.3.17.0.1"
+        ],
+        "TYPhotoBrowser": [
+            "1.1.1"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.17.5.bizbundle.3.17.0.2"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.34"
+        ],
+        "TYUIKit": [],
+        "TYUrlPredefined": [
+            "0.2.49"
+        ],
+        "TYUrlPredefinedExternal": [
+            "0.2.41"
+        ],
+        "TYVideoPlayer": [
+            "2.0.1"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.17.0"
+        ],
+        "TuyaSmartUtil": [],
+        "UICKeyChainStore": [],
+        "YYModel": [],
+        "dsBridge": [],
+        "lottie-ios": []
+    },
+    "description": "TuyaSmartMallBizBundle",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartMallBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartMallBizBundle-3.17.0.6.zip",
+        "type": "zip"
+    },
+    "source_files": "TuyaSmartMallBizBundle-3.17.0.6/Headers/Public/**/*",
+    "summary": "TuyaSmartMallBizBundle",
+    "vendored_libraries": "TuyaSmartMallBizBundle-3.17.0.6/libTuyaSmartMallBizBundle.a",
+    "version": "3.17.0.6.1"
+}

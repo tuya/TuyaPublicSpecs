@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYUrlPredefinedExternal",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYUrlPredefinedExternal-0.2.54.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦公开短链组件",
+    "vendored_frameworks": [
+        "Build/TYUrlPredefinedExternal.xcframework"
+    ],
+    "version": "0.2.54"
+}

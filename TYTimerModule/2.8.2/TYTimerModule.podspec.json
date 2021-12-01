@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYAlertPickerComponent": [],
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartTimerKit": []
+    },
+    "description": "涂鸦设备定时模块",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYTimerModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYTimerModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYTimerModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYTimerModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYTimerModule\", ##__VA_ARGS__)",
+    "resources": [
+        "Build/TYTimerModule.xcframework/ios-arm64_armv7/TYTimerModule.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYTimerModule-2.8.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYTimerModule.",
+    "vendored_frameworks": [
+        "Build/TYTimerModule.xcframework"
+    ],
+    "version": "2.8.2"
+}

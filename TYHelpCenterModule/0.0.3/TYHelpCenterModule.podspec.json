@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYDomainQueryModule": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYHelpCenterModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYHelpCenterModule-0.0.3-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYHelpCenterModule",
+    "vendored_libraries": "TYHelpCenterModule-0.0.3-rc.2/libTYHelpCenterModule.a",
+    "version": "0.0.3",
+    "description": "TYHelpCenterModule"
+}

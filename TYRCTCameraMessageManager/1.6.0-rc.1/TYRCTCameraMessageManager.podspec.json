@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYCameraRNPanelContext": [],
+        "TYFoundationKit": [],
+        "TYPanelContext": [],
+        "TuyaSmartCameraKit": [],
+        "TuyaSmartDeviceCoreKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTCameraMessageManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTCameraMessageManager-1.6.0-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTCameraMessageManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTCameraMessageManager.xcframework"
+    ],
+    "version": "1.6.0-rc.1"
+}

@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "ATGestureLockView": [],
+        "TYPanelContext": [],
+        "TYReactNative": []
+    },
+    "description": "TYRCTGestureLockViewManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTGestureLockViewManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTGestureLockViewManager-1.0.14-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTGestureLockViewManager",
+    "vendored_libraries": "TYRCTGestureLockViewManager-1.0.14-rc.1/libTYRCTGestureLockViewManager.a",
+    "version": "1.0.14"
+}

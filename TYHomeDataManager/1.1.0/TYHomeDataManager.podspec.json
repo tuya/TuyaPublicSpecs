@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYUIKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TYHomeDataManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYHomeDataManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYHomeDataManager-1.1.0.zip",
+        "type": "zip"
+    },
+    "summary": "TYHomeDataManager",
+    "vendored_libraries": "TYHomeDataManager-1.1.0/libTYHomeDataManager.a",
+    "version": "1.1.0"
+}

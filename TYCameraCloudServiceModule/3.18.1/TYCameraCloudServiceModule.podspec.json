@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TYCameraCloudServiceModule",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraCloudServiceModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraCloudServiceModule-3.18.1.zip",
+        "type": "zip"
+    },
+    "summary": "TYCameraCloudServiceModule",
+    "vendored_libraries": "TYCameraCloudServiceModule-3.18.1/libTYCameraCloudServiceModule.a",
+    "version": "3.18.1"
+}

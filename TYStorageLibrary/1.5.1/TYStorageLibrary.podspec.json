@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "FMDB/SQLCipher": [],
+        "TuyaSmartBaseKit": [],
+        "UICKeyChainStore": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYStorageLibrary",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYStorageLibrary-1.5.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYStorageLibrary.",
+    "vendored_libraries": "TYStorageLibrary-1.5.1/libTYStorageLibrary.a",
+    "version": "1.5.1"
+}

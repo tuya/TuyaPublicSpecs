@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaBusinessService": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": []
+    },
+    "description": "TODO: 公版 3.7.0 新增需求，在设备详情界面新增入口",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYDeviceSyncModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYDeviceSyncModule.xcframework/ios-arm64_armv7/TYDeviceSyncModule.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceSyncModule-3.32.5-feature-tybizbundle.5.zip",
+        "type": "zip"
+    },
+    "summary": "双控设备关联模块",
+    "vendored_frameworks": [
+        "Build/TYDeviceSyncModule.xcframework"
+    ],
+    "version": "3.32.5-feature-tybizbundle.5"
+}

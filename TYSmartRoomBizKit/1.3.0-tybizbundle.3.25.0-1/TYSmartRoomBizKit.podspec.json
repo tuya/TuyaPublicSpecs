@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartRoomBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYSmartRoomBizKit-1.3.0-tybizbundle.3.25.0-1/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartRoomBizKit-1.3.0-tybizbundle.3.25.0-1.zip",
+        "type": "zip"
+    },
+    "summary": "\u623f\u95f4\u903b\u8f91\u6a21\u5757",
+    "vendored_libraries": "TYSmartRoomBizKit-1.3.0-tybizbundle.3.25.0-1/libTYSmartRoomBizKit.a",
+    "version": "1.3.0-tybizbundle.3.25.0-1"
+}

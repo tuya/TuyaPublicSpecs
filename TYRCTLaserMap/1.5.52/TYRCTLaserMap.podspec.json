@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYLogMacro": [],
+        "TYNavigationController": [],
+        "TYPanelContext": [],
+        "TYPanelSweeperUtil": [],
+        "TYReactNative": [],
+        "TYSweeperLZ4": [],
+        "TuyaSmartSweeperKit": []
+    },
+    "description": "TYRCTLaserMap",
+    "exclude_files": "ios/tyrctlasermap/Classes/Deprecated/*",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTLaserMap",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYRCTLaserMap\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYRCTLaserMap\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYRCTLaserMap\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYRCTLaserMap\", ##__VA_ARGS__)",
+    "resource_bundles": {
+        "TYRCTLaserMap": "TYRCTLaserMap-1.5.52-rc.5/Assets/bundles/TYRCTLaserMap.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTLaserMap-1.5.52-rc.5.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTLaserMap",
+    "vendored_libraries": "TYRCTLaserMap-1.5.52-rc.5/libTYRCTLaserMap.a",
+    "version": "1.5.52"
+}

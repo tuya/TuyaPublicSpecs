@@ -1,0 +1,20 @@
+{
+    "authors": "Mike Nedosekin <crespo8800@gmail.com>",
+    "dependencies": {
+        "React": []
+    },
+    "homepage": "https://github.com/react-native-community/react-native-masked-view#readme",
+    "license": "MIT",
+    "name": "RNCMaskedView",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/RNCMaskedView-0.1.10.1-rc.1.zip",
+        "type": "zip"
+    },
+    "source_files": "RNCMaskedView-0.1.10.1-rc.1/Headers/Public/**/*",
+    "summary": "React Native MaskedView component",
+    "vendored_libraries": "RNCMaskedView-0.1.10.1-rc.1/libRNCMaskedView.a",
+    "version": "0.1.10.1"
+}

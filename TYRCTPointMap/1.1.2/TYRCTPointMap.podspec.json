@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYLogMacro": [],
+        "TYPanelContext": [],
+        "TYPanelSweeperUtil": [],
+        "TYSweeperMiniOpenCV": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTPointMap",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYRCTPointMap\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYRCTPointMap\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYRCTPointMap\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYRCTPointMap\", ##__VA_ARGS__)",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTPointMap-1.1.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTPointMap.",
+    "vendored_frameworks": [
+        "Build/TYRCTPointMap.xcframework"
+    ],
+    "version": "1.1.2"
+}

@@ -1,0 +1,56 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "FLAnimatedImage": [],
+        "MJRefresh": [],
+        "Masonry": [],
+        "Reachability": [],
+        "SDWebImage": [],
+        "TYAlertView": [],
+        "TYAvatarEditKit": [],
+        "TYBlockKit": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYPopupViewController": [],
+        "TYProgressHUD": [],
+        "TYSmartActionDialog": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "lottie-ios": [
+            "~> 2.0"
+        ]
+    },
+    "frameworks": [
+        "Photos",
+        "AVFoundation",
+        "WebKit",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartBusinessLibrary",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYSmartBusinessLibrary-3.22.0-rc.7/PrefixHeader.pch",
+    "resource_bundles": {
+        "TPViews": "TYSmartBusinessLibrary-3.22.0-rc.7/Assets/bundles/TPViews.bundle/**",
+        "TYSmartBusinessLibraryRes": "TYSmartBusinessLibrary-3.22.0-rc.7/Assets/bundles/TYSmartBusinessLibraryRes.bundle/**"
+    },
+    "resources": [
+        "TYSmartBusinessLibrary-3.22.0-rc.7/Assets/resources/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartBusinessLibrary-3.22.0-rc.7.zip",
+        "type": "zip"
+    },
+    "summary": "TYSmartBusinessLibrary",
+    "vendored_libraries": "TYSmartBusinessLibrary-3.22.0-rc.7/libTYSmartBusinessLibrary.a",
+    "version": "3.22.0",
+    "description": "TYSmartBusinessLibrary"
+}

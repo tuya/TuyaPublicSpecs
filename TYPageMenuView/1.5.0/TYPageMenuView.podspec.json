@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYPageMenuView",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPageMenuView-1.5.0.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYPageMenuView.",
+    "vendored_libraries": "TYPageMenuView-1.5.0/libTYPageMenuView.a",
+    "version": "1.5.0"
+}

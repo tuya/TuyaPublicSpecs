@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": []
+    },
+    "description": "TYEncryptImage",
+    "frameworks": [
+        "UIKit",
+        "CoreFoundation",
+        "QuartzCore",
+        "AssetsLibrary",
+        "ImageIO",
+        "Accelerate",
+        "MobileCoreServices"
+    ],
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "sqlite3",
+        "z",
+        "sqlite3.0"
+    ],
+    "license": "none",
+    "name": "TYEncryptImage",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYEncryptImage-1.2.3.bizBundle.3.17.6.zip",
+        "type": "zip"
+    },
+    "summary": "TYEncryptImage",
+    "vendored_libraries": "TYEncryptImage-1.2.3.bizBundle.3.17.6/libTYEncryptImage.a",
+    "version": "1.2.3.bizBundle.3.17.6"
+}

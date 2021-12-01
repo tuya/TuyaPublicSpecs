@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "ios": {},
+    "license": "none",
+    "name": "TYSmartEventPredefined_Public",
+    "platforms": {
+        "ios": "9.0",
+        "watchos": "2.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartEventPredefined_Public-0.0.43.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartEventPredefined_Public.",
+    "vendored_frameworks": [
+        "Build/TYSmartEventPredefined_Public.xcframework"
+    ],
+    "version": "0.0.43",
+    "watchos": {}
+}

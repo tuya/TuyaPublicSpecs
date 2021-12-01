@@ -1,0 +1,22 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TuyaSmartDeviceCoreKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaBusinessService",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaBusinessService-0.0.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaBusinessService.",
+    "vendored_libraries": "TuyaBusinessService-0.0.1/libTuyaBusinessService.a",
+    "version": "0.0.1"
+}

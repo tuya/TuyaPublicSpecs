@@ -1,0 +1,67 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "DACircularProgress": [],
+        "IQKeyboardManager": [],
+        "Masonry": [],
+        "TYBluetoothInterface": [],
+        "TYConfigHub": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYPopupViewController": [],
+        "TYRealClass": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYSocketPing": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYVideoPlayer": [],
+        "TuyaSmartActivatorKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "YYModel": [],
+        "lottie-ios": [
+            "2.5.0"
+        ]
+    },
+    "frameworks": [
+        "CoreImage",
+        "AVKit"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYActivatorModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocalNetworkUsageDescription"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYActivatorModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYActivatorModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYActivatorModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYActivatorModule\", ##__VA_ARGS__)",
+    "prefix_header_file": "TYActivatorModule-2.7.1-binbundle-3.27.5-1/PrefixHeader.pch",
+    "resource_bundles": {
+        "Activator": "TYActivatorModule-2.7.1-binbundle-3.27.5-1/Assets/bundles/Activator.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYActivatorModule-2.7.1-binbundle-3.27.5-1.zip",
+        "type": "zip"
+    },
+    "static_framework": true,
+    "summary": "\u6d82\u9e26\u914d\u7f51\u6a21\u5757",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYActivatorModule-2.7.1-binbundle-3.27.5-1/libTYActivatorModule.a",
+    "version": "2.7.1-binbundle-3.27.5-1"
+}

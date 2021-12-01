@@ -1,0 +1,49 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Masonry": [],
+        "TYAnimationKit": [],
+        "TYCameraUIKit": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYPanelContext": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartActivatorKit": [],
+        "TuyaSmartCameraBizKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartP2pChannelKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraSettingModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYCameraSettingModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYCameraSettingModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYCameraSettingModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYCameraSettingModule\", ##__VA_ARGS__)",
+    "resource_bundles": {
+        "TYCameraSettingModule": "TYCameraSettingModule-3.27.5-bizBundle-1-rc.1/Assets/bundles/TYCameraSettingModule.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraSettingModule-3.27.5-bizBundle-1-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYCameraSettingModule.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYCameraSettingModule-3.27.5-bizBundle-1-rc.1/libTYCameraSettingModule.a",
+    "version": "3.27.5-bizBundle-1-rc.1"
+}

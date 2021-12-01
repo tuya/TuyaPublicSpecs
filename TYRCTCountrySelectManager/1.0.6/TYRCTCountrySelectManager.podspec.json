@@ -1,0 +1,24 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": []
+    },
+    "description": "TYRCTCountrySelectManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTCountrySelectManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTCountrySelectManager-1.0.6.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTCountrySelectManager",
+    "vendored_libraries": "TYRCTCountrySelectManager-1.0.6/libTYRCTCountrySelectManager.a",
+    "version": "1.0.6"
+}

@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYNavigationController": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYUIKit": []
+    },
+    "description": "TYRCTCurveChartViewManager",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTCurveChartViewManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTCurveChartViewManager-1.0.9.zip",
+        "type": "zip"
+    },
+    "summary": "TYRCTCurveChartViewManager",
+    "vendored_libraries": "TYRCTCurveChartViewManager-1.0.9/libTYRCTCurveChartViewManager.a",
+    "version": "1.0.9"
+}

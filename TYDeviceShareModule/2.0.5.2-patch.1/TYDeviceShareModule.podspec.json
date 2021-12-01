@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYDeviceShareModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYDeviceShareModule-2.0.5.2-patch.1/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYDeviceShareModule": "TYDeviceShareModule-2.0.5.2-patch.1/Assets/bundles/TYDeviceShareModule.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceShareModule-2.0.5.2-patch.1.zip",
+        "type": "zip"
+    },
+    "summary": "\u8bbe\u5907/\u7fa4\u7ec4\u5206\u4eab\u6a21\u5757",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYDeviceShareModule-2.0.5.2-patch.1/libTYDeviceShareModule.a",
+    "version": "2.0.5.2-patch.1"
+}

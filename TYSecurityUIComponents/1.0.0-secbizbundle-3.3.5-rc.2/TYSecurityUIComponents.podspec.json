@@ -1,0 +1,37 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYSecurityBaseKit": [],
+        "TYSecurityPublicResource": [],
+        "TYSmartBusinessLibrary": [],
+        "TZImagePickerController": [],
+        "libextobjc": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityUIComponents",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TYSecurityUIComponents": "TYSecurityUIComponents-1.0.0-secbizbundle-3.3.5-rc.2/Assets/bundles/TYSecurityUIComponents.bundle/**"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityUIComponents-1.0.0-secbizbundle-3.3.5-rc.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSecurityUIComponents.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYSecurityUIComponents-1.0.0-secbizbundle-3.3.5-rc.2/libTYSecurityUIComponents.a",
+    "version": "1.0.0-secbizbundle-3.3.5-rc.2"
+}

@@ -1,0 +1,19 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "description": "TYLogMacro",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYLogMacro",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYLogMacro-0.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "TYLogMacro",
+    "vendored_libraries": "TYLogMacro-0.0.2/libTYLogMacro.a",
+    "version": "0.0.2"
+}
