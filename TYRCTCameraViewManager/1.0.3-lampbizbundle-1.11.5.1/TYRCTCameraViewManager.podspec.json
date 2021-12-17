@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYCamCaptureKit": [],
+        "TYPanelContext": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTCameraViewManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTCameraViewManager-1.0.3-lampbizbundle-1.11.5.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTCameraViewManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTCameraViewManager.xcframework"
+    ],
+    "version": "1.0.3-lampbizbundle-1.11.5.1"
+}

@@ -1,0 +1,48 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBLELampManager": [
+            "1.12.0"
+        ],
+        "TYBluetoothInterface": [
+            "1.4.1"
+        ],
+        "TYLampModuleServices": [
+            "1.11.6"
+        ],
+        "TYModuleManager": [
+            "2.10.3"
+        ],
+        "TYModuleServices": [
+            "2.27.8-lampbizbundle-1.11.5.4.2"
+        ],
+        "TuyaCommercialLightingKit": [],
+        "TuyaSmartBLEKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartCommercialLightingSdk": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartUtil": []
+    },
+    "description": "TYBLEInterfaceImpl",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYBLEInterfaceImpl",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBLEInterfaceImpl-0.3.0-lampbizbundle-1.11.5.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYBLEInterfaceImpl.",
+    "vendored_frameworks": [
+        "Build/TYBLEInterfaceImpl.xcframework"
+    ],
+    "version": "0.3.0-lampbizbundle-1.11.5.1.3"
+}

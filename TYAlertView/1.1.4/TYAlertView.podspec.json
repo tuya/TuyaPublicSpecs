@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYOEMConfig": [],
+        "TYUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "UIKit",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAlertView",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYAlertView.xcframework/ios-arm64_armv7/TYAlertView.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAlertView-1.1.4.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYAlertView.",
+    "vendored_frameworks": [
+        "Build/TYAlertView.xcframework"
+    ],
+    "version": "1.1.4"
+}
