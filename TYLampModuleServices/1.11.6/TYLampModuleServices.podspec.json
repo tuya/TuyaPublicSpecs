@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYLampModuleServices",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "DEFINES_MODULE": "YES"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYLampModuleServices-1.11.6.zip",
+        "type": "zip"
+    },
+    "summary": "模块对外提供的服务定义",
+    "vendored_frameworks": [
+        "Build/TYLampModuleServices.xcframework"
+    ],
+    "version": "1.11.6"
+}

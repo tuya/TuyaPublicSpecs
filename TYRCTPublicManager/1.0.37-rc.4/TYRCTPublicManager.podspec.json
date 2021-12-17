@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYBlockKit": [],
+        "TYLogMacro": [],
+        "TYPanelContext": [],
+        "TYSmartBusinessLibrary": [],
+        "TheAmazingAudioEngine": [],
+        "TuyaSmartDeviceCoreKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTPublicManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTPublicManager-1.0.37-rc.4.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTPublicManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTPublicManager.xcframework"
+    ],
+    "version": "1.0.37-rc.4"
+}

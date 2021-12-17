@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYLampModuleServices": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaBusinessService": [],
+        "TuyaSmartCommercialLightingSdk": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartLampActivatorLink",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartLampActivatorLink-1.11.0-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartLampActivatorLink.",
+    "vendored_frameworks": [
+        "Build/TYSmartLampActivatorLink.xcframework"
+    ],
+    "version": "1.11.0-rc.3"
+}
