@@ -34,9 +34,9 @@
     "platforms": {
         "ios": "9.0"
     },
-    "resources": [
-        "Build/TYMessageCenterModule.xcframework/ios-arm64_armv7/TYMessageCenterModule.framework/CustomResources/Bundles/*"
-    ],
+    "resource_bundles": {
+        "TYMessageCenterModule": "Build/TYMessageCenterModule.xcframework/ios-arm64_armv7/TYMessageCenterModule.framework/CustomResources/Bundles/TYMessageCenterModule.bundle/**"
+    },
     "source": {
         "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYMessageCenterModule-2.1.11-rc.3.zip",
         "type": "zip"
