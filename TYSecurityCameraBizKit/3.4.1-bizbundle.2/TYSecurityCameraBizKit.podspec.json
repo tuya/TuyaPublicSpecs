@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYHybridContainer": [],
+        "TYProgressHUD": [],
+        "TYSecurityVASModuleService": [],
+        "TuyaSecurityBusinessServices": [],
+        "TuyaSecurityServiceKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityCameraBizKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityCameraBizKit-3.4.1-bizbundle.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSecurityCameraBizKit.",
+    "vendored_frameworks": [
+        "Build/TYSecurityCameraBizKit.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.2"
+}

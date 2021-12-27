@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYModuleManager": [],
+        "TuyaSecurityBaseKit": [],
+        "TuyaSecurityBusinessServices": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityAlarmBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityAlarmBizKit-3.4.1-bizbundle.1.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/TYSecurityAlarmBizKit.xcframework/ios-arm64_armv7/TYSecurityAlarmBizKit.framework/Headers/*"
+    ],
+    "summary": "A short description of TYSecurityAlarmBizKit.",
+    "vendored_frameworks": [
+        "Build/TYSecurityAlarmBizKit.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.1"
+}

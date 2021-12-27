@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Security": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "MapKit"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityStatisticsModule",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityStatisticsModule-3.4.1-bizbundle.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSecurityStatisticsModule.",
+    "vendored_frameworks": [
+        "Build/TYSecurityStatisticsModule.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.1"
+}

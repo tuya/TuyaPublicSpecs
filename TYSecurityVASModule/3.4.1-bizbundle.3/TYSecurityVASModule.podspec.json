@@ -1,0 +1,46 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "IQKeyboardManager": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSecurityHybridContainer": [],
+        "TYSecurityStatisticsModule": [],
+        "TYSecurityUIComponents": [],
+        "TYSecurityVASSkin": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSecurityServiceKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartUtil": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityVASModule",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSLocationWhenInUseUsageDescription"
+    },
+    "resources": [
+        "Build/TYSecurityVASModule.xcframework/ios-arm64_armv7/TYSecurityVASModule.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityVASModule-3.4.1-bizbundle.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSecurityVASModule.",
+    "vendored_frameworks": [
+        "Build/TYSecurityVASModule.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.3"
+}

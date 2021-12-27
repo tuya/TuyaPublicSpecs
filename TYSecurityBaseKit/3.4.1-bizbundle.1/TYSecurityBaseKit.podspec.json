@@ -1,0 +1,45 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "MJRefresh": [],
+        "Masonry": [],
+        "TYAlertPickerComponent": [],
+        "TYAlertView": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYProgressHUD": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYUrlPredefinedExternal": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityBaseKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resources": [
+        "Build/TYSecurityBaseKit.xcframework/ios-arm64_armv7/TYSecurityBaseKit.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityBaseKit-3.4.1-bizbundle.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSecurityBaseKit.",
+    "vendored_frameworks": [
+        "Build/TYSecurityBaseKit.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.1"
+}

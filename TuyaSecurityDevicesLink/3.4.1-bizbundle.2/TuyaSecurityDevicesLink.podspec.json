@@ -1,0 +1,31 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYSecurityBizBundleModuleServices": [],
+        "TuyaSecurityBaseKit": [],
+        "TuyaSecurityBusinessServices": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "Tuya security devices link, provides default implementations.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSecurityDevicesLink",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSecurityDevicesLink-3.4.1-bizbundle.2.zip",
+        "type": "zip"
+    },
+    "summary": "Tuya security devices link.",
+    "vendored_frameworks": [
+        "Build/TuyaSecurityDevicesLink.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.2"
+}

@@ -1,0 +1,53 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "Reachability": [],
+        "TYBLEHomeManager": [
+            "0.1.0-rc.9"
+        ],
+        "TYBluetoothInterface": [
+            "1.4.1-rc.2"
+        ],
+        "TYFoundationKit": [],
+        "TYModuleManager": [
+            "2.10.3"
+        ],
+        "TYModuleServices": [
+            "3.32.5-tybizbundle.4.6"
+        ],
+        "TYOEMConfig": [
+            "1.25.16-tybizbundle.3.32.5-rc.1"
+        ],
+        "TuyaSmartBLEMeshKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "bluetooth interface implemenatation.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYBLEMeshInterfaceImpl",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBLEMeshInterfaceImpl-0.0.9-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYBLEMeshInterface.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYBLEMeshInterfaceImpl-0.0.9-rc.3/libTYBLEMeshInterfaceImpl.a",
+    "version": "0.0.9-rc.3.28"
+}

@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYSecurityArmAbilityModuleServices": [],
+        "TYSecurityStatisticsModule": [],
+        "TYSmartEventPredefined_Security": [],
+        "TuyaSecurityBaseKit": [],
+        "TuyaSecurityBusinessServices": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartDeviceKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityArmAbilityBizKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityArmAbilityBizKit-3.4.1-bizbundle.2.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/TYSecurityArmAbilityBizKit.xcframework/ios-arm64_armv7/TYSecurityArmAbilityBizKit.framework/Headers/*"
+    ],
+    "summary": "A short description of TYSecurityArmAbilityBizKit.",
+    "vendored_frameworks": [
+        "Build/TYSecurityArmAbilityBizKit.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.2"
+}

@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBaseDebugger": [],
+        "TYConfigHub": [],
+        "TYHybridContainer": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYPhotoBrowser": [],
+        "TYUIKit": [],
+        "TYVideoPlayer": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "MapKit"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityHybridContainer",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityHybridContainer-3.4.1-bizbundle.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSecurityHybridContainer.",
+    "vendored_frameworks": [
+        "Build/TYSecurityHybridContainer.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.1"
+}

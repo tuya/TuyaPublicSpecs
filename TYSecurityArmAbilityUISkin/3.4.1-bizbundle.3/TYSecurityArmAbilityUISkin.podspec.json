@@ -1,0 +1,47 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYOEMConfig": [],
+        "TYProgressHUD": [],
+        "TYSecurityArmAbilityBizKit": [],
+        "TYSecurityArmAbilityModuleServices": [],
+        "TYSecurityPublicResource": [],
+        "TYSecurityStatisticsModule": [],
+        "TYSecurityUIComponents": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSecurityBaseKit": [],
+        "TuyaSecurityBusinessServices": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityArmAbilityUISkin",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resources": [
+        "Build/TYSecurityArmAbilityUISkin.xcframework/ios-arm64_armv7/TYSecurityArmAbilityUISkin.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityArmAbilityUISkin-3.4.1-bizbundle.3.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/TYSecurityArmAbilityUISkin.xcframework/ios-arm64_armv7/TYSecurityArmAbilityUISkin.framework/Headers/*"
+    ],
+    "summary": "A short description of TYSecurityArmAbilityUISkin.",
+    "vendored_frameworks": [
+        "Build/TYSecurityArmAbilityUISkin.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.3"
+}

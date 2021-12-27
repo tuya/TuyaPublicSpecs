@@ -1,0 +1,86 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "TYAlertView": [
+            "1.1.8-rc.1"
+        ],
+        "TYBlockKit": [
+            "0.1.0"
+        ],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [
+            "0.5.3"
+        ],
+        "TYLogMacro": [
+            "0.1.0"
+        ],
+        "TYModuleManager": [
+            "2.10.3"
+        ],
+        "TYModuleServices": [
+            "3.32.5-tybizbundle.4.6"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            "1.25.16-tybizbundle.3.32.5-rc.1"
+        ],
+        "TYProgressHUD": [
+            "0.2.3"
+        ],
+        "TYSmartActionDialog": [
+            "0.4.1"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.32.5-feature-biz-3.32.5.1"
+        ],
+        "TYSocialModule": [
+            "0.5.0"
+        ],
+        "TYThemeModule": [
+            "0.7.1"
+        ],
+        "TYUIConfig": [
+            "0.1.10"
+        ],
+        "TYUIKit": [],
+        "TuyaNormalUI": [
+            "0.2.1"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.32.6"
+        ],
+        "YYModel": [],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartShareBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TuyaSmartShareBizBundle.xcframework/ios-arm64_armv7/TuyaSmartShareBizBundle.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartShareBizBundle-3.32.5.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/TuyaSmartShareBizBundle.xcframework/ios-arm64_armv7/TuyaSmartShareBizBundle.framework/Headers/*"
+    ],
+    "summary": "A short description of TuyaSmartShareBizBundle.",
+    "vendored_frameworks": [
+        "Build/TuyaSmartShareBizBundle.xcframework"
+    ],
+    "version": "3.32.5.13"
+}
