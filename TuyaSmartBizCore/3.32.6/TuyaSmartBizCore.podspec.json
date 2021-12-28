@@ -1,0 +1,37 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYThemeModule": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartBizCore",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TuyaSmartBizCore.xcframework/ios-arm64_armv7/TuyaSmartBizCore.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartBizCore-3.32.6.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/TuyaSmartBizCore.xcframework/ios-arm64_armv7/TuyaSmartBizCore.framework/Headers/*"
+    ],
+    "summary": "A short description of TuyaSmartBizCore.",
+    "vendored_frameworks": [
+        "Build/TuyaSmartBizCore.xcframework"
+    ],
+    "version": "3.32.6"
+}

@@ -1,0 +1,42 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSecurityBaseKit": [],
+        "TYSecurityHybridContainer": [],
+        "TYSecuritySkillModule": [],
+        "TYSecurityUIComponents": [],
+        "TYSecurityVASModuleService": [],
+        "TYSmartBusinessLibrary": [],
+        "TuyaSecurityBusinessServices": [],
+        "TuyaSecurityServiceKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityVASBizKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "resources": [
+        "Build/TYSecurityVASBizKit.xcframework/ios-arm64_armv7/TYSecurityVASBizKit.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityVASBizKit-3.4.1-bizbundle.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSecurityVasBizKit.",
+    "vendored_frameworks": [
+        "Build/TYSecurityVASBizKit.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.3"
+}

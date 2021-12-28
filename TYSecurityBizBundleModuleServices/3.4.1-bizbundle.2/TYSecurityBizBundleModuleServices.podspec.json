@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "Smart security biz bundle module services, provides biz bundle basic protocols.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSecurityBizBundleModuleServices",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityBizBundleModuleServices-3.4.1-bizbundle.2.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/TYSecurityBizBundleModuleServices.xcframework/ios-arm64_armv7/TYSecurityBizBundleModuleServices.framework/Headers/*"
+    ],
+    "summary": "Smart security biz bundle module services.",
+    "vendored_frameworks": [
+        "Build/TYSecurityBizBundleModuleServices.xcframework"
+    ],
+    "version": "3.4.1-bizbundle.2"
+}
