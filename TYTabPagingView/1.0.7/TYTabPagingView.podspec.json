@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "HMSegmentedControl": [
+            "1.5.7.tuya"
+        ],
+        "TYFoundationKit": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYTabPagingView",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYFoundationKit/TYFoundationKit.h>\n#import <TYUIKit/TYUIKit.h>",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYTabPagingView-1.0.7.zip",
+        "type": "zip"
+    },
+    "summary": "TYTabPagingView for tuya",
+    "vendored_frameworks": [
+        "Build/TYTabPagingView.xcframework"
+    ],
+    "version": "1.0.7"
+}

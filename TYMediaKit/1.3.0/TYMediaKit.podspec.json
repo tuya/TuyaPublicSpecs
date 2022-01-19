@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYNavigationController": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TZImagePickerController": []
+    },
+    "description": "视频和图片工具",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYMediaKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription NSMicrophoneUsageDescription NSPhotoLibraryUsageDescription"
+    },
+    "resources": [
+        "Build/TYMediaKit.xcframework/ios-arm64_armv7/TYMediaKit.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYMediaKit-1.3.0.zip",
+        "type": "zip"
+    },
+    "summary": "视频和图片工具",
+    "vendored_frameworks": [
+        "Build/TYMediaKit.xcframework"
+    ],
+    "version": "1.3.0"
+}

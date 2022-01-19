@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYUrlPredefinedExternal": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYUrlPredefined",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "resources": [
+        "Build/TYUrlPredefined.xcframework/ios-arm64_armv7/TYUrlPredefined.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYUrlPredefined-0.2.112-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYUrlPredefined.",
+    "vendored_frameworks": [
+        "Build/TYUrlPredefined.xcframework"
+    ],
+    "version": "0.2.112-rc.1"
+}

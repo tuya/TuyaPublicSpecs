@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TuyaSmartBaseKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartActivatorExtraBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartActivatorExtraBizBundle-0.2.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaSmartActivatorExtraBizBundle.",
+    "vendored_frameworks": [
+        "Build/TuyaSmartActivatorExtraBizBundle.xcframework"
+    ],
+    "version": "0.2.1"
+}
