@@ -1,0 +1,42 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Protobuf": [],
+        "SocketRocket": [],
+        "TYFoundationKit": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaAudioEngineSDK": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "icucore",
+        "c++",
+        "z"
+    ],
+    "license": "none",
+    "name": "TuyaSpeechKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TuyaSpeechKit.xcframework/ios-arm64_armv7/TuyaSpeechKit.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSpeechKit-1.0.1-rc.6.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaSpeechKit.",
+    "vendored_frameworks": [
+        "Build/TuyaSpeechKit.xcframework"
+    ],
+    "version": "1.0.1-rc.6"
+}
