@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TuyaBusinessService": []
+    },
+    "description": "对蓝牙网关做mqtt等处理",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYBleGatewayService",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBleGatewayService-0.0.4.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYBleGatewayService.",
+    "vendored_frameworks": [
+        "Build/TYBleGatewayService.xcframework"
+    ],
+    "version": "0.0.4"
+}
