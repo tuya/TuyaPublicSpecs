@@ -1,0 +1,52 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "MJRefresh": [],
+        "Masonry": [],
+        "Reachability": [],
+        "TYAlertView": [],
+        "TYBlockKit": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYProgressHUD": [],
+        "TYSmartActionDialog": [],
+        "TYUIConfig": [],
+        "TYUIKit": [],
+        "TuyaNormalUI": [],
+        "TuyaSmartBaseKit": [],
+        "lottie-ios": [
+            "~> 2.0"
+        ]
+    },
+    "frameworks": [
+        "Photos",
+        "AVFoundation",
+        "WebKit",
+        "AudioToolbox"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartBusinessLibrary",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYSmartBusinessLibrary.xcframework/ios-arm64_armv7/TYSmartBusinessLibrary.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartBusinessLibrary-3.34.5.zip",
+        "type": "zip"
+    },
+    "summary": "TuyaSmart Business Base library",
+    "vendored_frameworks": [
+        "Build/TYSmartBusinessLibrary.xcframework"
+    ],
+    "version": "3.34.5"
+}

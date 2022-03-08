@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSmartCameraBizKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraDoorBellModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYCameraDoorBellModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYCameraDoorBellModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYCameraDoorBellModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYCameraDoorBellModule\", ##__VA_ARGS__)",
+    "resources": [
+        "Build/TYCameraDoorBellModule.xcframework/ios-arm64_armv7/TYCameraDoorBellModule.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraDoorBellModule-3.33.5-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYCameraDoorBellModule.",
+    "vendored_frameworks": [
+        "Build/TYCameraDoorBellModule.xcframework"
+    ],
+    "version": "3.33.5-rc.1"
+}

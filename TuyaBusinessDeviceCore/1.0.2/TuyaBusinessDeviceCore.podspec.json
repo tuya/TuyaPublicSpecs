@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartHouseUISkeleton": [],
+        "TuyaBusinessService": [],
+        "TuyaSmartDeviceCoreKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaBusinessDeviceCore",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaBusinessDeviceCore-1.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaBusinessDeviceCore.",
+    "vendored_frameworks": [
+        "Build/TuyaBusinessDeviceCore.xcframework"
+    ],
+    "version": "1.0.2"
+}

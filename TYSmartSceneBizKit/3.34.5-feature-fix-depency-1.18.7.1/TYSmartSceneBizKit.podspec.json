@@ -1,0 +1,51 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaBusinessService": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartMQTTChannelKit": [],
+        "TuyaSmartSceneCoreKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "AddressBook",
+        "AddressBookUI",
+        "CoreTelephony",
+        "Contacts",
+        "ContactsUI",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartSceneBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYSmartSceneBizKit\", ##__VA_ARGS__)",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartSceneBizKit-3.34.5-feature-fix-depency-1.18.7.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartSceneBizKit.",
+    "vendored_frameworks": [
+        "Build/TYSmartSceneBizKit.xcframework"
+    ],
+    "version": "3.34.5-feature-fix-depency-1.18.7.1"
+}

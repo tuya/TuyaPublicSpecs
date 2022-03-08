@@ -1,0 +1,25 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYPanelContext": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTSysUtilsManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTSysUtilsManager-1.0.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTSysUtilsManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTSysUtilsManager.xcframework"
+    ],
+    "version": "1.0.2"
+}

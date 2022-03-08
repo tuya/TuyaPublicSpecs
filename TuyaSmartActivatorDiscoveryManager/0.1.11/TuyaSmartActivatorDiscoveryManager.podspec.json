@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBluetoothInterface": [],
+        "TuyaSmartActivatorCoreKit": [],
+        "TuyaSmartActivatorExtraBizBundle": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "配网自发现",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartActivatorDiscoveryManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "DEFINES_MODULE": "YES"
+    },
+    "prefix_header_contents": "#ifdef __OBJC__\n  #import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>\n  #undef TYLog\n  #undef TYLogDebug\n  #undef TYLogInfo\n  #undef TYLogWarn\n  #undef TYLogError\n  #define TYLogDebug(...)         TYSDKLog(0, @\"TuyaSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define TYLogInfo(...)         TYSDKLog(1, @\"TuyaSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define TYLogWarn(...)         TYSDKLog(2, @\"TuyaSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define TYLogError(...)         TYSDKLog(3, @\"TuyaSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#endif",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartActivatorDiscoveryManager-0.1.11.zip",
+        "type": "zip"
+    },
+    "summary": "配网自发现",
+    "user_target_xcconfig": {
+        "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+    },
+    "vendored_frameworks": [
+        "Build/TuyaSmartActivatorDiscoveryManager.xcframework"
+    ],
+    "version": "0.1.11"
+}

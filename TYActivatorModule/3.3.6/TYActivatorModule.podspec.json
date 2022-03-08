@@ -1,0 +1,68 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "DACircularProgress": [],
+        "IQKeyboardManager": [],
+        "Masonry": [],
+        "TYBluetoothInterface": [],
+        "TYConfigHub": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYPopupViewController": [],
+        "TYRealClass": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYSocketPing": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYVideoPlayer": [],
+        "TuyaBusinessService": [],
+        "TuyaCommonUI": [],
+        "TuyaNormalUI": [],
+        "TuyaSmartActivatorCoreKit": [],
+        "TuyaSmartActivatorDiscoveryManager": [],
+        "TuyaSmartActivatorExtraBizBundle": [],
+        "TuyaSmartBaseKit": [],
+        "YYModel": [],
+        "lottie-ios": [
+            "2.5.0"
+        ]
+    },
+    "frameworks": [
+        "CoreImage",
+        "AVKit"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYActivatorModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocalNetworkUsageDescription"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYActivatorModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYActivatorModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYActivatorModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYActivatorModule\", ##__VA_ARGS__)",
+    "resources": [
+        "Build/TYActivatorModule.xcframework/ios-arm64_armv7/TYActivatorModule.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYActivatorModule-3.3.6.zip",
+        "type": "zip"
+    },
+    "static_framework": true,
+    "summary": "涂鸦配网模块",
+    "vendored_frameworks": [
+        "Build/TYActivatorModule.xcframework"
+    ],
+    "version": "3.3.6"
+}

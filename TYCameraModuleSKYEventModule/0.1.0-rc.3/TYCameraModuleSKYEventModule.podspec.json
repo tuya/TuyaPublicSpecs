@@ -1,0 +1,29 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartEventPredefined_Public": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "Foundation",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraModuleSKYEventModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraModuleSKYEventModule-0.1.0-rc.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYCameraModuleSKYEventModule.",
+    "vendored_frameworks": [
+        "Build/TYCameraModuleSKYEventModule.xcframework"
+    ],
+    "version": "0.1.0-rc.3"
+}

@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYCameraRNPanelContext": [],
+        "TYCameraUIKit": [],
+        "TYFoundationKit": [],
+        "TYLogMacro": [],
+        "TYPanelContext": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartCameraBizKit": [],
+        "TuyaSmartCameraKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartPanoramaSDK": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTCameraManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTCameraManager-1.17.0-bizbundle.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTCameraManager.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYRCTCameraManager-1.17.0-bizbundle.1/libTYRCTCameraManager.a",
+    "version": "1.17.0-bizbundle.1"
+}

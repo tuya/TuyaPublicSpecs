@@ -1,0 +1,62 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "IQKeyboardManager": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYPopupViewController": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYSmartFamilyBizKit": [],
+        "TYSmartUIConfigServices": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYUrlPredefinedExternal": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "MapKit"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartFamilyDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYSmartFamilyDefaultUISkin\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYSmartFamilyDefaultUISkin\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYSmartFamilyDefaultUISkin\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYSmartFamilyDefaultUISkin\", ##__VA_ARGS__)",
+    "prefix_header_file": "TYSmartFamilyDefaultUISkin/Classes/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYSmartFamilyDefaultUISkin": [
+            "TYSmartFamilyDefaultUISkin/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartFamilyDefaultUISkin-3.34.5-feature-2.11.8-fix-swift.1.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦家庭模块默认皮肤",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYSmartFamilyDefaultUISkin.xcframework"
+    ],
+    "version": "3.34.5-feature-2.11.8-fix-swift.1"
+}

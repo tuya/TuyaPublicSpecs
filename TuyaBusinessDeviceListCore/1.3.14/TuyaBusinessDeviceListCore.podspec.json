@@ -1,0 +1,31 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYSmartHouseUISkeleton": [],
+        "TuyaBusinessDeviceCore": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaBusinessDeviceListCore",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSCameraUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaBusinessDeviceListCore-1.3.14.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaBusinessDeviceListCore.",
+    "vendored_frameworks": [
+        "Build/TuyaBusinessDeviceListCore.xcframework"
+    ],
+    "version": "1.3.14"
+}

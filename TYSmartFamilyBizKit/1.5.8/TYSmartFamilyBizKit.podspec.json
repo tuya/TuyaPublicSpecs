@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartFamilyBizKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYSmartFamilyBizKit.xcframework/ios-arm64_armv7/TYSmartFamilyBizKit.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartFamilyBizKit-1.5.8.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦组件模板",
+    "vendored_frameworks": [
+        "Build/TYSmartFamilyBizKit.xcframework"
+    ],
+    "version": "1.5.8"
+}

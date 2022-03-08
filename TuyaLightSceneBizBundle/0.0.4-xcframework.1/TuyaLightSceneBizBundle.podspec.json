@@ -1,0 +1,37 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYLightCommonUI": [],
+        "TYLightPredefined": [],
+        "TYLightSceneBizKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartEventPredefined_illumination": [],
+        "TYSmartHomeDataCenter": [],
+        "TYTabPagingView": [],
+        "TYUrlPredefined": [],
+        "TuyaLightSceneKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaLightSceneBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TuyaLightSceneBizBundle.xcframework/ios-arm64_armv7/TuyaLightSceneBizBundle.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaLightSceneBizBundle-0.0.4-xcframework.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaLightSceneBizBundle.",
+    "vendored_frameworks": [
+        "Build/TuyaLightSceneBizBundle.xcframework"
+    ],
+    "version": "0.0.4-xcframework.1"
+}

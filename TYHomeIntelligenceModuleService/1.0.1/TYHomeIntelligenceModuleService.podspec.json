@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYHomeIntelligenceModuleService",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYHomeIntelligenceModuleService-1.0.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYHomeIntelligenceModuleService.",
+    "vendored_frameworks": [
+        "Build/TYHomeIntelligenceModuleService.xcframework"
+    ],
+    "version": "1.0.1"
+}

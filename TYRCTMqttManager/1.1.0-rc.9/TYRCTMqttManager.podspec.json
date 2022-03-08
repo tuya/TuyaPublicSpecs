@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYPanelContext": [],
+        "TuyaSmartDeviceCoreKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTMqttManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTMqttManager-1.1.0-rc.9.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTMqttManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTMqttManager.xcframework"
+    ],
+    "version": "1.1.0-rc.9"
+}

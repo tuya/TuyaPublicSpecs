@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartBusinessMaskModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYSmartBusinessMaskModule.xcframework/ios-arm64_armv7/TYSmartBusinessMaskModule.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartBusinessMaskModule-1.16.5.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartBusinessMaskModule.",
+    "vendored_frameworks": [
+        "Build/TYSmartBusinessMaskModule.xcframework"
+    ],
+    "version": "1.16.5"
+}

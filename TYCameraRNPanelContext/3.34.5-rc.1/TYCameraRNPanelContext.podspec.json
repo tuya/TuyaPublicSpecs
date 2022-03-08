@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYCameraUIKit": [],
+        "TYFoundationKit": [],
+        "TYPanelContext": [],
+        "TYReactNative": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaSmartCameraBizKit": [],
+        "TuyaSmartCameraKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYCameraRNPanelContext",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYCameraRNPanelContext.xcframework/ios-arm64_armv7/TYCameraRNPanelContext.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraRNPanelContext-3.34.5-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYCameraRNPanelContext.",
+    "vendored_frameworks": [
+        "Build/TYCameraRNPanelContext.xcframework"
+    ],
+    "version": "3.34.5-rc.1"
+}

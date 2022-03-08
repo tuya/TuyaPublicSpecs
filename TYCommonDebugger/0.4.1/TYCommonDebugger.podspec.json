@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "CocoaAsyncSocket": [],
+        "TYBaseDebugger": [],
+        "TYFoundationKit": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYOEMConfig": [],
+        "TYSocketPing": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartNetworkKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "CoreTelephony"
+    ],
+    "homepage": "https://github.com/tuya",
+    "libraries": "resolv",
+    "license": "none",
+    "name": "TYCommonDebugger",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": "TYCommonDebugger/Classes/PrefixHeader.pch",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCommonDebugger-0.4.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYCommonDebugger.",
+    "vendored_frameworks": [
+        "TYCommonDebugger.xcframework"
+    ],
+    "version": "0.4.1"
+}

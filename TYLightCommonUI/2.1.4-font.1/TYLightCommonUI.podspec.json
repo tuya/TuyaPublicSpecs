@@ -1,0 +1,41 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYAlertView": [],
+        "TYEncryptImage": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": []
+    },
+    "description": "TYLightCommonUI",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYLightCommonUI",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYLightCommonUI/Classes/PrefixHeader.pch",
+    "resources": [
+        "TYLightCommonUI/Assets/*.{png,xib,plist,xcassets,bundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYLightCommonUI-2.1.4-font.1.zip",
+        "type": "zip"
+    },
+    "summary": "ui only for light project.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYLightCommonUI.xcframework"
+    ],
+    "version": "2.1.4-font.1"
+}

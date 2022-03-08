@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYPanelContext": [],
+        "TuyaAVSKit": [
+            "1.0.2-rc.1"
+        ]
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYRCTAlexaWebAuthManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTAlexaWebAuthManager-1.0.2-rc.4.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYRCTAlexaWebAuthManager.",
+    "vendored_frameworks": [
+        "Build/TYRCTAlexaWebAuthManager.xcframework"
+    ],
+    "version": "1.0.2-rc.4"
+}

@@ -1,0 +1,60 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYPageMenuView": [],
+        "TYPageView": [],
+        "TYPhotoBrowser": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYSmartUIConfigServices": [],
+        "TYTabPagingView": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TYVideoPlayer": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartMessageKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYMessageCenterModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "TYMessageCenterModule/Classes/PrefixHeader.pch",
+    "resource_bundles": {
+        "TYMessageCenterModule": [
+            "TYMessageCenterModule/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYMessageCenterModule-3.34.5-tybizbundle.1.zip",
+        "type": "zip"
+    },
+    "summary": "消息中心模块",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYMessageCenterModule.xcframework"
+    ],
+    "version": "3.34.5-tybizbundle.1"
+}
