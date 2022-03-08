@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYAvatarEditKit": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYKVStorageLibrary": [],
+        "TYMediaKit": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYSmartUIConfigServices": [],
+        "TYSmartUserCenterBizKit": [],
+        "TYTemplateSkeleton": [],
+        "TYUIConfig": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaNormalUI": []
+    },
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartUserCenterDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSCameraUsageDescription"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYSmartUserCenterDefaultUISkin\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYSmartUserCenterDefaultUISkin\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYSmartUserCenterDefaultUISkin\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYSmartUserCenterDefaultUISkin\", ##__VA_ARGS__)",
+    "resources": [
+        "Build/TYSmartUserCenterDefaultUISkin.xcframework/ios-arm64_armv7/TYSmartUserCenterDefaultUISkin.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartUserCenterDefaultUISkin-2.7.13.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartUserCenterDefaultUISkin.",
+    "vendored_frameworks": [
+        "Build/TYSmartUserCenterDefaultUISkin.xcframework"
+    ],
+    "version": "2.7.13"
+}

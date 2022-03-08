@@ -1,0 +1,54 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYSmartBusinessLibrary": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "JavaScriptCore",
+        "MapKit",
+        "CoreGraphics",
+        "CoreLocation",
+        "AVFoundation",
+        "QuartzCore",
+        "CFNetwork",
+        "Security",
+        "AddressBook",
+        "CoreTelephony",
+        "ImageIO",
+        "MobileCoreServices",
+        "Accelerate",
+        "AudioToolbox",
+        "UserNotifications",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "Photos",
+        "AssetsLibrary",
+        "CoreMedia"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYVideoPlayer",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYVideoPlayer.xcframework/ios-arm64_armv7/TYVideoPlayer.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYVideoPlayer-2.0.5.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYVideoPlayer.",
+    "vendored_frameworks": [
+        "Build/TYVideoPlayer.xcframework"
+    ],
+    "version": "2.0.5"
+}

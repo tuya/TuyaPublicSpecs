@@ -1,0 +1,46 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYAnimationKit": [],
+        "TYBlockKit": [],
+        "TYEncryptImage": [],
+        "TYKVStorageLibrary": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartHouseUISkeleton": [],
+        "TYSmartSceneDefaultUISkin": [],
+        "TYUIConfig": [],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "ios": {
+        "frameworks": "AudioToolbox"
+    },
+    "license": "none",
+    "name": "TYSmartHouseDefaultUISkin",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import \"EXTScope.h\"\n#import \"NSArray+TYSafe.h\"\n#import \"UIImage+TYSmartHouseBundle.h\"\n#import \"TYUIKit.h\"",
+    "resources": [
+        "Build/TYSmartHouseDefaultUISkin.xcframework/ios-arm64_armv7/TYSmartHouseDefaultUISkin.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartHouseDefaultUISkin-1.11.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYSmartHouseDefaultUISkin.",
+    "vendored_frameworks": [
+        "Build/TYSmartHouseDefaultUISkin.xcframework"
+    ],
+    "version": "1.11.3"
+}

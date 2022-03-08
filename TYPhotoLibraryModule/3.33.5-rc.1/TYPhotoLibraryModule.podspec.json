@@ -1,0 +1,35 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYCameraUIKit": [],
+        "TYFoundationKit": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYPhotoLibraryBizKit": [],
+        "TYUIKit": [],
+        "TuyaSmartCameraBizKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYPhotoLibraryModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYPhotoLibraryModule.xcframework/ios-arm64_armv7/TYPhotoLibraryModule.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPhotoLibraryModule-3.33.5-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYPhotoLibraryModule.",
+    "vendored_frameworks": [
+        "Build/TYPhotoLibraryModule.xcframework"
+    ],
+    "version": "3.33.5-rc.1"
+}

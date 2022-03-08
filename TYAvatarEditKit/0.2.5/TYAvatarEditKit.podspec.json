@@ -1,0 +1,37 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "Masonry": [],
+        "TYFoundationKit": [],
+        "TYOEMConfig": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "Photos",
+        "UIKit",
+        "AVFoundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAvatarEditKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYAvatarEditKit.xcframework/ios-arm64_armv7/TYAvatarEditKit.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAvatarEditKit-0.2.5.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYAvatarEditKit.",
+    "vendored_frameworks": [
+        "Build/TYAvatarEditKit.xcframework"
+    ],
+    "version": "0.2.5"
+}

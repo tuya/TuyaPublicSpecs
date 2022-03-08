@@ -1,0 +1,26 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYSmartBusinessLibrary": [],
+        "TYTemplateSkeleton": [],
+        "TYUIKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartHouseUISkeleton",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartHouseUISkeleton-1.6.4.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦 ODM 皮肤定制 - 首页皮肤视图定义",
+    "vendored_frameworks": [
+        "Build/TYSmartHouseUISkeleton.xcframework"
+    ],
+    "version": "1.6.4"
+}

@@ -1,0 +1,46 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaSmartBaseKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "AVFoundation",
+        "Foundation",
+        "CoreGraphics"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYQRCodeModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription"
+    },
+    "prefix_header_contents": "#ifdef __OBJC__\n#import \"TYTheme.h\"\n#import <YYModel/YYModel.h>\n#import <BlocksKit/BlocksKit.h>\n#import <BlocksKit/BlocksKit+UIKit.h>\n#import \"TYModule.h\"\n#import \"TYModuleServices.h\"\n#import \"TYCustomConfig.h\"\n#import \"TYUIKit.h\"\n#import \"TYLogMacro.h\"\n#endif'\n\n  #import <TYLogMacro/TYLogMacro.h>\n\n  #undef TYLogDebug\n  #define TYLogDebug(...) TYLogger(0, @\"TYQRCodeModule\", ##__VA_ARGS__)\n\n  #undef TYLogInfo\n  #define TYLogInfo(...)  TYLogger(1,  @\"TYQRCodeModule\", ##__VA_ARGS__)\n\n  #undef TYLogWarn\n  #define TYLogWarn(...)  TYLogger(2,  @\"TYQRCodeModule\", ##__VA_ARGS__)\n\n  #undef TYLogError\n  #define TYLogError(...) TYLogger(3, @\"TYQRCodeModule\", ##__VA_ARGS__)",
+    "resources": [
+        "Build/TYQRCodeModule.xcframework/ios-arm64_armv7/TYQRCodeModule.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYQRCodeModule-1.9.6.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYQRCodeModule.",
+    "vendored_frameworks": [
+        "Build/TYQRCodeModule.xcframework"
+    ],
+    "version": "1.9.6"
+}

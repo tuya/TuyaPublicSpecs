@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYModuleManager",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYModuleManager-2.10.4.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/TYModuleManager.xcframework/ios-arm64_armv7/TYModuleManager.framework/Headers/*"
+    ],
+    "summary": "A Module Manager From Tuya",
+    "vendored_frameworks": [
+        "Build/TYModuleManager.xcframework"
+    ],
+    "version": "2.10.4"
+}

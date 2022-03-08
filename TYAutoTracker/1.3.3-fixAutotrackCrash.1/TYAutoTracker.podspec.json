@@ -1,0 +1,36 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYRealClass": [],
+        "TuyaSmartBaseKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAutoTracker",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TYAutoTracker.xcframework/ios-arm64_armv7/TYAutoTracker.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAutoTracker-1.3.3-fixAutotrackCrash.1.zip",
+        "type": "zip"
+    },
+    "summary": "auto traker for user Action",
+    "vendored_frameworks": [
+        "Build/TYAutoTracker.xcframework"
+    ],
+    "version": "1.3.3-fixAutotrackCrash.1"
+}

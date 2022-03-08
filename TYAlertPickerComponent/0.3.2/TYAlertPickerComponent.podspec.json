@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYAnimationKit": [],
+        "TYSmartBusinessLibrary": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation",
+        "JavaScriptCore",
+        "MapKit",
+        "CoreGraphics",
+        "CoreLocation",
+        "AVFoundation",
+        "QuartzCore",
+        "CFNetwork",
+        "Security",
+        "AddressBook",
+        "CoreTelephony",
+        "ImageIO",
+        "MobileCoreServices",
+        "Accelerate",
+        "AudioToolbox",
+        "UserNotifications",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "Photos",
+        "AssetsLibrary",
+        "MediaPlayer"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYAlertPickerComponent",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAlertPickerComponent-0.3.2.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYAlertPickerComponent.",
+    "vendored_frameworks": [
+        "Build/TYAlertPickerComponent.xcframework"
+    ],
+    "version": "0.3.2"
+}

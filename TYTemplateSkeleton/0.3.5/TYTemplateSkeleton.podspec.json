@@ -1,0 +1,31 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYOEMConfig": [],
+        "TYUIKit": [],
+        "YYModel": [],
+        "libextobjc": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYTemplateSkeleton",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import \"EXTScope.h\"\n#import \"TYFoundationKit.h\"\n#import \"TYUIKit.h\"",
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYTemplateSkeleton-0.3.5.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYTemplateSkeleton.",
+    "vendored_frameworks": [
+        "Build/TYTemplateSkeleton.xcframework"
+    ],
+    "version": "0.3.5"
+}

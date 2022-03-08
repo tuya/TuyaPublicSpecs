@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [],
+        "TYOpusCodec": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "YYModel": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaAVSKit",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "resources": [
+        "Build/TuyaAVSKit.xcframework/ios-arm64_armv7/TuyaAVSKit.framework/CustomResources/Bundles/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaAVSKit-1.0.2-rc.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaAVSKit.",
+    "vendored_frameworks": [
+        "Build/TuyaAVSKit.xcframework"
+    ],
+    "version": "1.0.2-rc.1"
+}

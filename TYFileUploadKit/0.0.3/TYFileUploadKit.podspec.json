@@ -1,0 +1,27 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYLogMacro": [],
+        "TuyaSmartBaseKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": "Foundation",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYFileUploadKit",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYFileUploadKit-0.0.3.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYFileUploadKit.",
+    "vendored_frameworks": [
+        "Build/TYFileUploadKit.xcframework"
+    ],
+    "version": "0.0.3"
+}
