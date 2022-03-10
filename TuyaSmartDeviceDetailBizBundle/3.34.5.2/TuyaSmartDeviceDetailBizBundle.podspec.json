@@ -1,0 +1,189 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "FMDB/SQLCipher": [],
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "SQLCipher": [],
+        "SQLCipher/common": [],
+        "SQLCipher/standard": [],
+        "TYAlertView": [
+            "1.1.8"
+        ],
+        "TYAutoTracker": [
+            "1.3.3-fixAutotrackCrash.1"
+        ],
+        "TYAvatarEditKit": [
+            "0.2.5"
+        ],
+        "TYBaseDebugger": [
+            "1.1.1"
+        ],
+        "TYBlockKit": [
+            "0.1.0"
+        ],
+        "TYBluetoothInterface": [
+            "1.5.2"
+        ],
+        "TYConfigHub": [
+            "1.0.10-rc.2"
+        ],
+        "TYDeviceDetailModule": [
+            "3.34.5-bizBundle-3.34.5.1"
+        ],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [
+            "1.6.1"
+        ],
+        "TYKVStorageLibrary": [
+            "0.5.3"
+        ],
+        "TYLogMacro": [
+            "0.1.1"
+        ],
+        "TYMediaKit": [
+            "1.3.1"
+        ],
+        "TYModuleManager": [
+            "2.10.4"
+        ],
+        "TYModuleServices": [
+            "3.34.5-tybizbundle-3.34.5.5.2"
+        ],
+        "TYNavigationController": [],
+        "TYNetPoolModule": [
+            "1.2.0"
+        ],
+        "TYOEMConfig": [
+            "1.25.24"
+        ],
+        "TYPhotoBrowser": [
+            "1.3.2"
+        ],
+        "TYProgressHUD": [
+            "0.2.8"
+        ],
+        "TYRealClass": [
+            "0.1.0"
+        ],
+        "TYSmartActionDialog": [
+            "0.4.2"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.34.5"
+        ],
+        "TYSmartClientConfigModule": [
+            "0.1.0"
+        ],
+        "TYSmartDeviceDetailLink": [
+            "1.0.0"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.84"
+        ],
+        "TYSmartEventPredefined_Public": [
+            "0.0.58"
+        ],
+        "TYSmartUIConfigServices": [
+            "0.1.3-feature-biz-3.32.5.2"
+        ],
+        "TYSocketPing": [
+            "1.0.2"
+        ],
+        "TYStorageLibrary": [
+            "1.5.1"
+        ],
+        "TYTemplateSkeleton": [
+            "0.3.5"
+        ],
+        "TYThemeModule": [
+            "0.7.1"
+        ],
+        "TYUIConfig": [
+            "1.2.1"
+        ],
+        "TYUIKit": [],
+        "TYUrlPredefined": [
+            "0.2.114"
+        ],
+        "TYUrlPredefinedExternal": [
+            "0.2.54"
+        ],
+        "TYVideoPlayer": [
+            "2.0.5"
+        ],
+        "TZImagePickerController": [],
+        "TuyaBusinessService": [
+            "0.1.9"
+        ],
+        "TuyaNormalUI": [
+            "0.2.3"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.34.9"
+        ],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartNetworkKit": [],
+        "TuyaSmartUtil": [],
+        "UICKeyChainStore": [],
+        "YYModel": [],
+        "dsBridge": [],
+        "libextobjc": [],
+        "libextobjc/EXTADT": [],
+        "libextobjc/EXTConcreteProtocol": [],
+        "libextobjc/EXTKeyPathCoding": [],
+        "libextobjc/EXTNil": [],
+        "libextobjc/EXTSafeCategory": [],
+        "libextobjc/EXTScope": [],
+        "libextobjc/EXTSelectorChecking": [],
+        "libextobjc/EXTSynthesize": [],
+        "libextobjc/NSInvocation+EXT": [],
+        "libextobjc/NSMethodSignature+EXT": [],
+        "libextobjc/RuntimeExtensions": [],
+        "libextobjc/UmbrellaHeader": [],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartDeviceDetailBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PROVIDE_SERVICE": "TYDeviceDetailProtocol",
+        "TUYA_REQUIRE_SERVICE": "TYOTAGeneralProtocol,TYSmartHomeDataProtocol,TYDomainQueryProtocol,TYHelpCenterProtocol,TYGroupHandleProtocol,TuyaBusinessDeviceDetailProtocol,TuyaBusinessHomeKitProtocol"
+    },
+    "resource_bundles": {
+        "TuyaSmartDeviceDetailBizBundle": [
+            "TuyaSmartDeviceDetailBizBundle/Assets/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartDeviceDetailBizBundle-3.34.5.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaSmartDeviceDetailBizBundle.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TuyaSmartDeviceDetailBizBundle.xcframework"
+    ],
+    "version": "3.34.5.2"
+}
