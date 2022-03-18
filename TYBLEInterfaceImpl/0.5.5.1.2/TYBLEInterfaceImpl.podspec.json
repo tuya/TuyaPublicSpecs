@@ -1,0 +1,50 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYBLEHomeManager": [
+            "0.1.3"
+        ],
+        "TYBluetoothInterface": [
+            "1.5.2"
+        ],
+        "TYModuleManager": [
+            "2.10.4"
+        ],
+        "TYModuleServices": [
+            "3.34.5-feature-bizBundle-fix.1.1"
+        ],
+        "TuyaSmartBLEKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": []
+    },
+    "description": "TYBLEInterfaceImpl",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYBLEInterfaceImpl",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBLEInterfaceImpl-0.5.5.1.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TYBLEInterfaceImpl.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYBLEInterfaceImpl.xcframework"
+    ],
+    "version": "0.5.5.1.2"
+}
