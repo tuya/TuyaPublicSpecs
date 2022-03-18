@@ -1,0 +1,26 @@
+{
+    "authors": "Facebook",
+    "cocoapods_version": ">= 1.10",
+    "description": "Yoga is a cross-platform layout engine enabling maximum collaboration within your team by implementing an API many designers are familiar with, and opening it up to developers across different platforms.",
+    "documentation_url": "https://facebook.github.io/yoga/docs/api/c/",
+    "homepage": "https://facebook.github.io/yoga/",
+    "license": {
+        "type": "BSD"
+    },
+    "module_name": "yoga",
+    "name": "yoga",
+    "platforms": {
+        "ios": "8.0",
+        "tvos": "9.2"
+    },
+    "requires_arc": false,
+    "source": {
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/yoga-0.59.10.1.zip",
+        "type": "zip"
+    },
+    "summary": "Yoga is a cross-platform layout engine which implements Flexbox.",
+    "vendored_frameworks": [
+        "yoga.xcframework"
+    ],
+    "version": "0.59.10.1"
+}
