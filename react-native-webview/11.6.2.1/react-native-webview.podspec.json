@@ -1,0 +1,30 @@
+{
+    "authors": {
+        "xxx": "xxx@tuya.com"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "React": [],
+        "TYModuleManager": [],
+        "TYModuleServices": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "MIT",
+    "name": "react-native-webview",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-webview-11.6.2.1.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/react_native_webview.xcframework/ios-arm64_armv7/react_native_webview.framework/Headers/*"
+    ],
+    "summary": "React Native WebView component for iOS, Android, macOS, and Windows",
+    "vendored_frameworks": [
+        "Build/react_native_webview.xcframework"
+    ],
+    "version": "11.6.2.1"
+}

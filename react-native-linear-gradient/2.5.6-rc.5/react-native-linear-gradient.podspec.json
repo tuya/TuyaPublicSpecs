@@ -1,0 +1,32 @@
+{
+    "authors": {
+        "xxx": "xxx"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "React": []
+    },
+    "frameworks": [
+        "UIKit",
+        "QuartzCore",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "MIT",
+    "name": "react-native-linear-gradient",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-linear-gradient-2.5.6-rc.5.zip",
+        "type": "zip"
+    },
+    "source_files": [
+        "Build/react_native_linear_gradient.xcframework/ios-arm64_armv7/react_native_linear_gradient.framework/Headers/*"
+    ],
+    "summary": "A <LinearGradient /> component for react-native",
+    "vendored_frameworks": [
+        "Build/react_native_linear_gradient.xcframework"
+    ],
+    "version": "2.5.6-rc.5"
+}
