@@ -1,0 +1,45 @@
+{
+    "authors": {
+        "Tuya": "Tuya"
+    },
+    "dependencies": {
+        "AFNetworking/Reachability": [],
+        "CocoaLumberjack": [],
+        "SSZipArchive": [],
+        "TencentOpenApi": [
+            "3.3.7"
+        ]
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "CoreTelephony",
+        "SystemConfiguration",
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/zhukw/DingDangSDK",
+    "libraries": [
+        "sqlite3",
+        "z"
+    ],
+    "license": {
+        "file": "LICENSE",
+        "type": "MIT"
+    },
+    "name": "DingDangSDK",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "source": {
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/DingDangSDK-0.3.6.zip",
+        "type": "zip"
+    },
+    "source_files": "DingDangSDK-0.3.6/Headers/Public/**/*",
+    "summary": "A short description of DingDangSDK.",
+    "vendored_frameworks": "DingDangSDK-0.3.6/VendorsFramework/**/*.framework",
+    "vendored_libraries": [
+        "DingDangSDK-0.3.6/libDingDangSDK.a",
+        "DingDangSDK-0.3.6/VendorsLibrary/**/*.a"
+    ],
+    "version": "0.3.6"
+}
