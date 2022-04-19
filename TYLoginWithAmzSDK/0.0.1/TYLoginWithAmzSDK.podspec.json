@@ -14,10 +14,10 @@
         "ios": "9.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYLoginWithAmzSDK-0.0.1.zip",
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/taojing/TYLoginWithAmzSDK-0.0.3.zip",
         "type": "zip"
     },
     "summary": "TYLoginWithAmzSDK",
-    "vendored_frameworks": "TYLoginWithAmzSDK-0.0.1/VendorsFramework/**/*.framework",
+    "vendored_frameworks": "TYLoginWithAmzSDK-0.0.3/VendorsFramework/**/*.framework",
     "version": "0.0.1"
 }
