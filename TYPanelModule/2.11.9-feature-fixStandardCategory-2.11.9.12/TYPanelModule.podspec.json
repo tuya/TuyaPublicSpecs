@@ -1,0 +1,51 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYAlertPickerComponent": [],
+        "TYBleGatewayService": [],
+        "TYBluetoothInterface": [],
+        "TYKVStorageLibrary": [],
+        "TYLogMacro": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYPanelBundleManager": [],
+        "TYPanelContext": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined": [],
+        "TYUIKit": [],
+        "TuyaBusinessService": [],
+        "TuyaRNApi/Core": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartNetworkKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYPanelModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_contents": "#import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>\n#import <YYModel/YYModel.h>\n#import <TYFoundationKit/TYFoundationKit.h>\n#import <TYUIKit/TYUIKit.h>\n#import <TYNavigationController/TYNavigationController.h>\n#import <TYNavigationController/TYNavigationNaviBarProtocol.h>\n#import <TYNavigationController/UIViewController+TYNavigation.h>\n#import \"TYBluetoothInterface.h\"\n#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYPanelModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYPanelModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYPanelModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYPanelModule\", ##__VA_ARGS__)",
+    "resources": [
+        "TYPanelModule/Assets/**/*.{png,jsbundle}"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPanelModule-2.11.9-feature-fixStandardCategory-2.11.9.12.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦面板模块",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TYPanelModule.xcframework"
+    ],
+    "version": "2.11.9-feature-fixStandardCategory-2.11.9.12"
+}
