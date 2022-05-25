@@ -1,0 +1,93 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "TYAlertView": [
+            "1.1.8"
+        ],
+        "TYBlockKit": [
+            "0.1.0"
+        ],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [
+            "0.5.3"
+        ],
+        "TYLogMacro": [
+            "0.1.1"
+        ],
+        "TYModuleManager": [
+            "2.10.4"
+        ],
+        "TYModuleServices": [
+            "3.34.5-feature-bizBundle-fix.2.2"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            "1.25.24"
+        ],
+        "TYProgressHUD": [
+            "0.2.8"
+        ],
+        "TYSmartActionDialog": [
+            "0.4.2"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.34.5"
+        ],
+        "TYSocialModule": [
+            "0.3.1"
+        ],
+        "TYThemeModule": [
+            "0.7.1"
+        ],
+        "TYUIConfig": [
+            "1.2.1"
+        ],
+        "TYUIKit": [],
+        "TuyaNormalUI": [
+            "0.2.3"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.34.9"
+        ],
+        "YYModel": [],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartShareBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TuyaSmartShareBizBundle": [
+            "TuyaSmartShareBizBundle/Assets/**/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartShareBizBundle-3.34.5.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaSmartShareBizBundle.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TuyaSmartShareBizBundle.xcframework"
+    ],
+    "version": "3.34.5.6"
+}
