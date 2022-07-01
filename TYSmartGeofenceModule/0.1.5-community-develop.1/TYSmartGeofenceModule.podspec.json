@@ -1,0 +1,38 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "IQKeyboardManager": [],
+        "Masonry": [],
+        "TYBlockKit": [],
+        "TYFoundationKit": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYNavigationController": [],
+        "TYOEMConfig": [],
+        "TYSQModuleService": [],
+        "TYSmartBusinessLibrary": [],
+        "TYUIKit": [],
+        "TuyaCommunityHouseKit": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYSmartGeofenceModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartGeofenceModule-0.1.5-community-develop.1.zip",
+        "type": "zip"
+    },
+    "summary": "处理场景地理围栏相关的业务，为了做裁剪所以独立成组件",
+    "vendored_frameworks": [
+        "Build/TYSmartGeofenceModule.xcframework"
+    ],
+    "version": "0.1.5-community-develop.1"
+}
