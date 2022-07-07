@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "tuya": "https://developer.tuya.com/"
+    },
+    "dependencies": {
+        "TYFoundationKit": []
+    },
+    "frameworks": "Photos",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYImagePickerController",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "requires_arc": true,
+    "resources": [
+        "Build/TYImagePickerController.xcframework/ios-arm64_armv7/TYImagePickerController.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYImagePickerController-3.5.4.zip",
+        "type": "zip"
+    },
+    "summary": "A clone of TZImagePickerController",
+    "vendored_frameworks": [
+        "Build/TYImagePickerController.xcframework"
+    ],
+    "version": "3.5.4"
+}
