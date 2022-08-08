@@ -1,0 +1,64 @@
+{
+  "name": "TYPhotoLibraryModule",
+  "version": "3.33.5-rc.6",
+  "summary": "A short description of TYPhotoLibraryModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+      "tuya": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYPhotoLibraryModule-3.33.5-rc.6.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "TYPhotoLibraryModule": [
+      "TYPhotoLibraryModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "TYUIKit": [
+
+    ],
+    "TYFoundationKit": [
+
+    ],
+    "TYLogMacro": [
+
+    ],
+    "TYPhotoLibraryBizKit": [
+
+    ],
+    "TYModuleServices": [
+
+    ],
+    "TYModuleManager": [
+
+    ],
+    "TYCameraUIKit": [
+
+    ],
+    "TuyaSmartCameraBizKit": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TYPhotoLibraryModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

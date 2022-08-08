@@ -1,0 +1,97 @@
+{
+  "name": "TYHybridContainer",
+  "version": "1.7.12-tybizbundle.1",
+  "summary": "容器",
+  "homepage": "https://docs.tuya.com/cn/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYHybridContainer-1.7.12-tybizbundle.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AddressBook",
+    "AddressBookUI",
+    "WebKit",
+    "Photos"
+  ],
+  "pod_target_xcconfig": {
+    "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSPhotoLibraryUsageDescription",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "TYHybridContainer": [
+      "TYHybridContainer/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "dsBridge": [
+      "~> 3.0.202"
+    ],
+    "TYModuleManager": [
+
+    ],
+    "TYModuleServices": [
+
+    ],
+    "TYBaseDebugger": [
+
+    ],
+    "TYPhotoBrowser": [
+
+    ],
+    "TYVideoPlayer": [
+
+    ],
+    "TYUIKit": [
+
+    ],
+    "TYNavigationController": [
+
+    ],
+    "TYKVStorageLibrary": [
+
+    ],
+    "TYConfigHub": [
+
+    ],
+    "TYUrlPredefined": [
+
+    ],
+    "TYSmartBusinessLibrary": [
+
+    ],
+    "TYEncryptImage": [
+
+    ],
+    "TuyaSmartNetworkKit": [
+
+    ],
+    "TYHybridMediaToolsAPI": [
+
+    ],
+    "TYOEMConfig": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <TYFoundationKit/TYFoundationKit.h>\n#import <TYUIKit/TYUIKit.h>\n#import <TYNavigationController/TYNavigationController.h>\n#import <TYNavigationController/UIViewController+TYNavigation.h>\n#import <Masonry/Masonry.h>\n#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYHybridContainer\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYHybridContainer\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYHybridContainer\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYHybridContainer\", ##__VA_ARGS__)",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TYHybridContainer.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

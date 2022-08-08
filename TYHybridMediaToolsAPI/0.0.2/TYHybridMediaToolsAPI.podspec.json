@@ -1,0 +1,25 @@
+{
+  "name": "TYHybridMediaToolsAPI",
+  "version": "0.0.2",
+  "summary": "A short description of TYHybridMediaTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+      "tuya": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYHybridMediaToolsAPI-0.0.2.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "TYHybridMediaToolsAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
