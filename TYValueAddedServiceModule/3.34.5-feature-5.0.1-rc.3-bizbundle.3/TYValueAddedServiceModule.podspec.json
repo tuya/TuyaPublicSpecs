@@ -1,0 +1,85 @@
+{
+  "name": "TYValueAddedServiceModule",
+  "version": "3.34.5-feature-5.0.1-rc.3-bizbundle.3",
+  "summary": "涂鸦组件模板",
+  "homepage": "https://docs.tuya.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+      "tuya": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYValueAddedServiceModule-3.34.5-feature-5.0.1-rc.3-bizbundle.3.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resources": [
+    "TYValueAddedServiceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "prefix_header_file": "TYValueAddedServiceModule/Classes/PrefixHeader.pch",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "TYModuleManager": [
+
+    ],
+    "TYModuleServices": [
+
+    ],
+    "TYUIKit": [
+
+    ],
+    "TYFoundationKit": [
+
+    ],
+    "TYSmartBusinessLibrary": [
+
+    ],
+    "TuyaSmartBaseKit": [
+
+    ],
+    "TYHybridContainer": [
+
+    ],
+    "TYUrlPredefined": [
+
+    ],
+    "TYSmartEventPredefined": [
+
+    ],
+    "TYSmartEventPredefined_Public": [
+
+    ],
+    "TYOEMConfig": [
+
+    ],
+    "TYKVStorageLibrary": [
+
+    ],
+    "TuyaBusinessService": [
+
+    ],
+    "TYLogMacro": [
+
+    ]
+  },
+  "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYValueAddedServiceModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYValueAddedServiceModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYValueAddedServiceModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYValueAddedServiceModule\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TYValueAddedServiceModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
