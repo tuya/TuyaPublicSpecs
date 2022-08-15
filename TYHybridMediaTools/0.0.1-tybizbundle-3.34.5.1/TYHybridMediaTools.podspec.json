@@ -1,0 +1,39 @@
+{
+  "name": "TYHybridMediaTools",
+  "version": "0.0.1-tybizbundle-3.34.5.1",
+  "summary": "A short description of TYHybridMediaTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://docs.tuya.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+      "tuya": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYHybridMediaTools-0.0.1-tybizbundle-3.34.5.1.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "TYUIKit": [
+
+    ],
+    "TYMediaKit": [
+
+    ],
+    "TYHybridMediaToolsAPI": [
+
+    ],
+    "TYAnnotationFoundation": [
+
+    ]
+  },
+  "vendored_frameworks": [
+    "TYHybridMediaTools.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

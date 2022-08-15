@@ -81,7 +81,7 @@
             "1.0.1"
         ],
         "TYHybridContainer": [
-            "1.7.12-tybizbundle.1"
+            "1.7.9-tybizbundle-1.7.9.1"
         ],
         "TYImagePickerController": [
             "3.5.4"
@@ -91,9 +91,6 @@
         ],
         "TYLogMacro": [
             "0.1.1"
-        ],
-        "TYMediaKit": [
-            "1.3.7"
         ],
         "TYMicrophoneAuthManager": [
             "0.1.2"
