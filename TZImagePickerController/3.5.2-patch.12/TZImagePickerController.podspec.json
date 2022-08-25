@@ -1,0 +1,34 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYFoundationKit": [
+            "~> 1.0"
+        ]
+    },
+    "frameworks": [
+        "Photos",
+        "PhotosUI"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TZImagePickerController",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "requires_arc": true,
+    "resources": [
+        "Build/TZImagePickerController.xcframework/ios-arm64_armv7/TZImagePickerController.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TZImagePickerController-3.5.2-patch.12.zip",
+        "type": "zip"
+    },
+    "summary": "A clone of UIImagePickerController, support picking multiple photos、original photo and video",
+    "vendored_frameworks": [
+        "Build/TZImagePickerController.xcframework"
+    ],
+    "version": "3.5.2-patch.12"
+}
