@@ -1,0 +1,42 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [],
+        "TYModuleManager": [],
+        "TYModuleServices": [],
+        "TYOEMConfig": [],
+        "TYPopupViewController": [],
+        "TYSmartBusinessLibrary": [],
+        "TYSmartEventPredefined_Public": [],
+        "TYUIKit": [],
+        "TYUrlPredefined": [],
+        "TuyaBusinessService": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartShareKit": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TYDeviceShareModule",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYDeviceShareModule\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYDeviceShareModule\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYDeviceShareModule\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYDeviceShareModule\", ##__VA_ARGS__)",
+    "resources": [
+        "Build/TYDeviceShareModule.xcframework/ios-arm64_armv7/TYDeviceShareModule.framework/CustomResources/Assets/*"
+    ],
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceShareModule-2.1.9.zip",
+        "type": "zip"
+    },
+    "summary": "设备/群组分享模块",
+    "vendored_frameworks": [
+        "Build/TYDeviceShareModule.xcframework"
+    ],
+    "version": "2.1.9"
+}
