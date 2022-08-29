@@ -1,0 +1,52 @@
+{
+  "name": "TYUIKit",
+  "version": "1.18.20",
+  "summary": "涂鸦的UI组件",
+  "homepage": "https://github.com/tuya",
+  "license": "None",
+  "authors": {
+    "tuya": "ios@tuya.com"
+  },
+  "source": {
+    "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYUIKit-1.18.20.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreGraphics",
+    "QuartzCore",
+    "ImageIO",
+    "MobileCoreServices",
+    "Accelerate"
+  ],
+  "resources": [
+    "TYUIKit/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "TYOEMConfig": [
+
+    ],
+    "TYLogMacro": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TYUIKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
