@@ -14,8 +14,9 @@
         "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/dsBridge-3.0.203.zip",
         "type": "zip"
     },
-    "source_files": "dsBridge-3.0.203/Headers/Public/**/*",
     "summary": "An ios bridge for calling functions synchronously and asynchronously between JavaScript and Object-C in WKWebView/UIWebView",
-    "vendored_libraries": "dsBridge-3.0.203/libdsBridge.a",
+    "vendored_frameworks": [
+        "dsBridge.xcframework"
+    ],
     "version": "3.0.203"
 }
