@@ -20,6 +20,8 @@
         "type": "zip"
     },
     "summary": "A short description of TYSmartClientConfigModule.",
-    "vendored_libraries": "TYSmartClientConfigModule-0.1.0/libTYSmartClientConfigModule.a",
+    "vendored_frameworks": [
+        "TYSmartClientConfigModule.xcframework"
+    ],
     "version": "0.1.0"
 }
