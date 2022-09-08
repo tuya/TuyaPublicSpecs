@@ -13,14 +13,16 @@
         "ios": "9.0"
     },
     "resources": [
-        "TuyaIntentKit-1.0.0/Assets/*.{png,xib,plist,xcassets,bundle,intentdefinition}"
+        "TuyaIntentKit/Assets/*.{png,xib,plist,xcassets,bundle,intentdefinition}"
     ],
     "source": {
         "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaIntentKit-1.0.0.zip",
         "type": "zip"
     },
     "summary": "TuyaIntentKit",
-    "vendored_libraries": "TuyaIntentKit-1.0.0/libTuyaIntentKit.a",
+    "vendored_frameworks": [
+        "TuyaIntentKit.xcframework"
+    ],
     "version": "1.0.0",
     "weak_frameworks": [
         "Intents",
