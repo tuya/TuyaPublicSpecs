@@ -26,6 +26,9 @@
         "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TZImagePickerController-3.5.2-patch.12.zip",
         "type": "zip"
     },
+    "source_files": [
+        "Build/TZImagePickerController.xcframework/ios-arm64_armv7/TZImagePickerController.framework/Headers/*"
+    ],
     "summary": "A clone of UIImagePickerController, support picking multiple photos、original photo and video",
     "vendored_frameworks": [
         "Build/TZImagePickerController.xcframework"
