@@ -1,0 +1,130 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "TYAlertView": [
+            "1.1.8"
+        ],
+        "TYAnnotationFoundation": [
+            "0.1.10"
+        ],
+        "TYBaseDebugger": [
+            "1.1.1"
+        ],
+        "TYBlockKit": [
+            "0.1.0"
+        ],
+        "TYConfigHub": [
+            "1.0.10-rc.2"
+        ],
+        "TYConfigHubModule": [
+            "1.1.3"
+        ],
+        "TYDomainQueryModule": [],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYHybridContainer": [
+            "1.7.9-tybizbundle-1.7.9.1"
+        ],
+        "TYHybridMall": [
+            "3.34.5-tybizbundle.2"
+        ],
+        "TYHybridMediaToolsAPI": [
+            "0.0.3"
+        ],
+        "TYKVStorageLibrary": [
+            "0.5.3"
+        ],
+        "TYLogMacro": [
+            "0.1.1"
+        ],
+        "TYModuleManager": [
+            "2.10.8"
+        ],
+        "TYModuleServices": [
+            "3.34.5-feature-bizBundle-fix.3.1"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            "1.25.24"
+        ],
+        "TYPhotoBrowser": [
+            "1.3.2"
+        ],
+        "TYProgressHUD": [
+            "0.2.8"
+        ],
+        "TYSmartActionDialog": [
+            "0.4.2"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.34.5"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.84"
+        ],
+        "TYThemeModule": [
+            "0.7.1"
+        ],
+        "TYUIConfig": [
+            "1.2.1"
+        ],
+        "TYUIKit": [],
+        "TYUrlPredefined": [
+            "0.2.114"
+        ],
+        "TYUrlPredefinedExternal": [
+            "0.2.54"
+        ],
+        "TYVideoPlayer": [
+            "2.0.5"
+        ],
+        "TuyaNormalUI": [
+            "0.2.3"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.34.11"
+        ],
+        "TuyaSmartNetworkKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": [],
+        "dsBridge": [
+            "3.0.203"
+        ],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartMallBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "resource_bundles": {
+        "TuyaSmartMallBizBundle": "TuyaSmartMallBizBundle/Assets/**/*"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartMallBizBundle-3.34.6.11.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaSmartMallBizBundle.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TuyaSmartMallBizBundle.xcframework"
+    ],
+    "version": "3.34.6.11"
+}
