@@ -16,6 +16,6 @@
         "ios": "8.0"
     },
     "ios": {
-        "vendored_libraries": "ios/*.a"
+        "vendored_libraries": "TYSweeperLZ4-0.1.2/libTYSweeperLZ4.a"
     }
 }
