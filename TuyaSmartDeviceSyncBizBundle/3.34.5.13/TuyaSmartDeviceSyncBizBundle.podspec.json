@@ -1,0 +1,112 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "HMSegmentedControl": [
+            "1.5.7.tuya"
+        ],
+        "MJRefresh": [],
+        "MMKV": [],
+        "Masonry": [],
+        "Reachability": [],
+        "TYAlertView": [
+            "1.1.8"
+        ],
+        "TYAnnotationFoundation": [
+            "0.1.10"
+        ],
+        "TYBlockKit": [
+            "0.1.0"
+        ],
+        "TYDeviceSyncModule": [
+            "1.9.8-feature-3.34.5-bizbundle.2"
+        ],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [
+            "0.5.3"
+        ],
+        "TYLogMacro": [
+            "0.1.1"
+        ],
+        "TYModuleManager": [
+            "2.10.8"
+        ],
+        "TYModuleServices": [
+            "3.34.5-feature-bizBundle-fix.6.1"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            "1.25.24"
+        ],
+        "TYProgressHUD": [
+            "0.2.8"
+        ],
+        "TYSmartActionDialog": [
+            "0.4.2"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.34.5"
+        ],
+        "TYTabPagingView": [
+            "1.0.7"
+        ],
+        "TYThemeModule": [
+            "0.7.1"
+        ],
+        "TYUIConfig": [
+            "1.2.1"
+        ],
+        "TYUIKit": [],
+        "TYUrlPredefined": [
+            "0.2.114"
+        ],
+        "TYUrlPredefinedExternal": [
+            "0.2.54"
+        ],
+        "TuyaBusinessService": [
+            "0.1.10-feature-bizBundle-fix.1"
+        ],
+        "TuyaNormalUI": [
+            "0.2.3"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.34.11"
+        ],
+        "TuyaSmartDeviceCoreKit": [],
+        "YYModel": [],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "UIKit",
+        "Foundation"
+    ],
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartDeviceSyncBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PROVIDE_SERVICE": "TYDeviceSyncProtocol"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartDeviceSyncBizBundle-3.34.5.13.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaSmartDeviceSyncBizBundle.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TuyaSmartDeviceSyncBizBundle.xcframework"
+    ],
+    "version": "3.34.5.13"
+}
