@@ -1,0 +1,139 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "HMSegmentedControl": [
+            "1.5.7.tuya"
+        ],
+        "MJRefresh": [],
+        "MMKV": [
+            "1.0.18"
+        ],
+        "Masonry": [],
+        "Reachability": [],
+        "TYAlertView": [
+            "1.1.8"
+        ],
+        "TYAnnotationFoundation": [
+            "0.1.10"
+        ],
+        "TYBlockKit": [
+            "0.1.0"
+        ],
+        "TYEncryptImage": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [
+            "0.5.3"
+        ],
+        "TYLightCommonUI": [
+            "2.1.4-font.1"
+        ],
+        "TYLightPredefined": [
+            "1.0.2"
+        ],
+        "TYLightSceneBizKit": [
+            "2.3.3.1"
+        ],
+        "TYLogMacro": [
+            "0.1.1"
+        ],
+        "TYModuleManager": [
+            "2.10.8"
+        ],
+        "TYModuleServices": [
+            "3.34.5-feature-bizBundle-fix.6.1"
+        ],
+        "TYNavigationController": [],
+        "TYOEMConfig": [
+            "1.25.24"
+        ],
+        "TYProgressHUD": [
+            "0.2.8"
+        ],
+        "TYSmartActionDialog": [
+            "0.4.2"
+        ],
+        "TYSmartBusinessLibrary": [
+            "3.34.5"
+        ],
+        "TYSmartEventPredefined_illumination": [
+            "0.0.3"
+        ],
+        "TYSmartHomeDataCenter": [
+            "0.0.7"
+        ],
+        "TYTabPagingView": [
+            "1.0.7"
+        ],
+        "TYThemeModule": [
+            "0.7.1"
+        ],
+        "TYUIConfig": [
+            "1.2.1"
+        ],
+        "TYUIKit": [],
+        "TYUrlPredefined": [
+            "0.2.114"
+        ],
+        "TYUrlPredefinedExternal": [
+            "0.2.54"
+        ],
+        "TuyaLightSceneBizBundle": [
+            "0.0.4-xcframework.1"
+        ],
+        "TuyaLightSceneKit": [],
+        "TuyaNormalUI": [
+            "0.2.3"
+        ],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartBizCore": [
+            "3.34.12"
+        ],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartDeviceKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": [],
+        "lottie-ios": []
+    },
+    "description": "TODO: Add long description of the pod here.",
+    "frameworks": [
+        "QuartzCore",
+        "CoreData"
+    ],
+    "homepage": "https://github.com/tuya",
+    "libraries": [
+        "xml2",
+        "z"
+    ],
+    "license": "none",
+    "name": "TuyaSmartLightSceneBizBundle",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+        "TUYA_PROVIDE_SERVICE": "TYLightSceneProtocol",
+        "TUYA_REQUIRE_SERVICE": "TYSmartHomeDataProtocol,TYSmartHouseIndexProtocol"
+    },
+    "resource_bundles": {
+        "TuyaSmartLightSceneBizBundle": [
+            "TuyaSmartLightSceneBizBundle/Assets/**/*"
+        ]
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartLightSceneBizBundle-3.34.5.16.zip",
+        "type": "zip"
+    },
+    "summary": "A short description of TuyaSmartLightSceneBizBundle.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TuyaSmartLightSceneBizBundle.xcframework"
+    ],
+    "version": "3.34.5.16"
+}

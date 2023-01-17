@@ -1,0 +1,61 @@
+{
+    "authors": {
+        "TuyaInc": "https://developer.tuya.com/"
+    },
+    "cocoapods_version": ">= 1.10",
+    "dependencies": {
+        "DACircularProgress": [],
+        "MMKV": [
+            "1.0.18"
+        ],
+        "Masonry": [],
+        "Reachability": [],
+        "TYFoundationKit": [],
+        "TYKVStorageLibrary": [
+            "0.5.3"
+        ],
+        "TYLogMacro": [
+            "0.1.1"
+        ],
+        "TYOEMConfig": [
+            "1.25.24"
+        ],
+        "TYPanelBundleManager": [
+            "1.5.11-rc.1"
+        ],
+        "TYSmartEventPredefined": [
+            "1.2.84"
+        ],
+        "TYTarKit": [
+            "0.1.5"
+        ],
+        "TYUIKit": [],
+        "TuyaSmartBaseKit": [],
+        "TuyaSmartDeviceCoreKit": [],
+        "TuyaSmartUtil": [],
+        "YYModel": []
+    },
+    "homepage": "https://github.com/tuya",
+    "license": "none",
+    "name": "TuyaSmartLangsExtraBizBundle",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "source": {
+        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartLangsExtraBizBundle-3.34.5.2.zip",
+        "type": "zip"
+    },
+    "summary": "涂鸦组件模板",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_frameworks": [
+        "TuyaSmartLangsExtraBizBundle.xcframework"
+    ],
+    "version": "3.34.5.2"
+}
