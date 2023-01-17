@@ -1,0 +1,40 @@
+{
+    "authors": {
+        "guoling": "guoling@tencent.com"
+    },
+    "cocoapods_version": ">= 1.10",
+    "description": "The MMKV, for Objective-C.\nMMKV is an efficient, complete, easy-to-use mobile key-value storage framework used in the WeChat application.\nIt can be a replacement for NSUserDefaults & SQLite.",
+    "frameworks": "CoreFoundation",
+    "homepage": "https://github.com/Tencent/MMKV",
+    "ios": {
+        "frameworks": "UIKit"
+    },
+    "libraries": [
+        "z",
+        "c++"
+    ],
+    "license": {
+        "file": "LICENSE.TXT",
+        "type": "BSD 3-Clause"
+    },
+    "name": "MMKV",
+    "platforms": {
+        "ios": "8.0",
+        "osx": "10.9"
+    },
+    "requires_arc": true,
+    "source": {
+        "http": "https://maven.tuya-inc.top/repository/app/ci/ios/release/MMKV/1.0.18/MMKV-1.0.18.zip",
+        "type": "zip"
+    },
+    "summary": "MMKV is a cross-platform key-value storage framework developed by WeChat.",
+    "vendored_frameworks": [
+        "MMKV.xcframework"
+    ],
+    "version": "1.0.18",
+    "xcconfig": {
+        "CLANG_CXX_LANGUAGE_STANDARD": "gnu++17",
+        "CLANG_CXX_LIBRARY": "libc++",
+        "CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF": "NO"
+    }
+}
