@@ -14,7 +14,7 @@
     },
     "requires_arc": true,
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/HMSegmentedControl-1.5.7.tuya.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/HMSegmentedControl-1.5.7.tuya.zip",
         "type": "zip"
     },
     "source_files": "HMSegmentedControl-1.5.7.tuya/Headers/Public/**/*",
