@@ -17,7 +17,7 @@
         "Build/TYImagePickerController.xcframework/ios-arm64_armv7/TYImagePickerController.framework/CustomResources/Assets/*"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYImagePickerController-3.5.4.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYImagePickerController-3.5.4.zip",
         "type": "zip"
     },
     "summary": "A clone of TZImagePickerController",

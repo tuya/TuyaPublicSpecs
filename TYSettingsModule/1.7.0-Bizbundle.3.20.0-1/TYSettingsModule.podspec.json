@@ -36,7 +36,7 @@
         "TYSettingsModule": "TYSettingsModule-1.7.0-Bizbundle.3.20.0-1-rc.7/Assets/bundles/TYSettingsModule.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSettingsModule-1.7.0-Bizbundle.3.20.0-1-rc.7.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSettingsModule-1.7.0-Bizbundle.3.20.0-1-rc.7.zip",
         "type": "zip"
     },
     "summary": "TYSettingsModule",

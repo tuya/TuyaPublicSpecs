@@ -33,7 +33,7 @@
         "TYGroupHandleModule-1.3.1.4-tybizbundle-3.27.5-rc.5/Assets/resources/*"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYGroupHandleModule-1.3.1.4-tybizbundle-3.27.5-rc.5.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYGroupHandleModule-1.3.1.4-tybizbundle-3.27.5-rc.5.zip",
         "type": "zip"
     },
     "summary": "A short description of TYGroupHandleModule.",

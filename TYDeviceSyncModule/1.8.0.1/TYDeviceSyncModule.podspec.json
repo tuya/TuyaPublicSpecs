@@ -28,7 +28,7 @@
         "TYDeviceSyncModule": "TYDeviceSyncModule-1.8.0.1/Assets/bundles/TYDeviceSyncModule.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceSyncModule-1.8.0.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYDeviceSyncModule-1.8.0.1.zip",
         "type": "zip"
     },
     "summary": "\u53cc\u63a7\u8bbe\u5907\u5173\u8054\u6a21\u5757",

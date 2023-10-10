@@ -177,7 +177,7 @@
         "TuyaSecurityVASBizBundle": "TuyaSecurityVASBizBundle-3.27.5.2/Assets/bundles/TuyaSecurityVASBizBundle.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSecurityVASBizBundle-3.27.5.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSecurityVASBizBundle-3.27.5.2.zip",
         "type": "zip"
     },
     "source_files": "TuyaSecurityVASBizBundle-3.27.5.2/Headers/Public/**/*",

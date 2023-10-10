@@ -36,7 +36,7 @@
         "TYHybridContainer-1.2.9.bizbundle.3.17.0/Assets/bundles/*.{bundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYHybridContainer-1.2.9.bizbundle.3.17.0.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYHybridContainer-1.2.9.bizbundle.3.17.0.zip",
         "type": "zip"
     },
     "summary": "TYHybridContainer",

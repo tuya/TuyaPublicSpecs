@@ -31,7 +31,7 @@
         "TYSmartRoomDefaultUISkin": "TYSmartRoomDefaultUISkin-2.1.0-tybizbundle.3.25.0-1/Assets/bundles/TYSmartRoomDefaultUISkin.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartRoomDefaultUISkin-2.1.0-tybizbundle.3.25.0-1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSmartRoomDefaultUISkin-2.1.0-tybizbundle.3.25.0-1.zip",
         "type": "zip"
     },
     "summary": "\u623f\u95f4\u6a21\u5757\u9ed8\u8ba4\u76ae\u80a4",

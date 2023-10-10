@@ -91,7 +91,7 @@
         "TuyaSmartMallBizBundle-3.17.0.7/Assets/bundles/*.{bundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartMallBizBundle-3.17.0.7.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartMallBizBundle-3.17.0.7.zip",
         "type": "zip"
     },
     "source_files": "TuyaSmartMallBizBundle-3.17.0.7/Headers/Public/**/*",

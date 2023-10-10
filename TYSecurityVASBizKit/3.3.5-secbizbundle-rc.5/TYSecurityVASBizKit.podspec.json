@@ -34,7 +34,7 @@
         "TYSecurityVASBizKit": "TYSecurityVASBizKit-3.3.5-secbizbundle-rc.5/Assets/bundles/TYSecurityVASBizKit.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityVASBizKit-3.3.5-secbizbundle-rc.5.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSecurityVASBizKit-3.3.5-secbizbundle-rc.5.zip",
         "type": "zip"
     },
     "summary": "A short description of TYSecurityVasBizKit.",

@@ -41,7 +41,7 @@
         "TYSmartSceneModule-1.7.0/Assets/*.{png,xib,plist,xcassets,bundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartSceneModule-1.7.0.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSmartSceneModule-1.7.0.zip",
         "type": "zip"
     },
     "summary": "TYSmartSceneModule",

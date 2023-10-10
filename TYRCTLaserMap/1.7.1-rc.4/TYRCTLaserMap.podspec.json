@@ -24,7 +24,7 @@
         "TYRCTLaserMap": "TYRCTLaserMap-1.7.1-rc.4/Assets/bundles/TYRCTLaserMap.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTLaserMap-1.7.1-rc.4.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYRCTLaserMap-1.7.1-rc.4.zip",
         "type": "zip"
     },
     "summary": "A short description of TYRCTLaserMap.",

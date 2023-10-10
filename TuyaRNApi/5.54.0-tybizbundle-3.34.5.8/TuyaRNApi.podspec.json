@@ -11,7 +11,7 @@
         "ios": "9.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaRNApi-5.54.0-tybizbundle-3.34.5.8.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaRNApi-5.54.0-tybizbundle-3.34.5.8.zip",
         "type": "zip"
     },
     "subspecs": [

@@ -547,7 +547,7 @@
         "TuyaSmartPanelBizBundle": "TuyaSmartPanelBizBundle/Assets/**/*"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartPanelBizBundle-3.34.11.19.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartPanelBizBundle-3.34.11.19.zip",
         "type": "zip"
     },
     "summary": "A short description of TuyaSmartPanelBizBundle.",

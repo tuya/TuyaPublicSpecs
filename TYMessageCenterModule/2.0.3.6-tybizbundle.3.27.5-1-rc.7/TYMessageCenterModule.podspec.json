@@ -41,7 +41,7 @@
         "TYMessageCenterModule": "TYMessageCenterModule-2.0.3.6-tybizbundle.3.27.5-1-rc.7/Assets/bundles/TYMessageCenterModule.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYMessageCenterModule-2.0.3.6-tybizbundle.3.27.5-1-rc.7.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYMessageCenterModule-2.0.3.6-tybizbundle.3.27.5-1-rc.7.zip",
         "type": "zip"
     },
     "summary": "\u6d88\u606f\u4e2d\u5fc3\u6a21\u5757",

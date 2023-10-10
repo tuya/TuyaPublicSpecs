@@ -26,7 +26,7 @@
         "TYAutoTracker": "TYAutoTracker-1.30.0/Assets/bundles/TYAutoTracker.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAutoTracker-1.30.0.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYAutoTracker-1.30.0.zip",
         "type": "zip"
     },
     "summary": "auto traker for user Action",

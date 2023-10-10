@@ -11,7 +11,7 @@
     "ios": "8.0"
   },
   "source": {
-    "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/ci/ios/release/lottie-react-native-2.5.11.1-rc.1.zip",
+    "http": "https://images.tuyacn.com/smart/app/package/ci/ios/release/lottie-react-native-2.5.11.1-rc.1.zip",
     "type": "zip"
   },
   "source_files": "lottie-react-native-2.5.11.1-rc.1/Headers/Public/**/*",

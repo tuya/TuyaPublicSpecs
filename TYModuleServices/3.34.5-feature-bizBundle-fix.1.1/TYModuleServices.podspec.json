@@ -19,7 +19,7 @@
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYModuleServices-3.34.5-feature-bizBundle-fix.1.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYModuleServices-3.34.5-feature-bizBundle-fix.1.1.zip",
         "type": "zip"
     },
     "summary": "模块对外提供的服务定义",

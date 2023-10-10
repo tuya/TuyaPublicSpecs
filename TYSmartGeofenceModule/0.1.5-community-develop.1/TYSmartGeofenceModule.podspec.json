@@ -27,7 +27,7 @@
         "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartGeofenceModule-0.1.5-community-develop.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSmartGeofenceModule-0.1.5-community-develop.1.zip",
         "type": "zip"
     },
     "summary": "处理场景地理围栏相关的业务，为了做裁剪所以独立成组件",

@@ -12,7 +12,7 @@
         "ios": "8.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartHouseUISkeleton-1.4.1.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSmartHouseUISkeleton-1.4.1.2.zip",
         "type": "zip"
     },
     "summary": "\u6d82\u9e26 ODM \u76ae\u80a4\u5b9a\u5236 - \u9996\u9875\u76ae\u80a4\u89c6\u56fe\u5b9a\u4e49",

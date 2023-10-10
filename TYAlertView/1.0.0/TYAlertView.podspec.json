@@ -19,7 +19,7 @@
         "TYAlertView-1.0.0-rc.1/Assets/bundles/*.{bundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYAlertView-1.0.0-rc.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYAlertView-1.0.0-rc.1.zip",
         "type": "zip"
     },
     "summary": "TYAlertView",

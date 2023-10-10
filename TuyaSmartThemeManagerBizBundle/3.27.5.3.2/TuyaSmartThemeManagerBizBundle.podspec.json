@@ -69,7 +69,7 @@
         "TuyaSmartThemeManagerBizBundle": "TuyaSmartThemeManagerBizBundle-3.27.5.3/Assets/bundles/TuyaSmartThemeManagerBizBundle.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartThemeManagerBizBundle-3.27.5.3.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartThemeManagerBizBundle-3.27.5.3.zip",
         "type": "zip"
     },
     "source_files": "TuyaSmartThemeManagerBizBundle-3.27.5.3/Headers/Public/**/*",

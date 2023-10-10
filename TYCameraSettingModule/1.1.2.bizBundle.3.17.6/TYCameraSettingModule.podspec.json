@@ -31,7 +31,7 @@
         "TYCameraSettingModule-1.1.2.bizBundle.3.17.6/Assets/bundles/*.{bundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraSettingModule-1.1.2.bizBundle.3.17.6.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYCameraSettingModule-1.1.2.bizBundle.3.17.6.zip",
         "type": "zip"
     },
     "summary": "TYCameraSettingModule",

@@ -29,7 +29,7 @@
         "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocationWhenInUseUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSLocationTemporaryUsageDescriptionDictionary NSLocationUsageDescription"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYFoundationKit-1.16.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYFoundationKit-1.16.2.zip",
         "type": "zip"
     },
     "summary": "A FoundationKit Powered By TuyaInc",

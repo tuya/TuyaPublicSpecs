@@ -36,7 +36,7 @@
         "TYPanelModule/Assets/**/*.{png,jsbundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPanelModule-2.11.9-feature-fixStandardCategory-2.11.9.12.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYPanelModule-2.11.9-feature-fixStandardCategory-2.11.9.12.zip",
         "type": "zip"
     },
     "summary": "涂鸦面板模块",

@@ -27,7 +27,7 @@
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityArmAbilityBizKit-1.0.0-secbizbundle-3.3.5-rc.4.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSecurityArmAbilityBizKit-1.0.0-secbizbundle-3.3.5-rc.4.zip",
         "type": "zip"
     },
     "source_files": "TYSecurityArmAbilityBizKit-1.0.0-secbizbundle-3.3.5-rc.4/Headers/Public/**/*",

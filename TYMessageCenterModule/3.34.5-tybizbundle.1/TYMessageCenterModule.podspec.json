@@ -45,7 +45,7 @@
         ]
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYMessageCenterModule-3.34.5-tybizbundle.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYMessageCenterModule-3.34.5-tybizbundle.1.zip",
         "type": "zip"
     },
     "summary": "消息中心模块",

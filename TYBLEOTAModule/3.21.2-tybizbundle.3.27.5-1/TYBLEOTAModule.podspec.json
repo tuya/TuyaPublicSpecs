@@ -29,7 +29,7 @@
         "#endif"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYBLEOTAModule-3.21.2-tybizbundle.3.27.5-1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYBLEOTAModule-3.21.2-tybizbundle.3.27.5-1.zip",
         "type": "zip"
     },
     "summary": "A short description of TYBLEOTAModule.",

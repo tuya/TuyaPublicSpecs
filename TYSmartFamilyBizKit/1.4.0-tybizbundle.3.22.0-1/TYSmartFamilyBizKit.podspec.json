@@ -28,7 +28,7 @@
         "TYSmartFamilyBizKit": "TYSmartFamilyBizKit-1.4.0-tybizbundle.3.22.0-1-rc.1/Assets/bundles/TYSmartFamilyBizKit.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartFamilyBizKit-1.4.0-tybizbundle.3.22.0-1-rc.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSmartFamilyBizKit-1.4.0-tybizbundle.3.22.0-1-rc.1.zip",
         "type": "zip"
     },
     "summary": "TYSmartFamilyBizKit",

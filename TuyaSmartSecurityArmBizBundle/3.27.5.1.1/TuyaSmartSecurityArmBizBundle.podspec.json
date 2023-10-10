@@ -143,7 +143,7 @@
         "TuyaSmartSecurityArmBizBundle": "TuyaSmartSecurityArmBizBundle-3.27.5.1/Assets/bundles/TuyaSmartSecurityArmBizBundle.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartSecurityArmBizBundle-3.27.5.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartSecurityArmBizBundle-3.27.5.1.zip",
         "type": "zip"
     },
     "source_files": "TuyaSmartSecurityArmBizBundle-3.27.5.1/Headers/Public/**/*",

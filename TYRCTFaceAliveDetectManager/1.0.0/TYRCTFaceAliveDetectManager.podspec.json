@@ -20,7 +20,7 @@
     },
     "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYRCTFaceAliveDetectManager\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYRCTFaceAliveDetectManager\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYRCTFaceAliveDetectManager\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYRCTFaceAliveDetectManager\", ##__VA_ARGS__)",
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTFaceAliveDetectManager-1.0.0.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYRCTFaceAliveDetectManager-1.0.0.zip",
         "type": "zip"
     },
     "summary": "A short description of TYRCTFaceAliveDetectManager.",
