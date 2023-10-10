@@ -29,7 +29,7 @@
         "Build/TYSocialModule.xcframework/ios-arm64_armv7/TYSocialModule.framework/CustomResources/Bundles/*"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSocialModule-0.5.0.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSocialModule-0.5.0.zip",
         "type": "zip"
     },
     "summary": "涂鸦集成第三方登录、分享组件的统一管理中心",

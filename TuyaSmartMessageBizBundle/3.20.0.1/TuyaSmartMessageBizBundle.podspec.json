@@ -97,7 +97,7 @@
         "TUYA_REQUIRE_SERVICE": "TuyaSmartAPMEventProtocol,TYSmartHomeDataProtocol,TYSmartSceneBizProtocol,TYSmartSceneProtocol,TYSplashProtocol"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartMessageBizBundle-3.20.0-rc.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartMessageBizBundle-3.20.0-rc.2.zip",
         "type": "zip"
     },
     "source_files": "TuyaSmartMessageBizBundle-3.20.0-rc.2/Headers/Public/**/*",

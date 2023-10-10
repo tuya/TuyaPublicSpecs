@@ -29,7 +29,7 @@
         "TYSecurityVASSkin": "TYSecurityVASSkin-3.3.5-secbizbundle-rc.3/Assets/bundles/TYSecurityVASSkin.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSecurityVASSkin-3.3.5-secbizbundle-rc.3.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSecurityVASSkin-3.3.5-secbizbundle-rc.3.zip",
         "type": "zip"
     },
     "source_files": "TYSecurityVASSkin-3.3.5-secbizbundle-rc.3/Headers/Public/**/*",

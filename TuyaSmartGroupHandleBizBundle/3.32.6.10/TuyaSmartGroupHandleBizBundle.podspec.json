@@ -108,7 +108,7 @@
         "Build/TuyaSmartGroupHandleBizBundle.xcframework/ios-arm64_armv7/TuyaSmartGroupHandleBizBundle.framework/CustomResources/Bundles/*"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartGroupHandleBizBundle-3.32.6.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartGroupHandleBizBundle-3.32.6.zip",
         "type": "zip"
     },
     "source_files": [

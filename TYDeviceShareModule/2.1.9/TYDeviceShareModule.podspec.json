@@ -31,7 +31,7 @@
         "Build/TYDeviceShareModule.xcframework/ios-arm64_armv7/TYDeviceShareModule.framework/CustomResources/Assets/*"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceShareModule-2.1.9.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYDeviceShareModule-2.1.9.zip",
         "type": "zip"
     },
     "summary": "设备/群组分享模块",

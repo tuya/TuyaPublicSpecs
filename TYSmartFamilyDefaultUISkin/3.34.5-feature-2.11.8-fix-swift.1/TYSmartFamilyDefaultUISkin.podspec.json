@@ -47,7 +47,7 @@
         ]
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartFamilyDefaultUISkin-3.34.5-feature-2.11.8-fix-swift.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSmartFamilyDefaultUISkin-3.34.5-feature-2.11.8-fix-swift.1.zip",
         "type": "zip"
     },
     "summary": "涂鸦家庭模块默认皮肤",

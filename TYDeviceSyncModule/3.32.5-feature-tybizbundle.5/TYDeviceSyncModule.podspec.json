@@ -30,7 +30,7 @@
         "Build/TYDeviceSyncModule.xcframework/ios-arm64_armv7/TYDeviceSyncModule.framework/CustomResources/Bundles/*"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYDeviceSyncModule-3.32.5-feature-tybizbundle.5.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYDeviceSyncModule-3.32.5-feature-tybizbundle.5.zip",
         "type": "zip"
     },
     "summary": "双控设备关联模块",

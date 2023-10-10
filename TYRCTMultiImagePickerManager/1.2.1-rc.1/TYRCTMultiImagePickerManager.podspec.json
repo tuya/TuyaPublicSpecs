@@ -25,7 +25,7 @@
         "ios": "9.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTMultiImagePickerManager-1.2.1-rc.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYRCTMultiImagePickerManager-1.2.1-rc.1.zip",
         "type": "zip"
     },
     "summary": "A short description of TYRCTMultiImagePickerManager.",

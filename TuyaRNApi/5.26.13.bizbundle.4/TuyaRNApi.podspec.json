@@ -14,7 +14,7 @@
         "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSPhotoLibraryAddUsageDescription NSMicrophoneUsageDescription"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaRNApi-5.26.13.bizbundle.4.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaRNApi-5.26.13.bizbundle.4.zip",
         "type": "zip"
     },
     "subspecs": [

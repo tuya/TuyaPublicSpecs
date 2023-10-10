@@ -15,7 +15,7 @@
     },
     "prefix_header_contents": "#import \"EXTScope.h\"\n#import \"TYFoundationKit.h\"\n#import \"TYUIKit.h\"",
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYTemplateSkeleton-0.2.0.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYTemplateSkeleton-0.2.0.zip",
         "type": "zip"
     },
     "summary": "TYTemplateSkeleton",

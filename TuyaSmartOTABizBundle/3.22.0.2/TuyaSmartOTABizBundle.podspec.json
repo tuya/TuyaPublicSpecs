@@ -79,7 +79,7 @@
         "TuyaSmartOTABizBundle": "TuyaSmartOTABizBundle-3.22.0-rc.7/Assets/bundles/TuyaSmartOTABizBundle.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartOTABizBundle-3.22.0-rc.7.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartOTABizBundle-3.22.0-rc.7.zip",
         "type": "zip"
     },
     "source_files": "TuyaSmartOTABizBundle-3.22.0-rc.7/Headers/Public/**/*",

@@ -12,7 +12,7 @@
         "ios": "8.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/react-native-blur-3.6.0-rc.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/react-native-blur-3.6.0-rc.1.zip",
         "type": "zip"
     },
     "source_files": "react-native-blur-3.6.0-rc.1/Headers/Public/**/*",

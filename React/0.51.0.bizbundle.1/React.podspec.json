@@ -44,7 +44,7 @@
     },
     "requires_arc": true,
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/React-0.51.0.bizbundle.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/React-0.51.0.bizbundle.1.zip",
         "type": "zip"
     },
     "source_files": "React-0.51.0.bizbundle.1/Headers/Public/**/*",

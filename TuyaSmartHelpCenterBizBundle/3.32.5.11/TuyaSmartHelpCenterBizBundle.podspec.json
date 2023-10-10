@@ -118,7 +118,7 @@
         "Build/TuyaSmartHelpCenterBizBundle.xcframework/ios-arm64_armv7/TuyaSmartHelpCenterBizBundle.framework/CustomResources/Bundles/*"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartHelpCenterBizBundle-3.32.5.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartHelpCenterBizBundle-3.32.5.zip",
         "type": "zip"
     },
     "source_files": [

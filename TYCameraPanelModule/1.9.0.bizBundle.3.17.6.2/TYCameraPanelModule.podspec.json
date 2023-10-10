@@ -65,7 +65,7 @@
         "TYCameraPanelModule": "TYCameraPanelModule-1.9.0.bizBundle.3.17.6.2/Assets/bundles/TYCameraPanelModule.bundle/*.xcassets"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYCameraPanelModule-1.9.0.bizBundle.3.17.6.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYCameraPanelModule-1.9.0.bizBundle.3.17.6.2.zip",
         "type": "zip"
     },
     "summary": "TYCameraPanelModule",

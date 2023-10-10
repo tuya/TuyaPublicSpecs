@@ -31,7 +31,7 @@
         "TYPanelModule-2.2.2.bizbundle.3.17.0/Assets/resources/*"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPanelModule-2.2.2.bizbundle.3.17.0.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYPanelModule-2.2.2.bizbundle.3.17.0.zip",
         "type": "zip"
     },
     "summary": "TYPanelModule",

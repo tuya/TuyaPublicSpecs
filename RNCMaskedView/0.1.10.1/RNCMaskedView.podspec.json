@@ -10,7 +10,7 @@
         "ios": "9.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/RNCMaskedView-0.1.10.1-rc.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/RNCMaskedView-0.1.10.1-rc.1.zip",
         "type": "zip"
     },
     "source_files": "RNCMaskedView-0.1.10.1-rc.1/Headers/Public/**/*",

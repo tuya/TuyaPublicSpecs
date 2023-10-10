@@ -165,7 +165,7 @@
         "Build/TuyaSmartDeviceDetailBizBundle.xcframework/ios-arm64_armv7/TuyaSmartDeviceDetailBizBundle.framework/CustomResources/Bundles/*"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartDeviceDetailBizBundle-3.32.5.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartDeviceDetailBizBundle-3.32.5.zip",
         "type": "zip"
     },
     "source_files": [

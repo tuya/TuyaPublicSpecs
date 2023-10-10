@@ -30,7 +30,7 @@
         ]
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYPhotoLibraryModule-3.33.5-feature-3.34.5-bizbundle.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYPhotoLibraryModule-3.33.5-feature-3.34.5-bizbundle.1.zip",
         "type": "zip"
     },
     "summary": "A short description of TYPhotoLibraryModule.",

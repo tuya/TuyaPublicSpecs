@@ -18,7 +18,7 @@
     },
     "prefix_header_contents": "#import \"TuyaNormalUI.h\"",
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaNormalUI-0.2.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaNormalUI-0.2.1.zip",
         "type": "zip"
     },
     "summary": "A short description of TuyaNormalUI.",

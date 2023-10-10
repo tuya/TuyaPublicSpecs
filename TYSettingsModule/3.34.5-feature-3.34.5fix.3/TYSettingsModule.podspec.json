@@ -42,7 +42,7 @@
         "TYSettingsModule/Assets/*.{png,xib,plist,xcassets,bundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSettingsModule-3.34.5-feature-3.34.5fix.3.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSettingsModule-3.34.5-feature-3.34.5fix.3.zip",
         "type": "zip"
     },
     "summary": "涂鸦组件模板",

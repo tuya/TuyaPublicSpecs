@@ -17,7 +17,7 @@
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartActivatorExtraBizBundle-0.1.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartActivatorExtraBizBundle-0.1.1.zip",
         "type": "zip"
     },
     "source_files": "TuyaSmartActivatorExtraBizBundle-0.1.1/Headers/Public/**/*",

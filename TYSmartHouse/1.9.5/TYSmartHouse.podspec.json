@@ -61,7 +61,7 @@
         "indexList": "TYSmartHouse-1.9.5-rc.19/Assets/bundles/indexList.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYSmartHouse-1.9.5-rc.19.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYSmartHouse-1.9.5-rc.19.zip",
         "type": "zip"
     },
     "summary": "TYSmartHouse",

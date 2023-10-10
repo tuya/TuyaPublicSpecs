@@ -221,7 +221,7 @@
         "TuyaSmartPanelBizBundle-3.17.0.2/Assets/bundles/*.{bundle}"
     ],
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartPanelBizBundle-3.17.0.2.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartPanelBizBundle-3.17.0.2.zip",
         "type": "zip"
     },
     "source_files": "TuyaSmartPanelBizBundle-3.17.0.2/Headers/Public/**/*",

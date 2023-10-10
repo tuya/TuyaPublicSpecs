@@ -123,7 +123,7 @@
         "TuyaSmartActivatorBizBundle": "TuyaSmartActivatorBizBundle-3.25.0/Assets/bundles/TuyaSmartActivatorBizBundle.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TuyaSmartActivatorBizBundle-3.25.0.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TuyaSmartActivatorBizBundle-3.25.0.zip",
         "type": "zip"
     },
     "source_files": "TuyaSmartActivatorBizBundle-3.25.0/Headers/Public/**/*",

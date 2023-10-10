@@ -12,7 +12,7 @@
         "ios": "9.0"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/ci/ios/release/TuyaRNApi-5.29.62-Bizbundle.3.20.0-1-rc.7.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/ci/ios/release/TuyaRNApi-5.29.62-Bizbundle.3.20.0-1-rc.7.zip",
         "type": "zip"
     },
     "default_subspecs": "Core",

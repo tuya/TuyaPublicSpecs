@@ -30,7 +30,7 @@
         "TYUIKitLibraryRes": "TYUIKit-1.15.2-patch.1/Assets/bundles/TYUIKitLibraryRes.bundle/**"
     },
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYUIKit-1.15.2-patch.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYUIKit-1.15.2-patch.1.zip",
         "type": "zip"
     },
     "source_files": "TYUIKit-1.15.2-patch.1/Headers/Public/**/*",

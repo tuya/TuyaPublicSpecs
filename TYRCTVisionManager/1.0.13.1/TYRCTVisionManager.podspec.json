@@ -20,7 +20,7 @@
     },
     "prefix_header_contents": "#import <TYLogMacro/TYLogMacro.h>\n\n#undef TYLogDebug\n#define TYLogDebug(...) TYLogger(0, @\"TYRCTVisionManager\", ##__VA_ARGS__)\n\n#undef TYLogInfo\n#define TYLogInfo(...)  TYLogger(1,  @\"TYRCTVisionManager\", ##__VA_ARGS__)\n\n#undef TYLogWarn\n#define TYLogWarn(...)  TYLogger(2,  @\"TYRCTVisionManager\", ##__VA_ARGS__)\n\n#undef TYLogError\n#define TYLogError(...) TYLogger(3, @\"TYRCTVisionManager\", ##__VA_ARGS__)",
     "source": {
-        "http": "https://airtake-public-data-1254153901.cos.ap-shanghai.myqcloud.com/smart/app/package/pods/ios/TYRCTVisionManager-1.0.13.1.zip",
+        "http": "https://images.tuyacn.com/smart/app/package/pods/ios/TYRCTVisionManager-1.0.13.1.zip",
         "type": "zip"
     },
     "summary": "A short description of TYRCTVisionManager.",
